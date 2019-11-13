@@ -1,0 +1,11 @@
+<div class="catalogue">
+  <a href="{{ page.url | prepend: site.baseurl }}" class="catalogue-item">
+    <div>
+      <h1 class="catalogue-title">{{ page.title }}</h1>
+      <div class="catalogue-line"></div>
+      <p>
+        {{ page.content | strip_html | truncatewords: 30 }}
+      </p>
+    </div>
+  </a>
+</div>
