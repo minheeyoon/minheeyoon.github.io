@@ -1,10 +1,10 @@
 ---
 layout: project
-order: 5
+order: 2
 title: EN piz nonono kr 
 excerpt: Branding, photography, and digital design for Sheffield hoodie printing company, HoodieHut.
-permalink: /hoodiehut/
-redirect_from: /blog/hoodiehut/
+permalink: /test02/
+redirect_from: /side/hoodiehut/
 project_image: projects/project-hoodiehut
 hero_image: hoodiehut/hoodiehut-hoodies-on-rail
 hero_alt: hoodiehut

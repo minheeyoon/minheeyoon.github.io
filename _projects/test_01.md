@@ -3,7 +3,7 @@ layout: project
 order: 1
 title: title test
 excerpt: 이유는 모르겠지만 잘 안나오고있다.
-permalink: /geometry-club/
+permalink: /test01/
 project_image: projects/project-geometry-club
 hero_image: geometry-club/Geometry-Club-grid-of-twelve
 hero_alt: Geometry Club by Dave Mullen Jnr
