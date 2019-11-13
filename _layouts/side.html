@@ -3,9 +3,7 @@ layout: default
 ---
 
 <div class="container mx-auto py-2 px-2 clearfix mt-3 mt-md-4">
-  <!-- blog posts start -->
-    {% for post in site.posts %}
-      {% include post_block.html %}
-    {% endfor %}
-  <!-- blog posts end -->
+  <!-- side posts start -->
+  {% for post in site.posts %} {% include post_block.html %} {% endfor %}
+  <!-- side posts end -->
 </div>
