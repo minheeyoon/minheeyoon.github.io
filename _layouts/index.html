@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  {% include head.html %}
 
-{% include head.html %}
+  <body>
+    <div class="fixed top-0 left-0 right-0">
+      {% include header.html %}
+    </div>
 
-<body>
-  <div class="fixed top-0 left-0 right-0">
-    {% include header.html %}
-  </div>
+    <div class="flex flex-column vh-100">
+      <div class="container px-2 my-auto mx-md-auto">
+        <div class="container">
+          <h1 class="f5 f4-md mt-0 mb-0 norm">{{ site.author }}</h1>
+          <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0">
+            interested in interaction
+          </h2>
+          <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0">UI/UX</h2>
+          <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0 inline-block">
+            Designer
+          </h2>
+          <span
+            class="f7 f6-md lh-condensed bold inline-block ml-1 px-1 badge ls-wide uppercase"
+            >WIP</span
+          >
 
-  <div class="flex flex-column vh-100">
-    <div class="container px-2 my-auto mx-md-auto">
-      <div class="container">
-        <h1 class="f5 f4-md mt-0 mb-0 norm">{{ site.author }}</h1>
-        <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0">Designer</h2>
-        <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0">Photographer</h2>
-        <h2 class="f2 f-subh-md f-head-lg mt-0 mb-0 inline-block">Developer</h2><span class="f7 f6-md lh-condensed bold inline-block ml-1 px-1 badge ls-wide uppercase">WIP</span>
-
-        <h3 class="f5 f4-md mt-0 mb-0 norm block"><span class="sheffield" onmouseover="changeText(this,'Ay-up 🍻')"
-            onmouseout="changeText(this,'Sheffield 🇬🇧')">Sheffield 🇬🇧</span></h3>
-
+          <h3 class="f5 f4-md mt-0 mb-0 norm block">
+            <span
+              class="sheffield"
+              onmouseover="changeText(this,'Ay-up &#x1F60A','\u{1f605}')"
+              onmouseout="changeText(this,'Sheffield &#x1F60A;')"
+              >Sheffield 🇬🇧</span
+            >
+          </h3>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="fixed bottom-0 left-0 right-0">
-    {% include footer.html %}
-  </div>
-</body>
+    <div class="fixed bottom-0 left-0 right-0">
+      {% include footer.html %}
+    </div>
+  </body>
 
-<script>
-  function changeText(obj, text) {
-    obj.innerText = text;
-  }
-</script>
-
+  <script>
+    function changeText(obj, text) {
+      obj.innerText = text;
+    }
+  </script>
 </html>
