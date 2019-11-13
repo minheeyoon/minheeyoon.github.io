@@ -3,7 +3,7 @@ layout: project
 order: 3
 title: 국문-한글타이틀&EN-영문타이틀
 excerpt: Brand design for local Sheffield photography business, In Still Motion Photography.
-permalink: /in-still-motion-photography/
+permalink: /test04/
 project_image: projects/project-in-still-motion-photography
 hero_image: in-still-motion-photography/in-still-motion-photography-logo-design
 hero_alt: In Still Motion Photography logo design
