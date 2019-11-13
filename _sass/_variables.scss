@@ -1,21 +1,21 @@
 // Font @import
-@import url("https://fonts.googleapis.com/css?family=Chivo:400,700");
+// @import url("https://fonts.googleapis.com/css?family=Chivo:400,700");
 
 //minhee font
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR&display=swap");
 //여기까지
 
-@font-face {
-  font-family: Graphik;
-  font-weight: normal;
-  font-style: normal;
-  src: url("/assets/assets/fonts/Graphik-Regular-Web.eot");
-  src: url("/assets/assets/fonts/Graphik-Regular-Web.eot?#iefix")
-      format("embedded-opentype"),
-    url("/assets/fonts/Graphik-Regular-Web.woff") format("woff"),
-    url("/assets/fonts/Graphik-Regular-Web.ttf") format("truetype"),
-    url("/assets/fonts/Graphik-Regular-Web.svg#Graphik") format("svg");
-}
+// @font-face {
+//   font-family: Graphik;
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url("/assets/assets/fonts/Graphik-Regular-Web.eot");
+//   src: url("/assets/assets/fonts/Graphik-Regular-Web.eot?#iefix")
+//       format("embedded-opentype"),
+//     url("/assets/fonts/Graphik-Regular-Web.woff") format("woff"),
+//     url("/assets/fonts/Graphik-Regular-Web.ttf") format("truetype"),
+//     url("/assets/fonts/Graphik-Regular-Web.svg#Graphik") format("svg");
+// }
 
 // @font-face {
 //   font-family: Graphik;
@@ -51,7 +51,7 @@
 //     url("/assets/fonts/Graphik-SemiboldItalic-Web.woff") format("woff"),
 //     url("/assets/fonts/Graphik-SemiboldItalic-Web.ttf") format("truetype"),
 //     url("/assets/fonts/Graphik-SemiboldItalic-Web.svg#Graphik") format("svg");
-}
+// }
 
 // Font family
 // $header-font-family: "Chivo", "Helvetica Neue", Arial, sans-serif;
