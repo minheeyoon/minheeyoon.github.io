@@ -7,7 +7,7 @@ permalink: /tshirtexpert/
 project_image: projects/project-tshirtexpert
 hero_image: tshirtexpert/tshirtexpert-landing-page
 hero_alt: stag t-shirts by tshirtexpert
-category: work
+category: wirte
 tags:
   - tag: Web Design
   - tag: Branding
