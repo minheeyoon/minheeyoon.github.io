@@ -1,64 +1,32 @@
-# Site settings
-title: Minhee
-description: "recording space"
-baseurl: ""
-url: "https://miniyoon.github.io/"
+title: minhee
+author: minhee
+email: mini940511@gmail.com
+description: minhee test
+url: "https://minheeyoon.github.io/"
+social_username: test
 
-# Google Analytics
-google_analytics: "UA-146804153-1"
-
-# Author
-author:
-  name: Minhee Yoon
-  url: https://miniyoon.github.io/
-  email: mini940511@gmail.com
+# Collections
+collections:
+  projects:
+    output: true
 
 # Build settings
 markdown: kramdown
-include:
-  - 01wirte
-  - 02side
-  - 03about
-
-# Assets
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Gems
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jekyll-redirect-from
 
-# Permalinks
-permalink: /:year-:month-:day/:title
-# paginate: 5
+github: [metadata]
 
-# Excludes
-exclude: [Gemfile, Gemfile.lock, tale.gemspec]
-# 소셜
-# social:
-#   dribbble: nielsenramon # Add your Dribbble handle
-#   facebook: # Add your Facebook handle
-#   flickr: # Add your Flickr handle
-#   github: nielsenramon # Add your GitHub handle
-#   linkedin: # Add your LinkedIn handle
-#   twitter: nielsenramon # Add your Twitter handle
-#   email: # Add your Email address
-#   bitcoin: # Add your Bitcoin link or address
-#   ethereum: # Add your Ethereum link or address
-#   gitlab: # Add your GitLab handle
-#   youtube: # Add your Youtube handle
-#   twitch: # Add your Twitch handle
-#   discord: # Add you Discord server invitation ID
-#   tumblr: # Add your Tumblr handle
-#   bitbucket: # Add your Bitbucket handle
-#   docker: # Add your Docker Hub handle
-#   instagram: # Add your Instagram handle
-#   keybase: # Add your Keybase handle
-#   medium: # Add your Medium handle
-#   spotify: # Add your Spotify handle
-#   stackoverflow: # Add your Stack Overflow ID number
-#   steam: # Add your Steam handle
+theme_color: white
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

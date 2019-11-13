@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
   {% include head.html %}
 
-  <body>
-    {% include navigation.html %}
+  <body {% if page.theme == "dark" %}class="dark-mode"{% endif %}>
 
-    <main>
+    {% include header.html %}
+
+    <div>
       {{ content }}
-    </main>
+    </div>
 
     {% include footer.html %}
+
   </body>
+
 </html>
