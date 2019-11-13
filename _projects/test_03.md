@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 3
+order: 4
 title: 타이틀 한글 테스트
 excerpt: 이유는 모르겠지만 잘 안나오고있다.
 permalink: /test03/
