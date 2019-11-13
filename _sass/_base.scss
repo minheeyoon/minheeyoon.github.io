@@ -3,40 +3,52 @@
 */
 
 * {
- box-sizing: border-box !important;
- margin: 0; }
+  box-sizing: border-box !important;
+  margin: 0;
+}
 
 input,
 select,
 textarea,
 button {
- font-family: inherit;
- font-size: inherit;
- line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
 }
-
 
 /**
   * Basic styling
 */
 
 body {
-    font-family: $header-font-family; //Do I need this? p or header tags should be used.
-    font-weight: $body-font-weight;
-    font-size: $body-font-size;
-    line-height: 1.8;
-    color: $color-body-text;
-    background-color: $white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: $header-font-family; //Do I need this? p or header tags should be used.
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  line-height: 1.8;
+  color: $color-body-text;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -49,11 +61,17 @@ b {
   font-weight: 600;
 }
 
-i, em {
+i,
+em {
   font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $header-font-family;
   margin-top: 1em;
   margin-bottom: 0.25em;
