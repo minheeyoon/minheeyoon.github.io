@@ -1,7 +1,7 @@
 ---
 layout: project
 order: 2
-title: test_title_en/한국어가 안나와?
+title: test_title_en_krnone Ar...
 excerpt: Brand design and cover artwork for Alvarez Kings, a four-piece indie/pop band from Sheffield, UK.
 permalink: /alvarez-kings/
 project_image: projects/project-alvarez-kings
