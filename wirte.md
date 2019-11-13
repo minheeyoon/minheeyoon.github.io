@@ -1,7 +1,7 @@
 ---
 layout: work
-title: Work
+title: Wirte
 excerpt: A selection of graphic design and branding projects by Dave Mullen Jnr
-permalink: /work/
-category: work
+permalink: /Wirte/
+category: Wirte
 ---
