@@ -1,6 +1,25 @@
 ---
 layout: project
 order: 2
+title: 디자이너의 개발
+excerpt: Brand design and cover artwork for Alvarez Kings, a four-piece indie/pop band from Sheffield, UK.
+permalink: /alvarez-kings/
+project_image: projects/project-alvarez-kings
+hero_image: alvarez-kings/alvarez-kings-logo-design
+hero_alt: Alvarez Kings branding
+category: work
+tags:
+  - tag: Dev
+  - tag: test
+  - tag: 디자이너
+  description:
+  - paragraph: 웹부터 시작하자 그런데 앱은 또 어제 하지?
+  - paragraph: 내말이요
+---
+
+<!-- ---
+layout: project
+order: 2
 title: Alvarez Kings
 excerpt: Brand design and cover artwork for Alvarez Kings, a four-piece indie/pop band from Sheffield, UK.
 permalink: /alvarez-kings/
@@ -40,4 +59,4 @@ images:
   - image_path: alvarez-kings/alvarez-kings-fear-to-feel-t-shirt-design
     image_alt: Alvarez Kings — Fear to Feel t-shirt design
     col_6: true
----
+--- -->
