@@ -192,6 +192,7 @@
 /* Layout utilities */
 .container {
   max-width: $container-width-xl;
+  padding-top: $spacer-4;
 
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -432,7 +433,7 @@
 
 /* Margin */
 .my-auto {
-  margin-top: 16em;
+  margin-top: auto;
   margin-bottom: auto;
 }
 .mx-auto {
