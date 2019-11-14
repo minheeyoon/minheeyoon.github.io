@@ -192,8 +192,7 @@
 /* Layout utilities */
 .container {
   max-width: $container-width-xl;
-  padding-top: $spacer-3;
-  z-index: 1;
+  padding-top: 80px;
 
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -451,7 +450,7 @@
   margin-bottom: auto;
 }
 .mx-auto {
-  margin-left: auto;
+  margin-left: 12em;
   margin-right: auto;
 }
 
@@ -522,6 +521,7 @@
 
 // Responsive margin
 @media (min-width: $breakpoint-md) {
+  //민희야 여기할 차례
   .my-md-auto {
     margin-top: auto;
     margin-bottom: auto;
