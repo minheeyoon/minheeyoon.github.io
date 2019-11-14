@@ -192,7 +192,7 @@
 /* Layout utilities */
 .container {
   max-width: $container-width-xl;
-  padding-top: $spacer-4;
+  padding-top: $spacer-3;
 
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -433,7 +433,7 @@
 
 /* Margin */
 .my-auto {
-  margin-top: auto;
+  margin-top: 0;
   margin-bottom: auto;
 }
 .mx-auto {
@@ -509,7 +509,7 @@
 // Responsive margin
 @media (min-width: $breakpoint-md) {
   .my-md-auto {
-    margin-top: 8em;
+    margin-top: auto;
     margin-bottom: auto;
   }
   .mx-md-auto {
