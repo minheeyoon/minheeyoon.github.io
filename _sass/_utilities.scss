@@ -193,6 +193,7 @@
 .container {
   max-width: $container-width-xl;
   padding-top: $spacer-3;
+  z-index: 1;
 
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -205,6 +206,11 @@
   width: 60%;
   left: 20%;
   bottom: 20%;
+  z-index: 2;
+}
+
+.mini_yoon {
+  display: inline;
 }
 
 .container-thin {
