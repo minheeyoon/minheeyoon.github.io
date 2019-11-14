@@ -193,6 +193,7 @@
 .container {
   max-width: $container-width-xl;
   padding-top: 80px;
+  // padding-left: 20%;
 
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -450,7 +451,7 @@
   margin-bottom: auto;
 }
 .mx-auto {
-  margin-left: 12em;
+  margin-left: auto;
   margin-right: auto;
 }
 
