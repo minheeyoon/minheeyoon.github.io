@@ -1,17 +1,34 @@
-# 사이트 이름
-url: "https://minheeyoon.github.io/"
-title: Minhee
-
+title: minhee
+author: minhee
 email: mini940511@gmail.com
+description: minhee test
+url: "https://minheeyoon.github.io/"
 social_username: himin_h
 behance_username: mhyoon
 drb_username: miniY
 
-# 음
+# Collections
+collections:
+  projects:
+    output: true
+
+# Build settings
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-  markdown: kramdown
-  
 github: [metadata]
+
+theme_color: white
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
