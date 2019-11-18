@@ -11,3 +11,7 @@ drb_username: miniY
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+  markdown: kramdown
+  
+github: [metadata]
