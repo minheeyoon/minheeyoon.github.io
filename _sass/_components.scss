@@ -1,0 +1,165 @@
+// Badge — (The WIP badge originally on homepage)
+.badge {
+  position: relative;
+  vertical-align: top;
+  padding: $spacer-1 / 4;
+  background-color: $brand;      
+  color: $white;
+  top: $spacer-1;
+  border-radius: 0.25em;
+
+  @media (min-width: $breakpoint-md) {
+   top: $spacer-2;
+   padding: $spacer-1 / 2;
+  }
+}
+
+.sheffield {
+  min-width: 150px;
+  cursor: default;
+  display: inline-block;
+}
+
+// Video
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// Image on profile page
+.profile-image {
+  border-radius: 50%;
+  max-width: 200px;
+  background-color: $grey-dark;
+  
+  img {
+    border-radius: 50%;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 240px;
+   }
+}
+
+//project tags component
+.tags {
+    background-color: $grey-light;
+    border-radius: $spacer / 4;
+    color: $grey-dark;
+}
+
+// Prose — Styles for the content.
+.prose {
+
+  p {
+    font-size: $body-font-size;
+    margin-bottom: $spacer-2;
+    width: 100%;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: ($body-font-size * 1.25);
+      margin-bottom: $spacer-3;
+      width: (9 / 12 * 100%); // matches col-8
+    }
+
+  }
+
+  hr {
+    color: $color-body-text;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+}
+
+// Link styles
+
+// Link
+.link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Links within paragraph text
+.link-body {
+  border-bottom: 2px solid;
+  border-color: $grey-mid;
+  padding-bottom: $spacer / 2;
+  transition: ease-in-out .1s;
+
+  &:hover {
+    border-color: $brand;
+  }
+}
+
+// Links on my profile page
+.link-profile {
+  text-decoration: underline;
+  text-decoration-color: $grey-dark;
+
+  &:hover {
+    color: $grey-dark;
+  }
+}
+
+// Links within caption text
+.link-caption {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  padding-bottom: $spacer / 2;
+  transition: ease-in-out .1s;
+
+  &:hover {
+    color: $black;
+    border-color: $black;
+  }
+}
+
+// Link styles for navigation
+.link-primary {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: ease-in-out .15s;
+
+  &:hover, &:active {
+    text-decoration: none;
+    border-bottom-color: $brand;
+  }
+}
+
+.active {
+  text-decoration: none;
+  border-bottom-color: $brand;
+}
+
+// Image as a link
+.link-image {
+  img {
+    transition: all 0.2s ease-out;
+  }
+  img:hover {
+    opacity: 0.8;
+  }
+}
+
+// Dark mode overrides
+.dark-mode {
+  background-color: $black;
+  color: $white;
+}

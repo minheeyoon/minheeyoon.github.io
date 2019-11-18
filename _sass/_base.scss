@@ -1,7 +1,19 @@
+/**
+  * Reset some basic elements
+*/
+
 * {
+  box-sizing: border-box !important;
   margin: 0;
-  padding: 80%;
-  margin: 800px;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 body,
@@ -22,4 +34,63 @@ ul,
 figure {
   margin: 0;
   padding: 0;
+}
+
+/**
+  * Basic styling
+*/
+
+body {
+  font-family: $header-font-family; //Do I need this? p or header tags should be used.
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  line-height: 1.8;
+  color: $color-body-text;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: $body-font-family;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+b {
+  font-weight: 600;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+img {
+  width: 100%;
+  display: inherit;
+}
+
+::selection {
+  background: rgba(165, 179, 187, 0.25);
 }

@@ -1,0 +1,30 @@
+// White theme
+
+// Color variables
+$black: #181818;
+$brand: #4499ff;
+$grey-light: #f1f1f1;
+$grey-mid: #c1c1c1;
+$grey-dark: #919191;
+$white: #fff;
+
+// Config
+$color-background: $grey-light !default;
+$color-dot-accent: $brand !default;
+$color-foreground: $black !default;
+$color-title: $black !default;
+$color-body-text: $black !default;
+$color-text-accent: $brand !default;
+$color-code: $brand !default;
+$color-nav-link: $brand !default;
+$color-primary-link: $brand !default;
+
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities",
+        "flexbox"
+;

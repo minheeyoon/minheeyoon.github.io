@@ -1,66 +1,34 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
+title: minhee
+author: minhee
+email: mini940511@gmail.com
+description: minhee test
+url: "https://minheeyoon.github.io/"
+social_username: himin_h
+behance_username: mhyoon
+drb_username: miniY
 
-# 1. Files excluded from Jekyll builds
+# Collections
+collections:
+  projects:
+    output: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+github: [metadata]
+
+theme_color: white
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 # exclude:
-#   - README.md
-#   - CODE_OF_CONDUCT.md
-#   - CONTRIBUTING.md
-#   - screenshot.png
-#   - LICENSE
-#   - CNAME
 #   - Gemfile
 #   - Gemfile.lock
-#   - garth-jekyll-theme.gemspec
-
-# 2. Installed Gems
-plugins:
-  - jekyll-paginate
-
-# 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: page:num # jekyll-paginate > blog page
-
-# 4. Jekyll settings
-sass:
-  style: compressed # Style compression
-permalink: pretty # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
-
-# 5. Collections
-collections:
-  posts:
-    title: Blog # Needed for Siteleaf
-    output: true
-    description: "This is just a demo, find out more [about Garth](about)" # The post list page content
-
-# 6. Jekyll collections settings
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "Minhee" # Site name or title
-logo: "/assets/logo.svg" # Site logo
-# favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
-description: "A stupidly simple theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
-url: "https://minheeyoon.github.io/" # Site url
-baseurl: ""
-lang: en-EN
-author: Minhee
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
