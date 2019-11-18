@@ -6,3 +6,8 @@ email: mini940511@gmail.com
 social_username: himin_h
 behance_username: mhyoon
 drb_username: miniY
+
+# 음
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
