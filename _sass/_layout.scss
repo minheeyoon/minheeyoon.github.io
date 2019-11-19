@@ -45,6 +45,16 @@
   padding-bottom: $spacer-3;
 }
 
+.marginX {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marginY {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .container {
   max-width: $container-width;
   // padding-top: 80px;
