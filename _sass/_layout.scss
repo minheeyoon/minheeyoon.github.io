@@ -32,7 +32,15 @@
 }
 
 .paddingX {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .paddingY {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.flex {
+  display: flex;
 }
