@@ -1,6 +1,4 @@
 // header
-
-//Positioning
 .fixed {
   position: fixed;
 }
@@ -17,12 +15,20 @@
   left: 0;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .inline-block {
   display: inline-block;
 }
 
 .right {
   float: right;
+}
+
+.left {
+  float: left;
 }
 
 .paddingX {
