@@ -45,10 +45,6 @@
   padding-bottom: $spacer-3;
 }
 
-.flex {
-  display: flex;
-}
-
 .container {
   max-width: $container-width;
   // padding-top: 80px;
@@ -56,5 +52,30 @@
 
   @media (max-width: 90em) {
     max-width: $container-width-xl;
+  }
+}
+
+//1200px
+@media (min-width: $desktop-lg) {
+  .container {
+    margin: 20%;
+  }
+}
+//1024px
+@media (min-width: $desktop-df) {
+  .container {
+    margin: 10%;
+  }
+}
+//640px
+@media (min-width: $desktop-md) {
+  .container {
+    margin: 5%;
+  }
+}
+//384px
+@media (min-width: $mobile) {
+  .container {
+    margin: 0%;
   }
 }
