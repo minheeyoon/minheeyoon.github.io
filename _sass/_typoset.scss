@@ -8,12 +8,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $header-font-family-en;
+  font-family: $header-font-family;
   margin-top: 1em;
   margin-bottom: 0.25em;
 }
 
+p {
+  font-family: $body-font-family;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
 //headline
 .typo-head {
-  font-size: 8em;
+  font-size: $font-head;
 }
