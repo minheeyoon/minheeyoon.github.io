@@ -3,6 +3,7 @@
   margin: 0px;
 }
 
+body,
 h1,
 h2,
 h3,
@@ -21,8 +22,6 @@ figure {
   margin: 0;
   padding: 0;
 }
-body {
-}
 
 a {
   text-decoration: none;
@@ -32,4 +31,9 @@ a {
 .list-reset {
   list-style: none;
   padding-left: 0;
+}
+
+// index 시작
+.flex {
+  display: flex;
 }
