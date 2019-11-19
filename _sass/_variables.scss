@@ -9,10 +9,21 @@ $spacer-4: ($spacer * 4) !default; // 64px
 $spacer-5: ($spacer * 8) !default; // 128px
 
 // Desktop View
+// 16px 기준: 1200px
 $desktop-lg: 75em;
 // 16px 기준: 1024px
 $desktop-df: 64em;
 // 16px 기준: 640px
 $desktop-md: 40em;
-// 16px 기준 : 384px
+
+// Mobile view
 $mobile: 24em;
+//16px 기준 : 384px
+
+// Container
+// 16px 기준: 640px
+$container-width-s: 40em;
+// 16px 기준: 960px
+$container-width: 60em;
+// 16px 기준: 1000px
+$container-width-xl: 62.5em;

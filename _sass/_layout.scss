@@ -50,11 +50,11 @@
 }
 
 .container {
-  max-width: $container-width-xl;
-  padding-top: 80px;
-  // padding-left: 20%;
+  max-width: $container-width;
+  // padding-top: 80px;
+  // // padding-left: 20%;
 
-  @media (max-width: 96em) {
-    max-width: $container-width;
+  @media (max-width: 90em) {
+    max-width: $container-width-xl;
   }
 }
