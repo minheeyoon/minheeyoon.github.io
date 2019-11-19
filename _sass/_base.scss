@@ -1,9 +1,8 @@
 * {
   box-sizing: border-box !important;
-  margin: 12px;
+  margin: 0px;
 }
 
-body,
 h1,
 h2,
 h3,
@@ -21,4 +20,7 @@ ul,
 figure {
   margin: 0;
   padding: 0;
+}
+body {
+  padding: 20%;
 }
