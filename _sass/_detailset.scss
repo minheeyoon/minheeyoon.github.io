@@ -4,9 +4,9 @@ $area: 8px !default;
 // Spacing scale
 $area-1: $area !default; // 8px
 $area-2: ($area * 2) !default; // 16px
-$area-3: ($area * 3) !default; // 24px
-$area-4: ($area * 4) !default; // 32px
-$area-5: ($area * 8) !default; // 64px
+$area-3: ($area * 4) !default; // 32px
+$area-4: ($area * 8) !default; // 64px
+$area-5: ($area * 16) !default; // 128px
 
 // Desktop View
 $desktop-lg: 75em;
