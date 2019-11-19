@@ -48,3 +48,13 @@
 .flex {
   display: flex;
 }
+
+.container {
+  max-width: $container-width-xl;
+  padding-top: 80px;
+  // padding-left: 20%;
+
+  @media (max-width: 96em) {
+    max-width: $container-width;
+  }
+}
