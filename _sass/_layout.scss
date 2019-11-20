@@ -61,28 +61,26 @@
 
 .container {
   max-width: $container-width;
-  // padding-top: 80px;
-  // // padding-left: 20%;
 
-  @media (max-width: 90em) {
+  @media (max-width: 120em) {
     max-width: $container-width-xl;
   }
 }
 
-// //1200px
-// @media (min-width: $desktop-lg) {
+.descript {
+  position: absolute;
+  left: 0;
+}
 
-// }
-// //1024px
-// @media (min-width: $desktop-df) {
-
-// }
-// //640px
-// @media (min-width: $desktop-md) {
-
-//
-// }
-// //384px
-// @media (min-width: $mobile) {
-//
-// }
+//1200px
+@media (min-width: $desktop-lg) {
+}
+//1024px
+@media (min-width: $desktop-df) {
+}
+//640px
+@media (min-width: $desktop-md) {
+}
+//384px
+@media (min-width: $mobile) {
+}
