@@ -29,11 +29,12 @@
 
 .right {
   float: right;
-  clear: both;
+  vertical-align: middle;
 }
 
 .left {
   float: left;
+  vertical-align: middle;
 }
 
 .paddingX {
@@ -68,10 +69,10 @@
   }
 }
 
-.descript {
-  position: absolute;
-  left: inherit;
-}
+// .descript {
+//   position: absolute;
+//   left: inherit;
+// }
 
 //1200px
 @media (min-width: $desktop-lg) {
