@@ -1,6 +1,6 @@
 @import "variables";
 
-//header
+//header in index
 .fixed {
   position: fixed;
 }
@@ -18,6 +18,7 @@
   left: 0;
 }
 
+//header
 .paddingX {
   padding-left: $spacer-4;
   padding-right: $spacer-4;
@@ -27,3 +28,54 @@
   padding-top: $spacer-4;
   padding-bottom: $spacer-4;
 }
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+// .align-middle {
+//   vertical-align: middle;
+// }
+
+// .inline-block {
+//   display: inline-block;
+// }
+
+// .marginX {
+//   margin-left: $spacer-6;
+//   margin-right: $spacer-6;
+// }
+
+// .marginX-sm {
+//   margin-right: $spacer-2;
+// }
+
+// .marginY {
+//   margin-top: auto;
+//   margin-bottom: auto;
+// }
+
+// .container {
+//   max-width: $container-width;
+
+//   @media (max-width: 120em) {
+//     max-width: $container-width;
+//   }
+// }
+
+// @media (max-width: $desktop-df) {
+//   .container {
+//     max-width: $container-width-md;
+//   }
+//   .typo-head {
+//     font-size: $font-sub-h3;
+//   }
+//   .marginX {
+//     margin-left: $spacer-4;
+//     margin-right: $spacer-4;
+//   }
+// }
