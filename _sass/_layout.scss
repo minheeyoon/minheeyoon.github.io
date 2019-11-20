@@ -67,7 +67,7 @@
   }
 }
 
-@media (min-width: $desktop-df) {
+@media (max-width: $desktop-df) {
   .container {
     max-width: $container-width-md;
   }
