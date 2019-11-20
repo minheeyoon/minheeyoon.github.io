@@ -36,8 +36,8 @@
 }
 
 .paddingX {
-  padding-left: $spacer-6;
-  padding-right: $spacer-6;
+  padding-left: $spacer-4;
+  padding-right: $spacer-4;
 }
 
 .paddingY {
@@ -46,8 +46,8 @@
 }
 
 .marginX {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: $spacer-6;
+  margin-right: $spacer-6;
 }
 
 .marginX-sm {
