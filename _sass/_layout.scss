@@ -94,7 +94,7 @@
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
   .right {
     float: left;
-    flex-direction: column;
+    fdisplay: block;
   }
 }
 // 384px
@@ -107,6 +107,6 @@
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
   .right {
     float: left;
-    flex-direction: column;
+    display: block;
   }
 }
