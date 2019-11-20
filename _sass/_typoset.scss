@@ -40,7 +40,7 @@ p {
 @media (max-width: $desktop-df) {
   .menufont {
     font-family: $header-font-family;
-    font-size: $font-sub-h3;
+    font-size: $font-sub-h2;
   }
 }
 
@@ -48,6 +48,6 @@ p {
 @media (max-width: $desktop-md) {
   .menufont {
     font-family: $header-font-family;
-    font-size: $prose-font-size;
+    font-size: $font-sub-h2;
   }
 }
