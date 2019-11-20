@@ -56,15 +56,15 @@ p {
   }
 }
 
-// 384px
-@media (max-width: $mobile) {
-  .menufont {
-    font-family: $header-font-family;
-    font-size: $font-sub-p1;
-  }
+// // 384px
+// @media (max-width: $mobile) {
+//   .menufont {
+//     font-family: $header-font-family;
+//     font-size: $font-sub-p1;
+//   }
 
-  .list-reset {
-    font-family: $header-font-family;
-    font-size: $body-font-size;
-  }
-}
+//   .list-reset {
+//     font-family: $header-font-family;
+//     font-size: $body-font-size;
+//   }
+// }
