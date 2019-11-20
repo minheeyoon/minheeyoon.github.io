@@ -20,8 +20,8 @@
 
 //header & footer
 .paddingX {
-  padding-left: $spacer-7;
-  padding-right: $spacer-7;
+  padding-left: $spacer-8;
+  padding-right: $spacer-8;
 }
 
 .paddingY {
@@ -60,16 +60,23 @@
   margin-bottom: 2vh;
 }
 // 1800px
+@media (max-width: $desktop-xxlg) {
+  .paddingX {
+    padding-left: $spacer-7;
+    padding-right: $spacer-7;
+  }
+}
+// 1600px
+@media (max-width: $desktop-xlg) {
+  .paddingX {
+    padding-left: $spacer-7;
+    padding-right: $spacer-7;
+  }
+}
+// 1280px
 @media (max-width: $desktop-xlg) {
   .paddingX {
     padding-left: $spacer-6;
     padding-right: $spacer-6;
-  }
-}
-// 1280px
-@media (max-width: $desktop-lg) {
-  .paddingX {
-    padding-left: $spacer-5;
-    padding-right: $spacer-5;
   }
 }
