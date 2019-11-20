@@ -66,3 +66,16 @@
     max-width: $container-width;
   }
 }
+
+@media (min-width: $desktop-df) {
+  .container {
+    max-width: $container-width-md;
+  }
+  .typo-head {
+    font-size: $font-sub-h3;
+  }
+  .marginX {
+    margin-left: $spacer-4;
+    margin-right: $spacer-4;
+  }
+}
