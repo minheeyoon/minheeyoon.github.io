@@ -1,10 +1,6 @@
 <div class="paddingX paddingY marginX marginY">
   <a class="" href="{{ post.url | prepend: site.baseurl }}"> </a>
 
-  <p class="postdate p3 right">
-    {{ post.date | date: "%b %-d, %Y" }}
-  </p>
-
   <h2 class="posttitle">
     <a
       class="link"
@@ -13,6 +9,10 @@
       >{{ post.title }}</a
     >
   </h2>
+
+  <p class="postdate p3 right">
+    {{ post.date | date: "%b %-d, %Y" }}
+  </p>
 
   <p class="">
     {{ post.content | strip_html | truncatewords:24 }}
