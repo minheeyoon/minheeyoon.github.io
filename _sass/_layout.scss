@@ -68,7 +68,11 @@
 
 .posttitle {
   text-align: left;
-  padding-top: 24%;
+  padding-top: 12%;
+}
+.postdate {
+  text-align: left;
+  padding-top: 2%;
 }
 
 // 1800px
@@ -102,7 +106,7 @@
 
   .right {
     float: left;
-    padding-right: $spacer-6;
+    padding-right: 300px;
   }
 }
 
@@ -115,7 +119,7 @@
 
   .right {
     float: left;
-    padding-right: $spacer-5;
+    padding-right: $spacer-6;
   }
 }
 // 384px
