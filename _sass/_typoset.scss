@@ -37,6 +37,7 @@ p {
   }
 }
 
+//1024px
 @media (max-width: $desktop-df) {
   .menufont {
     font-family: $header-font-family;
@@ -49,6 +50,9 @@ p {
   .menufont {
     font-family: $header-font-family;
     font-size: $font-sub-h2;
+  }
+  .btm-up {
+    font-size: $body-font-size;
   }
 }
 
