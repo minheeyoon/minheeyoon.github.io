@@ -1,5 +1,6 @@
 ---
 title: Who is Dana Carvey? 한글
+thum_image: 01
 category: People
 ---
 
