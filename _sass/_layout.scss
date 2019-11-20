@@ -63,6 +63,13 @@
 .btm-up {
   margin-bottom: 2vh;
 }
+
+// post title
+
+.posttitle {
+  text-align: left;
+}
+
 // 1800px
 @media (max-width: $desktop-xxlg) {
   .paddingX {
@@ -84,6 +91,20 @@
     padding-right: $spacer-6;
   }
 }
+
+//아이패드 추가
+@media (max-width: 790px) {
+  .paddingX {
+    padding-left: $spacer-5;
+    padding-right: $spacer-5;
+  }
+
+  .right {
+    float: left;
+    padding-right: $spacer-8;
+  }
+}
+
 // 640x
 @media (max-width: $desktop-md) {
   .paddingX {
@@ -91,12 +112,9 @@
     padding-right: $spacer-5;
   }
 
-  //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
-  .left {
-    display: block;
-  }
   .right {
-    float: none;
+    float: left;
+    padding-right: $spacer-8;
   }
 }
 // 384px
@@ -106,11 +124,9 @@
     padding-right: $spacer-2;
   }
 
-  //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
-  .left {
-    display: block;
-  }
   .right {
-    float: none;
+    float: left;
+    padding-right: $spacer-8;
   }
+  //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
 }
