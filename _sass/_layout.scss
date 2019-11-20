@@ -79,6 +79,15 @@
     padding-right: $spacer-7;
   }
 }
+
+// 1500px
+@media (max-width: $desktop-mlg) {
+  .paddingX {
+    padding-left: $spacer-6;
+    padding-right: $spacer-6;
+  }
+}
+
 // 1280px
 @media (max-width: $desktop-lg) {
   .paddingX {
