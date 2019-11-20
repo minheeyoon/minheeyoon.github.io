@@ -29,6 +29,7 @@
 
 .right {
   float: right;
+  clear: both;
 }
 
 .left {
@@ -69,7 +70,7 @@
 
 .descript {
   position: absolute;
-  left: 0;
+  left: inherit;
 }
 
 //1200px
