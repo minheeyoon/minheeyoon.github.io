@@ -29,12 +29,10 @@
 
 .right {
   float: right;
-  vertical-align: middle;
 }
 
 .left {
   float: left;
-  vertical-align: middle;
 }
 
 .paddingX {
@@ -76,6 +74,14 @@
 
 //1200px
 @media (min-width: $desktop-lg) {
+  .marginX {
+    margin-left: $spacer-5;
+    margin-right: $spacer-5;
+  }
+
+  .container {
+    max-width: $container-width;
+  }
 }
 //1024px
 @media (min-width: $desktop-df) {
@@ -85,4 +91,12 @@
 }
 //384px
 @media (min-width: $mobile) {
+  .marginX {
+    margin-left: $spacer-1;
+    margin-right: $spacer-1;
+  }
+
+  .container {
+    max-width: $container-width;
+  }
 }
