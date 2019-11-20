@@ -91,7 +91,7 @@
     padding-right: $spacer-5;
   }
   .right {
-    float: left;
+    clear: left;
   }
 }
 // 384px
@@ -101,6 +101,6 @@
     padding-right: $spacer-2;
   }
   .right {
-    float: left;
+    clear: left;
   }
 }
