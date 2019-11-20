@@ -90,11 +90,17 @@
     padding-left: $spacer-5;
     padding-right: $spacer-5;
   }
+  .right {
+    float: left;
+  }
 }
 // 384px
 @media (max-width: $mobile) {
   .paddingX {
     padding-left: $spacer-2;
     padding-right: $spacer-2;
+  }
+  .right {
+    float: left;
   }
 }
