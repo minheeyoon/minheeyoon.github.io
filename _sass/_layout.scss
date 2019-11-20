@@ -20,8 +20,8 @@
 
 //header
 .paddingX {
-  padding-left: $spacer-4;
-  padding-right: $spacer-4;
+  padding-left: $spacer-6;
+  padding-right: $spacer-6;
 }
 
 .paddingY {
@@ -45,14 +45,15 @@
   display: inline-block;
 }
 
+.marginX-sm {
+  margin-right: $spacer-2;
+  font-family: $header-font-family;
+}
+
 // .marginX {
 //   margin-left: $spacer-6;
 //   margin-right: $spacer-6;
 // }
-
-.marginX-sm {
-  margin-right: $spacer-2;
-}
 
 // .marginY {
 //   margin-top: auto;
