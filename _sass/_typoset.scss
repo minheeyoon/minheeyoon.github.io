@@ -29,5 +29,17 @@ p {
   font-size: $font-sub-h1;
 }
 
-@media (max-width: $desktop-xlg) {
+// 1280px
+@media (max-width: $desktop-lg) {
+  .menufont {
+    font-family: $header-font-family;
+    font-size: $font-sub-h2;
+  }
+}
+
+@media (max-width: $desktop-df) {
+  .menufont {
+    font-family: $header-font-family;
+    font-size: $font-sub-h3;
+  }
 }
