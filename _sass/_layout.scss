@@ -18,10 +18,10 @@
   left: 0;
 }
 
-//header
+//header & footer
 .paddingX {
-  padding-left: $spacer-6;
-  padding-right: $spacer-6;
+  padding-left: $spacer-7;
+  padding-right: $spacer-7;
 }
 
 .paddingY {
@@ -33,6 +33,7 @@
   list-style: none;
   padding-left: 0;
   font-family: $header-font-family;
+  font-size: $prose-font-size;
 }
 
 .right {
@@ -55,6 +56,10 @@
   margin-right: $spacer-2;
 }
 
+.btm-up {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 // .marginX {
 //   margin-left: $spacer-6;
 //   margin-right: $spacer-6;
