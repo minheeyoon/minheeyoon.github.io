@@ -1,0 +1,20 @@
+<div class="">
+  <a class="" href="{{ post.url | prepend: site.baseurl }}"> </a>
+
+  <p class="">
+    {{ post.date | date: "%b %-d, %Y" }}
+  </p>
+
+  <h2 class="">
+    <a
+      class="link"
+      title="{{ post.url | prepend: site.baseurl }}"
+      href="{{ post.url | prepend: site.baseurl }}"
+      >{{ post.title }}</a
+    >
+  </h2>
+
+  <p class="">
+    {{ post.content | strip_html | truncatewords:30 }}
+  </p>
+</div>
