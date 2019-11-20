@@ -1,6 +1,7 @@
 <div class="paddingX paddingY marginX marginY">
-  <a class="" href="{{ post.url | prepend: site.baseurl }}"> </a>
-
+  <a class="" href="{{ post.url | prepend: site.baseurl }}">
+    {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
+  </a>
   <h2 class="posttitle">
     <a
       class="link"
