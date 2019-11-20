@@ -124,7 +124,7 @@
   }
 }
 
-// 픽셀폰+아이폰플러스 6,7,8 추가 
+// 픽셀폰+아이폰플러스 6,7,8 추가
 @media (max-width: 540px) {
   .paddingX {
     padding-left: $spacer-4;
@@ -135,6 +135,7 @@
     float: left;
     padding-right: $spacer-6;
   }
+}
 
 // 384px
 @media (max-width: $mobile) {
