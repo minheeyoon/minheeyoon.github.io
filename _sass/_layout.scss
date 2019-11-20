@@ -30,7 +30,7 @@
 }
 
 .marginY {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .list-reset {
@@ -84,7 +84,6 @@
     padding-right: $spacer-6;
   }
 }
-
 // 640x
 @media (max-width: $desktop-md) {
   .paddingX {
@@ -92,10 +91,10 @@
     padding-right: $spacer-5;
   }
 }
-
+// 384px
 @media (max-width: $mobile) {
   .paddingX {
-    padding-left: $spacer-4;
-    padding-right: $spacer-4;
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
   }
 }
