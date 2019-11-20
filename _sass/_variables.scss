@@ -39,10 +39,10 @@ $container-width-md: 46.875em;
 $container-width-sm: 21.5em;
 
 //font
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Noto+Sans+KR|Noto+Serif+KR&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Noto+Sans|Noto+Sans+KR|Noto+Serif+KR&display=swap");
 
 $header-font-family: "DM Serif Display", "Noto Serif KR", serif;
-$body-font-family: "Noto Sans KR", sans-serif;
+$body-font-family: "Noto Sans KR", "Noto San", sans-serif;
 
 //Typo
 $body-font-weight: normal;
