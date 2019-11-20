@@ -93,13 +93,8 @@
 
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
 
-  .left {
-    float: left;
-    display: block;
-  }
   .right {
-    float: left;
-    display: block;
+    float: none;
   }
 }
 // 384px
@@ -110,12 +105,8 @@
   }
 
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
-  .left {
-    float: left;
-    display: block;
-  }
+
   .right {
-    float: left;
-    display: block;
+    float: none;
   }
 }
