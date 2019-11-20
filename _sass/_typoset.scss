@@ -43,3 +43,11 @@ p {
     font-size: $font-sub-h3;
   }
 }
+
+// 640x
+@media (max-width: $desktop-md) {
+  .menufont {
+    font-family: $header-font-family;
+    font-size: $prose-font-size;
+  }
+}

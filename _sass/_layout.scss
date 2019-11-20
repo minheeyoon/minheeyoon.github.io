@@ -80,3 +80,11 @@
     padding-right: $spacer-6;
   }
 }
+
+// 640x
+@media (max-width: $desktop-md) {
+  .paddingX {
+    padding-left: $spacer-5;
+    padding-right: $spacer-5;
+  }
+}
