@@ -38,6 +38,7 @@
   padding-left: 0;
   font-family: $header-font-family;
   font-size: $prose-font-size;
+  letter-spacing: 0.2em;
 }
 
 .right {
@@ -68,11 +69,11 @@
 
 .posttitle {
   text-align: left;
-  padding-top: 12%;
+  padding-top: 0.2em;
 }
 .postdate {
   text-align: left;
-  padding-top: 2%;
+  padding-top: 0.2em;
 }
 
 // 1800px

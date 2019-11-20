@@ -27,6 +27,7 @@ p {
 .menufont {
   font-family: $header-font-family;
   font-size: $font-sub-h1;
+  line-height: 1.2em;
 }
 
 // 1280px
@@ -52,7 +53,7 @@ p {
     font-size: $font-sub-h2;
   }
   .btm-up {
-    font-size: $body-font-size;
+    font-size: $font-sub-p4;
   }
 }
 
