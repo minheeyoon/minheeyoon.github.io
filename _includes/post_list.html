@@ -1,21 +1,23 @@
-<div class="paddingX paddingY marginX marginY pd-2 py-2">
-  <a class="" href="{{ post.url | prepend: site.baseurl }}">
-    {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
-  </a>
-  <h2 class="posttitle">
-    <a
-      class="link"
-      title="{{ post.url | prepend: site.baseurl }}"
-      href="{{ post.url | prepend: site.baseurl }}"
-      >{{ post.title }}</a
-    >
-  </h2>
+<div class="paddingX paddingY marginX marginY">
+  <div class="pd-2 py-2">
+    <a class="" href="{{ post.url | prepend: site.baseurl }}">
+      {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
+    </a>
+    <h2 class="posttitle">
+      <a
+        class="link"
+        title="{{ post.url | prepend: site.baseurl }}"
+        href="{{ post.url | prepend: site.baseurl }}"
+        >{{ post.title }}</a
+      >
+    </h2>
 
-  <p class="postdate p3 right">
-    {{ post.date | date: "%b %-d, %Y" }}
-  </p>
+    <p class="postdate p3 right">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </p>
 
-  <p class="">
-    {{ post.content | strip_html | truncatewords:24 }}
-  </p>
+    <p class="">
+      {{ post.content | strip_html | truncatewords:24 }}
+    </p>
+  </div>
 </div>
