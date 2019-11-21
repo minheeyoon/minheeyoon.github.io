@@ -2,21 +2,22 @@
   <a class="" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
   </a>
+  <div class="pd-2 py-2">
+    <p class="postdate right">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </p>
 
-  <p class="postdate right  pd-2 py-2 ">
-    {{ post.date | date: "%b %-d, %Y" }}
-  </p>
+    <h2 class="posttitle conarea">
+      <a
+        class="link "
+        title="{{ post.url | prepend: site.baseurl }}"
+        href="{{ post.url | prepend: site.baseurl }}"
+        >{{ post.title }}</a
+      >
+    </h2>
 
-  <h2 class="posttitle pd-2 py-2 ctest">
-    <a
-      class="link "
-      title="{{ post.url | prepend: site.baseurl }}"
-      href="{{ post.url | prepend: site.baseurl }}"
-      >{{ post.title }}</a
-    >
-  </h2>
-
-  <p class="ctest pd-2 py-2">
-    {{ post.content | strip_html | truncatewords:24 }}
-  </p>
+    <p class="conarea">
+      {{ post.content | strip_html | truncatewords:24 }}
+    </p>
+  </div>
 </div>
