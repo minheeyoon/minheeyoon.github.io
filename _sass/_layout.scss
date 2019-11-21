@@ -129,7 +129,7 @@
 
   .right {
     float: left;
-    padding-right: 400px;
+    padding-right: 336px;
   }
 }
 
@@ -147,6 +147,10 @@
 }
 
 // 픽셀폰+아이폰플러스 6,7,8 추가
+
+@media (max-width: 540px) {
+}
+
 @media (max-width: 540px) {
   .paddingX {
     padding-left: $spacer-4;
@@ -155,7 +159,7 @@
 
   .right {
     float: left;
-    padding-right: 200px;
+    padding-right: 150px;
   }
 }
 
