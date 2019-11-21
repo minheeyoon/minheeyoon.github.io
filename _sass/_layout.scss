@@ -81,6 +81,11 @@
   max-width: $container-width;
 }
 
+.margin-y {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // 1800px
 @media (max-width: $desktop-xxlg) {
   .paddingX {
