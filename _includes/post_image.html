@@ -1,10 +1,12 @@
-<figure class="">
+<figure class="imbtm">
   <img
     src="/assets/img/thumnail/{{ include.image }}.jpg"
     alt="{{ include.image_alt }}"
-    class=""
+    class="imbtm border-radius"
   />
   {% if include.caption %}
-  <span class="">{{ include.caption }}</span>
+  <span class="font-p4 margint margint-1 text-r block"
+    >{{ include.caption }}</span
+  >
   {% endif %}
 </figure>

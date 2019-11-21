@@ -76,6 +76,11 @@
   margin-bottom: 2vh;
 }
 
+//post list layout
+.container {
+  max-width: $container-width;
+}
+
 // 1800px
 @media (max-width: $desktop-xxlg) {
   .paddingX {
