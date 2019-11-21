@@ -133,6 +133,13 @@
   }
 }
 
+@media (max-width: 670px) {
+  .right {
+    float: left;
+    padding-right: 333px;
+  }
+}
+
 // 640x
 @media (max-width: $desktop-md) {
   .paddingX {
@@ -142,14 +149,11 @@
 
   .right {
     float: left;
-    padding-right: $spacer-6;
+    padding-right: 188px;
   }
 }
 
 // 픽셀폰+아이폰플러스 6,7,8 추가
-
-@media (max-width: 540px) {
-}
 
 @media (max-width: 540px) {
   .paddingX {
@@ -160,6 +164,13 @@
   .right {
     float: left;
     padding-right: 150px;
+  }
+}
+
+@media (max-width: 149px) {
+  .right {
+    float: left;
+    padding-right: 333px;
   }
 }
 
