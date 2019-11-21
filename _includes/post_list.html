@@ -1,8 +1,8 @@
-<div class="paddingX paddingY marginX marginY">
+<div class="pd-2 py-2">
   <a class=" block" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
   </a>
-  <div class="">
+  <div class="pd-2 py-2">
     <p class="postdate right-date">
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
