@@ -55,6 +55,10 @@
 .right {
   float: right;
 }
+//사이드 날짜
+.right-date {
+  float: right;
+}
 
 .left {
   float: left;
@@ -136,7 +140,7 @@
 @media (max-width: 670px) {
   .right {
     float: left;
-    padding-right: 312px;
+    padding-right: 306px;
   }
 }
 
