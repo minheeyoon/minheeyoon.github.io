@@ -163,14 +163,14 @@
 
   .right {
     float: left;
-    padding-right: 150px;
+    padding-right: 151px;
   }
 }
 
-@media (max-width: 149px) {
+@media (max-width: 420px) {
   .right {
     float: left;
-    padding-right: 333px;
+    padding-right: 150px;
   }
 }
 
