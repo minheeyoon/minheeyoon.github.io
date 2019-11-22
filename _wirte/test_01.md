@@ -1,11 +1,11 @@
 ---
-layout: project
+layout: wirte_contents
 order: 1
 title: title test
 excerpt: 이유는 모르겠지만 잘 안나오고있다.
 permalink: /test01/
-project_image: projects/project-geometry-club
-hero_image: geometry-club/Geometry-Club-grid-of-twelve
+project_image: wirte_img/project-test-1080px
+hero_image: 191122/test_image
 hero_alt: Geometry Club by Dave Mullen Jnr
 category: wirte
 tags:
@@ -44,3 +44,5 @@ images:
   #   image_alt: Geometry Club photo taken at Manchester University by @davemullenjnr
   #   col_6: true
 ---
+
+너무힘들다고 ㅠㅠ
