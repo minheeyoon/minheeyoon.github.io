@@ -150,16 +150,21 @@
 
   .right {
     float: left;
-    padding-right: 336px;
+    padding-right: 337px;
   }
 
   .right-date {
     float: left;
     padding-right: 388px;
   }
-
+  // 패딩
   .container {
     max-width: $container-width-mds;
+  }
+
+  .pd-2 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
