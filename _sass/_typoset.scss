@@ -14,6 +14,7 @@ h6 {
 }
 
 p {
+  font-family: $body-font-family;
   font-size: $prose-font-size;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -58,7 +59,6 @@ p {
 // 1280px
 @media (max-width: $desktop-lg) {
   .menufont {
-    font-family: $header-font-family;
     font-size: $font-sub-h2;
   }
 }
@@ -66,7 +66,6 @@ p {
 //1024px
 @media (max-width: $desktop-df) {
   .menufont {
-    font-family: $header-font-family;
     font-size: $font-sub-h3;
   }
 }
@@ -74,7 +73,6 @@ p {
 // 640x
 @media (max-width: $desktop-md) {
   .menufont {
-    font-family: $header-font-family;
     font-size: $font-sub-h3;
   }
   .btm-up {
