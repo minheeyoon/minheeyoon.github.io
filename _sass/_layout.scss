@@ -86,10 +86,10 @@
 
 // post list layout
 .container {
-  max-width: $container-width-md;
+  max-width: $container-width;
 
-  @media (max-width: 122.5em) {
-    max-width: $container-width;
+  @media (max-width: 120em) {
+    max-width: $container-width-md;
   }
 }
 
