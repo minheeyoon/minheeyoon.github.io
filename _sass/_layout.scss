@@ -157,6 +157,10 @@
     float: left;
     padding-right: 388px;
   }
+
+  .container {
+    max-width: $container-width-mds;
+  }
 }
 
 @media (max-width: 670px) {
@@ -176,10 +180,6 @@
   .right {
     float: left;
     padding-right: 188px;
-  }
-
-  .container {
-    max-width: $container-width-mds;
   }
 }
 
