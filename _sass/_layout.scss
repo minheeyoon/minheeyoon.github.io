@@ -123,6 +123,10 @@
     padding-left: $spacer-6;
     padding-right: $spacer-6;
   }
+
+  .container {
+    max-width: $container-width-md;
+  }
 }
 
 // 1280px
