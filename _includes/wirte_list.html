@@ -1,0 +1,19 @@
+<div class="pd-2 py-2 col-6 sm-width-full ">
+  <a class=" block" href="{{ project.permalink }}">
+    <div class="aspect-ratio ar-4x3">
+      <img
+        srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
+                                    /assets/img/{{ project.project_image }}-1080px.jpg 1080w,
+                                    /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
+        sizes="(max-width: 560px) 100vw, 50vw"
+        src="/assets/img/{{ project.project_image }}-540px.jpg"
+        alt="{{ project.title }}"
+        class="ar-object border-radius"
+      />
+    </div>
+  </a>
+
+  <h2 class="posttitle">
+    <a class="link " href="{{ project.permalink }}">{{ project.title }}</a>
+  </h2>
+</div>
