@@ -195,12 +195,22 @@
     float: left;
     padding-right: 151px;
   }
+
+  .right-date {
+    float: left;
+    padding-right: 230px;
+  }
 }
 
 @media (max-width: 420px) {
   .right {
     float: left;
-    padding-right: 112px;
+    padding-right: 113px;
+  }
+
+  .right-date {
+    float: left;
+    padding-right: 113px;
   }
 }
 
@@ -216,13 +226,8 @@
     padding-right: $spacer-6;
   }
 
-  .right-date {
-    float: left;
-    padding-right: 113px;
-  }
-
   .conarea {
-    width: (8 / 12 * 100%);
+    width: (2 / 12 * 100%);
   }
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
 }
