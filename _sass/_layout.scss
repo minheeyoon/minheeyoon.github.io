@@ -95,7 +95,7 @@
 }
 
 .margin-x {
-  margin-top: $spacer-4;
+  margin-top: $spacer-5;
 }
 
 .conarea {
@@ -147,6 +147,10 @@
   .right {
     float: left;
     padding-right: 336px;
+  }
+
+  .right-date {
+    float: left;
   }
 }
 
