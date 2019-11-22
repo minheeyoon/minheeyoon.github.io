@@ -215,6 +215,15 @@
     float: left;
     padding-right: $spacer-6;
   }
+
+  .right-date {
+    float: left;
+    padding-right: 113px;
+  }
+
+  .conarea {
+    width: (8 / 12 * 100%);
+  }
   //여기 어떻게 해야함 ... 레프트 멫에 배치되도록
 }
 
