@@ -86,7 +86,11 @@
 
 // post list layout
 .container {
-  max-width: $container-width;
+  max-width: $container-width-md;
+
+  @media (max-width: 122.5em) {
+    max-width: $container-width;
+  }
 }
 
 .margin-y {
@@ -151,6 +155,7 @@
 
   .right-date {
     float: left;
+    padding-right: 388px;
   }
 }
 
@@ -171,6 +176,10 @@
   .right {
     float: left;
     padding-right: 188px;
+  }
+
+  .container {
+    max-width: $container-width-mds;
   }
 }
 
