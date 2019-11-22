@@ -14,8 +14,8 @@ h6 {
 }
 
 p {
-  font-family: $prose-font-size;
-  margin-top: 0;
+  font-size: $prose-font-size;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -34,6 +34,7 @@ p {
 
 .posttitle {
   text-align: left;
+  font-size: $font-sub-h3;
 }
 
 // post date
@@ -45,7 +46,7 @@ p {
 
 // post content
 .prose {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .prose p {
