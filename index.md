@@ -1,4 +1,4 @@
 ---
 layout: index
-homepage: true
+# homepage: true
 ---
