@@ -1,7 +1,7 @@
 title: minhee
 author: minhee
 email: mini940511@gmail.com
-description: minhee test
+
 url: "https://minheeyoon.github.io/"
 social_username: himin_h
 behance_username: mhyoon
@@ -18,17 +18,4 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-github: [metadata]
-
-theme_color: white
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+github: minheeyoon
