@@ -83,6 +83,15 @@
 // --------------------------------------------------
 //Side page  : List
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 .container {
   max-width: $container-width-df;
   margin: auto;
@@ -92,8 +101,10 @@
   margin-top: $spacer-6;
 }
 
-.posttitle {
+.contest-info-top {
+  margin-top: $spacer-3;
 }
+
 // 1020
 // .paddingxy {
 //   padding-left: $spacer-2;
