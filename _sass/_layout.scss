@@ -62,42 +62,66 @@
   display: inline-block;
 }
 
-.marginX-sm {
+.menu-rignt-sm {
   margin-right: $spacer-2;
 }
 
 // --------------------------------------------------
 // --------------------------------------------------
-//사이드 날짜
-.right-date {
-  float: right;
-}
+//Side page  : List
 
-//header & footer
-
-.marginY {
-  margin-top: 12px;
-}
-.marginX {
-  margin-top: 24px;
-}
-
-// post list layout
 .container {
   max-width: $container-width-df;
 }
 
+.right-date {
+  float: right;
+}
+
+.list-top {
+  margin-top: $spacer-6;
+}
+
+// --------------------------------------------------
+// --------------------------------------------------
+//Side page  : contnet
 .margin-y {
   margin-left: auto;
   margin-right: auto;
 }
 
-.margin-x {
-  margin-top: $spacer-5;
-}
-
 .conarea {
   width: (9 / 12 * 100%);
+}
+
+//Image
+/* Border utilities */
+.border-radius {
+  border-radius: $spacer / 4;
+}
+
+.aspect-ratio {
+  height: 0;
+  position: relative;
+}
+
+.ar-16x9 {
+  padding-bottom: 56.25%;
+}
+
+.ar-4x3 {
+  padding-bottom: 75%;
+}
+
+.ar-object {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // z-index: 100;
 }
 
 // // 1800px
@@ -232,32 +256,3 @@
 
 // --------------------------------------------------
 // --------------------------------------------------
-//Image
-/* Border utilities */
-.border-radius {
-  border-radius: $spacer / 4;
-}
-
-.aspect-ratio {
-  height: 0;
-  position: relative;
-}
-
-.ar-16x9 {
-  padding-bottom: 56.25%;
-}
-
-.ar-4x3 {
-  padding-bottom: 75%;
-}
-
-.ar-object {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  // z-index: 100;
-}
