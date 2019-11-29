@@ -11,27 +11,29 @@ layout: default
   {% endif %}
 
   <!--project description-->
-  <div calss="">
+  <div class="">
+    <!--title-->
     <h1 class="">{{ page.title }}</h1>
+    <!--paragraph(s)-->
     {% for description in page.description %}
     <p class="">{{ description.paragraph }}</p>
-    {% endif %}
-
+    {% endfor %}
     <!--tags-->
     <span class="">
       {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
       {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
     </span>
   </div>
-
   <!--project images-->
   <div class="clearfix">
     {% for image in page.images %} {% if image.conarea-side == true %}
-    <div class="">
+    <div class="conarea-side left">
       {% endif %}
       <div class="">
         {% include project_image.html %} {% if image.caption %}
-        <p class="">{{ image.caption }}</p>
+        <p class="">
+          {{ image.caption }}
+        </p>
         {% endif %}
       </div>
       {% if image.conarea-side == true %}
@@ -41,9 +43,7 @@ layout: default
 
   {{ content }}
 
-  <div class="">
-    <a href="{{ site.baseurl }}/work" class="link-primary"
-      >&larr; Back to List</a
-    >
+  <div class="px-2 mb-2 mb-lg-3 mt-3 mt-lg-4">
+    <a href="{{ site.baseurl }}/wirte" class="">&larr; Go back List</a>
   </div>
 </div>
