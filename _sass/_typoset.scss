@@ -60,20 +60,15 @@ p {
   width: 60%;
 }
 
+// --------------------------------------------------
+// --------------------------------------------------
+// 반응
 // 1280px
-@media (max-width: $desktop-lg) {
-  .menufont {
-    font-size: $font-sub-h2;
+@media (max-width: 720px) {
+  .navfont {
+    font-size: $font-sub-p1;
   }
 }
-
-//1024px
-@media (max-width: $desktop-df) {
-  .menufont {
-    font-size: $font-sub-h3;
-  }
-}
-
 // 640x
 @media (max-width: $desktop-md) {
   .menufont {
