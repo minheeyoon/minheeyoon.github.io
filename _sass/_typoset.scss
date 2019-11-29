@@ -19,7 +19,7 @@ p {
   font-family: $body-font-family;
   font-size: $prose-font-size;
   margin-top: 0.5em;
-  margin-bottom: 3em;
+  margin-bottom: 0.5em;
 }
 // --------------------------------------------------
 // --------------------------------------------------
@@ -36,7 +36,7 @@ p {
 .posttitle {
   text-align: left;
   font-size: $font-sub-h3;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 // post date
@@ -44,10 +44,6 @@ p {
   text-align: right;
   font-size: $font-sub-p3;
   text-transform: uppercase;
-}
-
-.postdate p {
-  margin-top: 0.5em;
 }
 
 // --------------------------------------------------
