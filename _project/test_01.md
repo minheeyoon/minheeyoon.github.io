@@ -1,5 +1,5 @@
 ---
-layout: wirte_contents
+layout: wirte
 order: 1
 title: title test
 excerpt: 이유는 모르겠지만 잘 안나오고있다.
