@@ -36,11 +36,11 @@ p {
 .posttitle {
   font-size: $font-sub-h3;
   margin-bottom: 0.5em;
+  font-family: $header-font-family;
 }
 
 // post date
 .postdate {
-  font-family: $header-font-family;
   font-size: $font-sub-p3;
   text-transform: uppercase;
 }
