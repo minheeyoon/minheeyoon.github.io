@@ -1,6 +1,7 @@
 @import "variables";
 
 // --------------------------------------------------
+// --------------------------------------------------
 // *Header*
 .fixed {
   position: fixed;
@@ -27,25 +28,50 @@
   letter-spacing: 1px;
 }
 // --------------------------------------------------
-// 헤더
+// --------------------------------------------------
+// *Header&Footer menu*
 .nav-container {
-  max-width: $container-width;
+  max-width: $container-width-df;
   margin: 40px auto;
 }
 
 .right {
   float: right;
-  padding-right: $spacer-1;
+  padding-right: $spacer-2;
 }
+
+.left {
+  float: left;
+  padding-left: $spacer-2;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.block {
+  display: block !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.marginX-sm {
+  margin-right: $spacer-2;
+}
+
+.btm-up {
+  margin-bottom: 2vh;
+}
+
+// --------------------------------------------------
+// --------------------------------------------------
 //사이드 날짜
 .right-date {
   float: right;
 }
 
-.left {
-  float: left;
-  padding-left: $spacer-1;
-}
 //header & footer
 
 .paddingX {
@@ -74,32 +100,12 @@
   padding-bottom: $spacer-2;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
-.block {
-  display: block !important;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.marginX-sm {
-  margin-right: $spacer-2;
-}
-
-.btm-up {
-  margin-bottom: 2vh;
-}
-
 // post list layout
 .container {
   max-width: $container-width;
 
   @media (max-width: 120em) {
-    max-width: $container-width-md;
+    max-width: $container-width;
   }
 }
 

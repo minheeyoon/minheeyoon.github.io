@@ -1,5 +1,7 @@
 @import "variables";
 
+// --------------------------------------------------
+// --------------------------------------------------
 /* Typo set */
 
 h1,
@@ -19,18 +21,20 @@ p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
+// --------------------------------------------------
+// --------------------------------------------------
 //headline
 .typo-head {
   font-size: $font-title;
 }
 
-.menufont {
+.navfont {
   font-family: $header-font-family;
-  font-size: $font-sub-h1;
-  line-height: 1.2em;
+  font-size: $font-sub-h2;
+  line-height: 1em;
 }
-
+// --------------------------------------------------
+// --------------------------------------------------
 // post title
 
 .posttitle {
