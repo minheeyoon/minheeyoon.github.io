@@ -3,8 +3,8 @@
 // --------------------------------------------------
 // --------------------------------------------------
 // // *Header&Footer 기본 set*
-.fixed {
-  position: fixed;
+.relative {
+  position: relative;
   padding: $spacer-3 $spacer-2 $spacer-3 $spacer-2;
 }
 .footer-fixed {
