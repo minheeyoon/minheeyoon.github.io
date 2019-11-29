@@ -1,9 +1,9 @@
-<div class="">
+<div class="side-box">
   <a class="block" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
   </a>
   <div class="">
-    <p class="postdate">
+    <p class="postdate date-box">
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
 

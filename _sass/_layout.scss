@@ -56,6 +56,8 @@
 
 .block {
   display: block !important;
+}
+.side-box {
   margin-bottom: 2%;
 }
 
@@ -97,6 +99,10 @@
 //   padding-left: $spacer-2;
 //   padding-right: $spacer-2;
 // }
+
+.date-box {
+  margin-bottom: 0;
+}
 
 .dateset {
   float: right;
