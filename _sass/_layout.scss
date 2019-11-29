@@ -89,22 +89,25 @@
   margin-top: $spacer-6;
 }
 
-.paddingxy {
-  padding-left: $spacer-2;
-  padding-right: $spacer-2;
+.posttitle {
+}
+// 1020
+// .paddingxy {
+//   padding-left: $spacer-2;
+//   padding-right: $spacer-2;
+// }
+
+.dateset {
+  float: right;
 }
 
-.right-date {
-  float: right;
+.conarea {
+  width: (9 / 12 * 100%);
 }
 
 // --------------------------------------------------
 // --------------------------------------------------
 //Side page  : contnet
-
-.conarea {
-  width: (9 / 12 * 100%);
-}
 
 //Image
 /* Border utilities */

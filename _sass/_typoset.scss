@@ -19,15 +19,11 @@ p {
   font-family: $body-font-family;
   font-size: $prose-font-size;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 3em;
 }
 // --------------------------------------------------
 // --------------------------------------------------
-//headline
-.typo-head {
-  font-size: $font-title;
-}
-
+//header - font : Home
 .navfont {
   font-family: $header-font-family;
   font-size: $font-sub-h2;
@@ -35,11 +31,12 @@ p {
 }
 // --------------------------------------------------
 // --------------------------------------------------
-// post title
+// Side List - Title - Subcopy - date - SET
 
 .posttitle {
   text-align: left;
   font-size: $font-sub-h3;
+  margin-top: 0.5em;
 }
 
 // post date
@@ -49,7 +46,14 @@ p {
   text-transform: uppercase;
 }
 
-// post content
+..postdate p {
+  margin-top: 0.5em;
+}
+
+// --------------------------------------------------
+// --------------------------------------------------
+// Side Contents
+
 .prose {
   font-weight: 400;
 }
