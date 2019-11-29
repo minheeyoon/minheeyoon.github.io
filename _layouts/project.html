@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="container side-top">
+  <!--thumnail image-->
+  {% if page.thum_image %}
+  <div class="">
+    {% include project_list_thum.html %} {% endif %}
+
+    <!--project description-->
+    <div calss="">
+      <h1 class="">{{ page.title }}</h1>
+      {% for description in page.description %}
+      <p class="">{{ description.paragraph }}</p>
+    </div>
+    {% endif %}
+
+    <!--tags-->
+    <span class="">
+      {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
+      {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
+    </span>
+  </div>
+
+  <!--project images-->
+  <div class="clearfix">
+    {% for image in page.images %} {% if image.conarea-side == true %}
+    <div class="contents-box conarea-side left"></div>
+    {% endif %}
+    <div class="">{% include project_image.html %}</div>
+    {% endfor %}
+  </div>
+
+  {{ content }}
+
+  <div class="">
+    <a href="{{ site.baseurl }}/work" class="link-primary"
+      >&larr; Back to List</a
+    >
+  </div>
+</div>

@@ -125,6 +125,7 @@
 .conarea-side {
   width: (6 / 12 * 100%);
 }
+
 // --------------------------------------------------
 // --------------------------------------------------
 //Side page  : contnet
@@ -134,6 +135,10 @@
   position: relative;
 }
 
+.prj-margin {
+  padding-left: $spacer-1;
+  padding-right: $spacer-1;
+}
 //Image
 /* Border utilities */
 .border-radius {

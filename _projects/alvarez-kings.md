@@ -5,8 +5,8 @@ title: TEST,너모힘들다~
 excerpt: 이거는 왜쓰는것인가
 permalink: /고유주소라네/
 project_image: projects/test
-hero_image: alvarez-kings/alvarez-kings-logo-design
-hero_alt: Alvarez Kings branding
+thum_image: alvarez-kings/alvarez-kings-logo-design
+thum_alt: Alvarez Kings branding
 category: work
 tags:
   - tag: Branding
