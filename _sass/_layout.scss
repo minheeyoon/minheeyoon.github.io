@@ -1,5 +1,6 @@
 @import "variables";
 
+// --------------------------------------------------
 // *Header*
 .fixed {
   position: fixed;
@@ -25,10 +26,10 @@
   font-size: $prose-font-size;
   letter-spacing: 1px;
 }
-
+// --------------------------------------------------
 // 헤더
 .nav-container {
-  max-width: $container-width-md;
+  max-width: $container-width;
   margin: 40px auto;
 }
 
