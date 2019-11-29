@@ -10,8 +10,12 @@
 .footer-relative {
   position: relative;
   background-color: white;
-  padding: $spacer-3 $spacer-2 $spacer-3 $spacer-2;
+
   z-index: 100;
+}
+
+.footer-bottom {
+  margin-bottom: $spacer-3;
 }
 
 .top-0 {
