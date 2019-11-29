@@ -9,7 +9,7 @@ drb_username: miniY
 
 # Collections
 collections:
-  wirte:
+  projects:
     output: true
 
 # Build settings
