@@ -5,6 +5,6 @@ layout: default
 <div class="contents-box side-top paddingxy clearfix">
   <!-- Wirte posts start -->
   {% assign projects = site.projects | sort: 'order' %} {% for project in
-  projects %} {% include wirte_list.html %} {% endfor %}
+  projects %} {% include project-card.html %} {% endfor %}
   <!-- Wirte posts end -->
 </div>
