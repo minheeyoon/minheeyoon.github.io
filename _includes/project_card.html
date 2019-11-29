@@ -1,10 +1,15 @@
 <div class="contents-box">
   <a class="block" href="{{ project.permalink }}">
-    <img srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
+    <div class="aspect-ratio ar-4x3">
+      <img
+        srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
                   /assets/img/{{ project.project_image }}-1080px.jpg 1080w,
                   /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
-          sizes="(max-width: 560px) 100vw, 50vw"
-          src="/assets/img/{{ project.project_image }}-540px.jpg" alt="{{ project.title }}" class="ar-object border-radius"/>
+        sizes="(max-width: 560px) 100vw, 50vw"
+        src="/assets/img/{{ project.project_image }}-540px.jpg"
+        alt="{{ project.title }}"
+        class="ar-object border-radius"
+      />
     </div>
   </a>
   <a class="link-primary" href="{{ project.permalink }}">{{ project.title }}</a>
