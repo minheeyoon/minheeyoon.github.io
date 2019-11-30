@@ -102,7 +102,7 @@
 }
 
 .contest-info-top {
-  margin-top: $spacer-3;
+  margin-top: $spacer-2;
 }
 
 .date-box {
@@ -188,5 +188,9 @@
   .prj-margin {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .contest-info-top {
+    margin-top: $spacer-1;
   }
 }
