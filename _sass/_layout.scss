@@ -101,7 +101,7 @@
   margin-top: $spacer-6;
 }
 
-.contest-info-top {
+.content-info-top {
   margin-top: $spacer-2;
 }
 
@@ -162,7 +162,12 @@
   height: 100%;
   // z-index: 100;
 }
-
+// --------------------------------------------------
+// --------------------------------------------------
+//Wirte page  : List
+.content-wirte-top {
+  margin-top: $spacer-1;
+}
 // --------------------------------------------------
 // --------------------------------------------------
 //1024px 부터 레이아웃 변화
@@ -190,7 +195,7 @@
     padding-right: 0px;
   }
 
-  .contest-info-top {
+  .content-info-top {
     margin-top: $spacer-1;
   }
 }
