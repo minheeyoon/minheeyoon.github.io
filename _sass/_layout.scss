@@ -176,7 +176,9 @@
   .side-top {
     margin-top: $spacer-5;
   }
+}
 
+@media (max-width: $desktop-md) {
   .sm-width-full {
     width: 100% !important;
   }
