@@ -178,8 +178,15 @@
   }
 }
 
+// --------------------------------------------------
+//640px 부터 레이아웃 변화
 @media (max-width: $desktop-md) {
   .sm-width-full {
     width: 100% !important;
+  }
+
+  .prj-margin {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
