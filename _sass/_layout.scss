@@ -97,8 +97,9 @@
   margin: auto;
 }
 
-.side-top {
+.side-top-btm {
   margin-top: $spacer;
+  margin-bottom: $spacer-4;
 }
 
 .content-info-top {
@@ -182,8 +183,9 @@
     padding-right: $spacer-2;
   }
 
-  .side-top {
+  .side-top-btm {
     margin-top: $spacer;
+    margin-bottom: $spacer-4;
   }
 }
 
