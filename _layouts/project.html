@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container-info content-y side-top-btm clearfix">
+<div class="container-prj side-top-btm clearfix paddingxy">
   <!--Top Cover image-->
   {% if page.thum_image %}
   <div class="">
@@ -34,9 +34,9 @@ layout: default
   <!--project images-->
   <div class="clearfix">
     {% for image in page.images %} {% if image.conarea-side == true %}
-    <div class="conarea-side left">
+    <div class="conarea-side sm-width-full left">
       {% endif %}
-      <div class="container-prj prj-margin">
+      <div class="prj-margin">
         {% include project_image.html %} {% if image.caption %}
         <p class="">
           {{ image.caption }}
