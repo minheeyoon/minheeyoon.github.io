@@ -1,3 +1,23 @@
 @charset "utf-8";
 
+// --------------------------------------------------
+// --------------------------------------------------
+// Color
+
+$black: #04101c;
+$point: #244db5;
+$grey-l: #515151;
+$grey-m: #b8b8b8;
+$grey-s: #e0e0e0;
+$white: #fff;
+
+$color-background: $white !default;
+$color-title: $black !default;
+$color-contents: $black !default;
+$color-accent: $point !default;
+$color-link: $point !default;
+
+// --------------------------------------------------
+// --------------------------------------------------
+
 @import "base", "layout", "typoset", "variables";

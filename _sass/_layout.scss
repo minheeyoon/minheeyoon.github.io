@@ -263,8 +263,17 @@
 
 // --------------------------------------------------
 // --------------------------------------------------
+// --------------------------------------------------
+
 //index
 .index-tob-btm {
   margin-top: 52px;
   margin-bottom: 52px;
+}
+
+//tag
+.tag {
+  background-color: $grey-l;
+  border-radius: $spacer-2 / 4;
+  color: $black;
 }
