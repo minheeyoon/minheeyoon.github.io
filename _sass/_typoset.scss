@@ -75,16 +75,13 @@ p {
 @media (max-width: 720px) {
   .navfont-l {
     font-size: $font-sub-p1;
+    margin-top: 2px;
   }
 }
 // 640x
 @media (max-width: $desktop-md) {
   .menufont {
     font-size: $font-sub-h3;
-  }
-
-  .navfont-l {
-    margin-top: 2px;
   }
 
   .navfont-r {
