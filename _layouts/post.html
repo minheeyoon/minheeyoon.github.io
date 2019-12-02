@@ -2,6 +2,42 @@
 layout: default
 ---
 
+<div class="container-info content-y side-top-btm clearfix">
+  <!--Top Cover image-->
+  {% if post.thum_image %}
+  <div class="">
+    {% include post_list_thum.html %}
+  </div>
+  {% endif %}
+
+  <!--project description-->
+  <div class="content-padding clearfix conarea">
+    <!--title-->
+    <h1 class="">{{ page.title }}</h1>
+    <!--paragraph(s)-->
+    {% for description in page.description %}
+    <p class="">{{ description.paragraph }}</p>
+    {% endfor %}
+    <!--tags-->
+    <span class="">
+      {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
+      {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
+    </span>
+
+    <p class="">
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+        >{{ page.date | date_to_long_string }}</time
+      >
+    </p>
+  </div>
+
+  <div class="prose content-padding" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <!-- 
+
 <article class="container-info content-y side-top-btm clearfix">
   <header class="">
     <h1 class="" itemprop="name headline">
@@ -20,4 +56,5 @@ layout: default
   <div class="prose content-padding" itemprop="articleBody">
     {{ content }}
   </div>
-</article>
+</article> -->
+</div>
