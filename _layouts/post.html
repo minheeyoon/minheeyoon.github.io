@@ -21,4 +21,8 @@ layout: default
     {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }} {%
     else %} {{ tags.tag }} — {% endif %} {% endfor %}
   </span>
+
+  <div class="prj-margin content-padding">
+    {{ content }}
+  </div>
 </div>
