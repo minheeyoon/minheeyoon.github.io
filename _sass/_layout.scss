@@ -124,7 +124,6 @@
 // --------------------------------------------------
 // --------------------------------------------------
 //Side page  : contnet
-
 .aspect-ratio {
   height: 0;
   position: relative;
@@ -172,6 +171,10 @@
 //Wirte page  : List
 .content-wirte-top {
   margin-top: $spacer-1;
+}
+
+.container-info {
+  max-width: $container-width-df;
 }
 // --------------------------------------------------
 // --------------------------------------------------
