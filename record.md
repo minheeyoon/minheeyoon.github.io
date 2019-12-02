@@ -1,5 +1,5 @@
 ---
-layout: wirte
+layout: record
 title: Wirte
 excerpt: test
 permalink: /wirte/
