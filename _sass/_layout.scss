@@ -97,6 +97,11 @@
   margin: auto;
 }
 
+.container-prj {
+  max-width: 63.5em;
+  margin: auto;
+}
+
 .side-top-btm {
   margin-top: $spacer-3;
   margin-bottom: $spacer-5;
@@ -124,10 +129,7 @@
 // --------------------------------------------------
 // --------------------------------------------------
 //Project(Side) page  : contnet
-.container-prj {
-  max-width: 63.5em;
-  margin: auto;
-}
+
 .aspect-ratio {
   height: 0;
   position: relative;

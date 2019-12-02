@@ -22,7 +22,7 @@ p {
 }
 // --------------------------------------------------
 // --------------------------------------------------
-//header - font : Home
+//header&footner - font set
 .navfont-l {
   font-family: $menu-font-family;
   font-size: $font-sub-h2;
@@ -41,6 +41,7 @@ p {
 // Side List - Title - Subcopy - date - SET
 
 .posttitle {
+  font-weight: bold;
   font-size: $font-sub-h3;
   margin-bottom: 0.5em;
   font-family: $header-font-family;
@@ -48,6 +49,7 @@ p {
 
 // post date
 .postdate {
+  font-weight: bold;
   font-size: $font-sub-p3;
   text-transform: uppercase;
 }
