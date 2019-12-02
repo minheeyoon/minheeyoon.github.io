@@ -273,7 +273,11 @@
 
 //tag
 .tag {
-  background-color: $grey-l;
+  background-color: $grey-m;
   border-radius: $spacer-2 / 4;
-  color: $black;
+  color: $grey-l;
+}
+
+.tagpd {
+  padding: $spacer-2;
 }
