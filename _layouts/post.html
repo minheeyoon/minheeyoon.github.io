@@ -14,10 +14,10 @@ layout: default
   </p>
   <!--paragraph(s)-->
   {% for description in page.description %}
-  <p class="">{{ description.paragraph }}</p>
+  <p class="prj-margin">{{ description.paragraph }}</p>
   {% endfor %}
   <!--tags-->
-  <span class="tag tagpd">
+  <span class="tag tagpd prj-margin">
     {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }} {%
     else %} {{ tags.tag }} — {% endif %} {% endfor %}
   </span>
