@@ -4,7 +4,7 @@ order: 2
 title: Minhee Testing
 excerpt: 이거는 왜쓰는것인가
 permalink: /testminhee/
-project_image: projects/test
+project_image: projects/minhee-test
 thum_image: testminhee/top-image
 thum_alt: 휘인
 category: work
