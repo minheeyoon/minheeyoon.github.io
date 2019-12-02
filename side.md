@@ -2,6 +2,6 @@
 # You don't need to edit this file, it's empty on purpose.
 layout: side
 title: Side
-permalink: /side/
+permalink: /project/
 category: side
 ---

@@ -2,6 +2,6 @@
 layout: wirte
 title: Wirte
 excerpt: test
-permalink: /wirte/
+permalink: /write/
 category: wirte
 ---
