@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Who is Dana Carvey? 한글
 thum_image: test/blog-01-thum
 category: People
