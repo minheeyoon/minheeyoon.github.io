@@ -5,15 +5,15 @@ title: TEST,너모힘들다~
 excerpt: 이거는 왜쓰는것인가
 permalink: /고유주소라네/
 project_image: projects/test
-thum_image: alvarez-kings/alvarez-kings-logo-design
-thum_alt: Alvarez Kings branding
+thum_image: testminhee/top-image-02
+thum_alt: test2
 category: work
 tags:
-  - tag: Branding
-  - tag: Graphic Design
-  - tag: Photography
+  - tag: Maroon 5
+  - tag: WHEEIN
+  - tag: SLEEP
 description:
-  - paragraph: Brand design and cover artwork for Alvarez Kings, a four-piece indie/pop band from Sheffield, UK.
+  - paragraph:
   - paragraph: Here’s a collection of cover designs for the band’s singles and EPs since 2012. Alvarez Kings released their debut album in 2017 with Warner Bros Records.
 images:
   - image_path: alvarez-kings/alvarez-kings-the-otherside-of-sadness-cover-design
