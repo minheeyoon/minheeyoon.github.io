@@ -1,7 +1,7 @@
 ---
 layout: wirte
-title: Wirte
+title: write
 excerpt: test
-permalink: /wirte/
+permalink: /record/
 category: wirte
 ---
