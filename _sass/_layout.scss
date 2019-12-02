@@ -174,7 +174,7 @@
 }
 
 .container-info {
-  max-width: $container-width;
+  max-width: $container-width-df;
 }
 
 .content-y {
@@ -183,8 +183,8 @@
 }
 
 .content-padding {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: $spacer-1;
+  padding-right: $spacer-1;
 }
 // --------------------------------------------------
 // --------------------------------------------------
