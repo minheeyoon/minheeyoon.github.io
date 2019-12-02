@@ -186,11 +186,6 @@
   margin-right: auto;
 }
 
-.content-padding {
-  padding-left: $spacer-1;
-  padding-right: $spacer-1;
-}
-
 .porjectimage {
   width: 100%;
   height: 100%;
@@ -213,6 +208,11 @@
   .index-x {
     padding-left: $spacer-2;
     padding-right: $spacer-2;
+  }
+
+  .content-padding {
+    padding-left: $spacer-1;
+    padding-right: $spacer-1;
   }
 }
 // --------------------------------------------------
@@ -238,6 +238,11 @@
   }
 
   .index-x {
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
+  }
+
+  .content-padding {
     padding-left: $spacer-2;
     padding-right: $spacer-2;
   }
