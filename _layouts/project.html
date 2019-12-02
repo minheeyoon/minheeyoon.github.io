@@ -32,11 +32,11 @@ layout: default
     </span>
   </div>
   <!--project images-->
-  <div class="clearfix container-prj prj-margin">
+  <div class="clearfix">
     {% for image in page.images %} {% if image.conarea-side == true %}
     <div class="conarea-side left">
       {% endif %}
-      <div class="">
+      <div class="prj-margin">
         {% include project_image.html %} {% if image.caption %}
         <p class="">
           {{ image.caption }}
