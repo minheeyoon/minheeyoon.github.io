@@ -1,7 +1,7 @@
 ---
-layout: write
-title: write
+layout: record
+title: record
 excerpt: test
-permalink: /write/
-category: write
+permalink: /record/
+category: record
 ---
