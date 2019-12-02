@@ -14,6 +14,13 @@ layout: default
   <div class="content-padding clearfix conarea">
     <!--title-->
     <h1 class="">{{ page.title }}</h1>
+    <p class="">
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+        >{{ page.date | date_to_long_string }}</time
+      >
+    </p>
     <!--paragraph(s)-->
     {% for description in page.description %}
     <p class="">{{ description.paragraph }}</p>
@@ -45,7 +52,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="px-2 mb-2 mb-lg-3 mt-3 mt-lg-4">
+  <!-- <div class="">
     <a href="{{ site.baseurl }}/wirte" class="">&larr; Go back List</a>
-  </div>
+  </div> -->
 </div>
