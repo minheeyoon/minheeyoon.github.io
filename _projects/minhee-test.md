@@ -26,50 +26,23 @@ images:
   #   col_6: true
 ---
 
-TEST 본문 TEST
+## 본문 TEST
 
-서로를 닮아 기울어진 삶
-소원을 담아 차오르는 달
-하려다 만 괄호 속의 말
-이제야 음 음 음
+우리가 가진 것들을 봐요, 당신은 여기 없지만 그래도 건배를 할거에요, 들었던 축배들은 추억을 불러요. 함께했던 모든 추억들을요. 여기있는 모든 사람들에게 건배할게요. 미처 함께하지 못한 사람들에게도 건배할게요. 들었던 축배들은 추억을 기억나게 하고 기억은 추억과 함게 당신을 떠올리게 하죠.
+기억에 남는 순간이 있어요, 고통없는 삶을 몰랐었어요 ,영원함을 믿었고, 모든 것들이 그데로 일 줄 알았어요. 지금 제 마음은 마치 12월 같아요. 누군가 당신 이름을 불러줄 때, 제가 먼저 다가갈 수 없으니까요. 언젠간 반드시 다가갈게요. 누구에게나 고통의 순간이 있어요, 모든게 다 괜찮아 질거에요.
+그러니 우리 축배를 들어요.
 
-어디도 닿지 않는 나의 닻
-넌 영원히 도착할 수 없는 섬 같아
-헤매던 날
-이제야 음 음 음
+## TEST Title
 
-기록하지 않아도
-내가 널 전부 기억할 테니까
-
-기다려
-기어이 우리가 만나면
-시간의 테두리 바깥에서
-과거를 밟지 않고 선다면
-숨이 차게 춤을 추겠어
-
-낮에도 밝지 않은 나의 밖
-끝없는 밤 남겨진 반
-넌 어떨까 나와 같을까
-알 수 없음에 아파지던 맘
-
-더 멀리 자유 그 위로 가자
-내일이 우릴 찾지 못할
-곳에서 기쁘게 만나
-이제야
-
-한눈에 찾지 못해도 돼
-내가 널 알아볼 테니까
-
-기다려
-기어이 우리가 만나면
-시간의 테두리 바깥에서
-과거를 밟지 않고 선다면
-숨이 차게 춤을 추겠어
-
-드디어
-기다림의 이유를 만나러
-꿈결에도 잊지 않았던
-잠결에도 잊을 수 없었던
-너의 이름을 불러 줄게
+Here's to the ones that we got Cheers to the wish you were here, but you're not
+'Cause the drinks bring back all the memories Of everything we've been through
+Toast to the ones here today Toast to the ones that we lost on the way
+'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same
+Now my heart feel like December when somebody say your name
+'Cause I can't reach out to call you, but I know I will one day, yeah
+Everybody hurts sometimes
+Everybody hurts someday, aye aye
+But everything gon' be alright
+Go and raise a glass and say, aye
 
 **IU - 시간의 바깥**
