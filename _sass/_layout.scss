@@ -57,6 +57,7 @@
 .block {
   display: block !important;
 }
+
 .contents-box {
   margin-bottom: $spacer-5;
 }
@@ -261,6 +262,10 @@
   .content-listtit-top {
     margin-top: 0%;
     margin-bottom: 0%;
+  }
+
+  .contents-box {
+    margin-bottom: $spacer-4;
   }
 }
 
