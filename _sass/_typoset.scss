@@ -45,18 +45,19 @@ em {
 //리스트 페이지의 상단 카피라이트
 .copyminhee {
   margin-bottom: 120px;
+  margin-top: 20px;
 }
 
 .copyminhee h1 {
   font-family: $menu-font-family;
-  font-size: $font-sub-h1;
+  font-size: $font-title;
   color: $black-point;
 }
 
 .copyminhee p {
   font-family: $header-font-family;
   color: $grey-l;
-  margin-top: -0.4em;
+  margin-top: -1.4em;
 }
 
 // --------------------------------------------------
@@ -156,19 +157,22 @@ em {
   }
 
   .copyminhee {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
+    margin-top: 20px;
   }
 
   .copyminhee h1 {
     font-family: $menu-font-family;
-    font-size: $font-sub-h2;
+    font-size: $font-sub-h1;
     color: $black-point;
+    letter-spacing: -0.005;
   }
 
   .copyminhee p {
     font-family: $header-font-family;
     color: $grey-l;
-    margin-top: -0.4em;
+    margin-top: -1.4em;
+    letter-spacing: -0.005;
   }
 }
 
