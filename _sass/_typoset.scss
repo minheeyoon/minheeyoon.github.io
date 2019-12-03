@@ -141,20 +141,19 @@ em {
 // --------------------------------------------------
 // --------------------------------------------------
 // hover
-// 1280px
-.link-primary {
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  border-radius: 1px;
-  transition: ease-in-out 0.15s;
 
-  &:hover,
-  &:active {
-    text-decoration: none;
-    border-bottom-color: $point;
-    color: $point;
-  }
-}
+// .link-primary {
+//   text-decoration: none;
+//   border-bottom: 1px solid transparent;
+//   border-radius: 1px;
+//   transition: ease-in-out 0.15s;
+
+//   &:hover,
+//   &:active {
+//     text-decoration: none;
+//     border-bottom-color: $point;
+//   }
+// }
 
 .active {
   text-decoration: none;
@@ -171,29 +170,57 @@ em {
   }
 }
 
-.active {
-  text-decoration: none;
-  border-bottom-color: $point;
-}
-
 .dot {
+  text-decoration: none;
+
   position: absolute;
   width: 0.5em;
   height: 0.5em;
   border-radius: 50%;
   background: $point;
-  transform: translatey(-50%);
-  transition: 0.3s ease top;
+
+  display: inline-block;
+  text-align: center;
 }
 
-$total-rows: 3;
-
-@for $i from 1 through $total-rows {
-  $row-height: 100% / $total-rows;
-  $top: $i * $row-height - $row-height / 2 - 0.5%;
-  // I learned something new about specificity with nth-child today
-  li.active:nth-child(#{$i}) ~ .dot,
-  ul li:nth-child(#{$i}):hover ~ .dot {
-    top: $top;
-  }
+.dot {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
+
+.record:hover ~ .line {
+  left: 0 !important;
+}
+.project:hover ~ .line {
+  left: 100px !important;
+}
+
+.profile:hover ~ .line {
+  left: 200px !important;
+}
+
+.record:target ~ .line {
+  left: 0px;
+}
+
+.project:target ~ .line {
+  left: 100px;
+}
+
+.profile:target ~ .line {
+  left: 200px;
+}
+
+// $total-rows: 3;
+
+// @for $i from 1 through $total-rows {
+//   $row-height: 100% / $total-rows;
+//   $top: $i * $row-height - $row-height / 2 - 0.5%;
+//   // I learned something new about specificity with nth-child today
+//   li.active:nth-child(#{$i}) ~ .dot,
+//   ul li:nth-child(#{$i}):hover ~ .dot {
+//     top: $top;
+//   }
+// }
