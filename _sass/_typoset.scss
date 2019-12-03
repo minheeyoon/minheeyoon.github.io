@@ -181,21 +181,22 @@ em {
 //hover
 
 .link-primary {
-  text-decoration: none;
-  border-spacing: 50%;
-  border-bottom: 2px solid transparent;
-  border-radius: 1px;
+  // text-decoration: none;
+  // border-spacing: 50%;
+  // border-bottom: 2px solid transparent;
+  // border-radius: 1px;
   transition: ease-in-out 0.2s;
 
   &:hover,
   &:active {
-    text-decoration: none;
-    border-bottom-color: $black-point;
+    // text-decoration: none;
+    // border-bottom-color: $black-point;
+    opacity: 0.8;
   }
 }
 
 .active {
-  border-bottom-color: $black-point;
+  color: $point;
 }
 
 // Image as a link
