@@ -18,12 +18,6 @@ description:
 images:
   - image_path: testminhee/test-minhee-image
     image_alt: 하이루
-  # - image_path: alvarez-kings/alvarez-kings-stacked-typographic-logo-t-shirt
-  #   image_alt: Alvarez Kings — Stacked typographic logo t-shirt design
-  #   col_6: true
-  # - image_path: alvarez-kings/alvarez-kings-fear-to-feel-t-shirt-design
-  #   image_alt: Alvarez Kings — Fear to Feel t-shirt design
-  #   col_6: true
 ---
 
 ## 본문 TEST
