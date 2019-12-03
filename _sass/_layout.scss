@@ -243,8 +243,8 @@
 // --------------------------------------------------
 //index
 .index-tob-btm {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 // --------------------------------------------------
@@ -265,10 +265,6 @@
   .content-padding {
     padding-left: $spacer-1;
     padding-right: $spacer-1;
-  }
-  .index-tob-btm {
-    margin-top: 24px;
-    margin-bottom: 24px;
   }
 }
 // --------------------------------------------------
@@ -316,10 +312,5 @@
   .prj-title {
     margin-top: $spacer-1;
     margin-bottom: $spacer-3;
-  }
-
-  .index-tob-btm {
-    margin-top: 52px;
-    margin-bottom: 52px;
   }
 }
