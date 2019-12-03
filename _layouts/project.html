@@ -13,17 +13,19 @@ layout: default
   <!--project description-->
   <div class="prj-margin clearfix">
     <!--title-->
-    <h1 class="">{{ page.title }}</h1>
+    <h2 class="">{{ page.title }}</h2>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
     <p class="">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <span class="tag tagpd prj-margin postdate">
-      {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
-      {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
-    </span>
+    <div class="content-info-top">
+      <span class="tag tagpd prj-margin postdate">
+        {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
+        {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
+      </span>
+    </div>
   </div>
   <!--project images-->
   <div class="clearfix">

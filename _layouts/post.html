@@ -5,7 +5,7 @@ layout: default
 <div class="container-prj side-top-btm clearfix paddingxy">
   <!--title-->
   <div class="prj-title ">
-    <h1 class="prj-margin">{{ page.title }}</h1>
+    <h2 class="prj-margin">{{ page.title }}</h2>
     <p class="prj-margin postdate">
       <time
         datetime="{{ page.date | date_to_xmlschema }}"
@@ -16,7 +16,9 @@ layout: default
   </div>
   <!--paragraph(s)-->
   {% for description in page.description %}
-  <p class="prj-margin">{{ description.paragraph }}</p>
+  <div class="content-info-top">
+    <p class="prj-margin">{{ description.paragraph }}</p>
+  </div>
   {% endfor %}
   <!--tags-->
   <span class="tag tagpd prj-margin postdate">
