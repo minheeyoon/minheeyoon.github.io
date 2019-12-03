@@ -191,26 +191,26 @@ em {
 }
 
 .record:hover ~ .line {
-  left: 0 !important;
+  right: 0 !important;
 }
 .project:hover ~ .line {
-  left: 100px !important;
+  right: 100px !important;
 }
 
 .profile:hover ~ .line {
-  left: 200px !important;
+  right: 200px !important;
 }
 
 .record:target ~ .line {
-  left: 0px;
+  right: 0px;
 }
 
 .project:target ~ .line {
-  left: 100px;
+  right: 100px;
 }
 
 .profile:target ~ .line {
-  left: 200px;
+  right: 200px;
 }
 
 // $total-rows: 3;
