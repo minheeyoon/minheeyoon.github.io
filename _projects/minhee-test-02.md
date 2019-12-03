@@ -13,7 +13,6 @@ tags:
   - tag: 테스트
   - tag: image
 description:
-  - paragraph: 디스크립션01
   - paragraph: 서로를 닮아 기울어진 삶, 소원을 담아 차오르는 달~
 
 images:
