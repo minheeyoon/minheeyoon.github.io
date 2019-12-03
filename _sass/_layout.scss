@@ -280,6 +280,16 @@
     padding-right: 0px;
   }
 
+  .tag-top-btm {
+    margin-top: $spacer-2;
+    margin-bottom: $spacer-2;
+
+    .prj-margin {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+  }
+
   .content-info-top {
     margin-top: $spacer-1;
   }
