@@ -3,6 +3,10 @@ layout: post
 title: Who is Dana Carvey? 한글
 thum_image: test/blog-01-thum
 category: People
+
+description:
+  - paragraph: 인디고!위졋고!어디든!앞으로!뒤로!
+  - paragraph: 인디고!위졋고!어디든!앞으로!뒤로!인디고!위졋고!어디든!앞으로!뒤로
 ---
 
 Dana Thomas Carvey (born June 2, 1955) is an American actor and stand-up comedian known for his work as a cast member on Saturday Night Live and for playing the role of Garth Algar in the Wayne's World films.

@@ -4,16 +4,16 @@ layout: default
 
 <div class="container-prj side-top-btm clearfix paddingxy">
   <!--title-->
-
-  <h1 class="prj-margin">{{ page.title }}</h1>
-  <p class="prj-margin postdate">
-    <time
-      datetime="{{ page.date | date_to_xmlschema }}"
-      itemprop="datePublished"
-      >{{ page.date | date_to_long_string }}</time
-    >
-  </p>
-
+  <div class="prj-title">
+    <h1 class="prj-margin">{{ page.title }}</h1>
+    <p class="prj-margin postdate">
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+        >{{ page.date | date_to_long_string }}</time
+      >
+    </p>
+  </div>
   <!--paragraph(s)-->
   {% for description in page.description %}
   <p class="prj-margin">{{ description.paragraph }}</p>
