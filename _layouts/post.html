@@ -19,7 +19,7 @@ layout: default
   <p class="prj-margin">{{ description.paragraph }}</p>
   {% endfor %}
   <!--tags-->
-  <span class="tag tagpd prj-margin">
+  <span class="tag tagpd prj-margin postdate">
     {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }} {%
     else %} {{ tags.tag }} — {% endif %} {% endfor %}
   </span>
