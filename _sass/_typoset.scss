@@ -42,7 +42,7 @@ em {
 }
 
 .copyminhee {
-  margin-bottom: 60px;
+  margin-bottom: 72px;
 }
 
 .copyminhee h1 {
@@ -151,6 +151,22 @@ em {
 
   .prj-title h1 {
     font-size: 1.5em;
+  }
+
+  .copyminhee {
+    margin-bottom: 60px;
+  }
+
+  .copyminhee h1 {
+    font-family: $menu-font-family;
+    font-size: $font-sub-h2;
+    color: $black-point;
+  }
+
+  .copyminhee p {
+    font-family: $header-font-family;
+    color: $grey-l;
+    margin-top: -0.4em;
   }
 }
 
