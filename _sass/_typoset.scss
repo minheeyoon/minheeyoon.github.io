@@ -140,20 +140,18 @@ em {
 
 // --------------------------------------------------
 // --------------------------------------------------
-// hover
+hover .link-primary {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 2px;
+  transition: ease-in-out 0.15s;
 
-// .link-primary {
-//   text-decoration: none;
-//   border-bottom: 1px solid transparent;
-//   border-radius: 1px;
-//   transition: ease-in-out 0.15s;
-
-//   &:hover,
-//   &:active {
-//     text-decoration: none;
-//     border-bottom-color: $point;
-//   }
-// }
+  &:hover,
+  &:active {
+    text-decoration: none;
+    border-bottom-color: $point;
+  }
+}
 
 .active {
   border-bottom-color: $point;
@@ -168,56 +166,3 @@ em {
     opacity: 0.8;
   }
 }
-
-.dot {
-  position: absolute;
-  width: 0.4em;
-  height: 0.4em;
-  border-radius: 50%;
-  background: $point;
-
-  display: inline-block;
-  text-align: center;
-}
-
-.dot {
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.record:hover ~ .line {
-  right: 200px !important;
-}
-.project:hover ~ .line {
-  right: 100px !important;
-}
-
-.profile:hover ~ .line {
-  right: 0px !important;
-}
-
-.record:target ~ .line {
-  right: 200px;
-}
-
-.project:target ~ .line {
-  right: 100px;
-}
-
-.profile:target ~ .line {
-  right: 0px;
-}
-
-// $total-rows: 3;
-
-// @for $i from 1 through $total-rows {
-//   $row-height: 100% / $total-rows;
-//   $top: $i * $row-height - $row-height / 2 - 0.5%;
-//   // I learned something new about specificity with nth-child today
-//   li.active:nth-child(#{$i}) ~ .dot,
-//   ul li:nth-child(#{$i}):hover ~ .dot {
-//     top: $top;
-//   }
-// }
