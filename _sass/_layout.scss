@@ -276,6 +276,12 @@
   color: $grey-s;
 }
 
+.tagtypo {
+  font-weight: bold;
+  font-size: $font-sub-p4;
+  text-transform: uppercase;
+}
+
 .tagpd {
   padding: $spacer-1;
 }
