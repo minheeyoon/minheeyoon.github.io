@@ -13,14 +13,14 @@ layout: default
   <!--project description-->
   <div class="prj-margin clearfix">
     <!--title-->
-    <h2 class="">{{ page.title }}</h2>
+    <h1 class="">{{ page.title }}</h1>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
     <p class="">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <div class="content-info-top">
+    <div class="tag-top-btm">
       <span class="tag tagpd prj-margin tagtypo">
         {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
         {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
