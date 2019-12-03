@@ -18,6 +18,13 @@ description:
 images:
   - image_path: testminhee/test-minhee-image
     image_alt: 하이루
+images:
+  - image_path: testminhee/test-side-01
+    image_alt: test01
+    conarea-side: true
+  - image_path: testminhee/test-side-02
+    image_alt: test02
+    conarea-side: true
 ---
 
 ## 본문 TEST
