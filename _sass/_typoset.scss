@@ -175,3 +175,25 @@ em {
   text-decoration: none;
   border-bottom-color: $point;
 }
+
+.dot {
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: $point;
+  transform: translatey(-50%);
+  transition: 0.3s ease top;
+}
+
+$total-rows: 3;
+
+@for $i from 1 through $total-rows {
+  $row-height: 100% / $total-rows;
+  $top: $i * $row-height - $row-height / 2 - 0.5%;
+  // I learned something new about specificity with nth-child today
+  li.active:nth-child(#{$i}) ~ .dot,
+  ul li:nth-child(#{$i}):hover ~ .dot {
+    top: $top;
+  }
+}
