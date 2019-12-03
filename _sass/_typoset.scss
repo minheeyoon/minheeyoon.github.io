@@ -41,9 +41,19 @@ em {
   font-style: italic;
 }
 
+.copyminhee {
+  margin-bottom: 60px;
+}
+
 .copyminhee h1 {
   font-family: $header-font-family;
   color: $point;
+}
+
+.copyminhee p {
+  font-family: $header-font-family;
+  color: $point;
+  margin-top: -0.4em;
 }
 
 // --------------------------------------------------
