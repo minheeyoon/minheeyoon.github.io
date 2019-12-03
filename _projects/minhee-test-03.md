@@ -1,7 +1,7 @@
 ---
 layout: project
-order: 1
-title: Testing 01
+order: 3
+title: Testing 03
 excerpt: 이거는 왜쓰는것인가
 permalink: /testminhee/
 project_image: projects/minhee-test
