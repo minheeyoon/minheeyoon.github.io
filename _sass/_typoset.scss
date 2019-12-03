@@ -191,18 +191,18 @@ em {
 }
 
 .record:hover ~ .line {
-  right: 0 !important;
+  right: 200px !important;
 }
 .project:hover ~ .line {
   right: 100px !important;
 }
 
 .profile:hover ~ .line {
-  right: 200px !important;
+  right: 0px !important;
 }
 
 .record:target ~ .line {
-  right: 0px;
+  right: 200px;
 }
 
 .project:target ~ .line {
@@ -210,7 +210,7 @@ em {
 }
 
 .profile:target ~ .line {
-  right: 200px;
+  right: 0px;
 }
 
 // $total-rows: 3;
