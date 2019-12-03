@@ -215,6 +215,37 @@
 .my-content-start {
   margin-top: $spacer-5;
 }
+// --------------------------------------------------
+// --------------------------------------------------
+//tag
+.tag {
+  background-color: $grey-s;
+  border-radius: $spacer-1 / 4;
+  color: $grey-l;
+}
+
+.tagtypo {
+  font-weight: bold;
+  font-size: $font-sub-p4;
+  text-transform: uppercase;
+}
+
+.tagpd {
+  padding: $spacer-1;
+}
+
+.tag-top-btm {
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
+}
+
+// --------------------------------------------------
+// --------------------------------------------------
+//index
+.index-tob-btm {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 // --------------------------------------------------
 // --------------------------------------------------
@@ -234,6 +265,10 @@
   .content-padding {
     padding-left: $spacer-1;
     padding-right: $spacer-1;
+  }
+  .index-tob-btm {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 // --------------------------------------------------
@@ -282,36 +317,9 @@
     margin-top: $spacer-1;
     margin-bottom: $spacer-3;
   }
-}
 
-// --------------------------------------------------
-// --------------------------------------------------
-// --------------------------------------------------
-
-//index
-.index-tob-btm {
-  margin-top: 42px;
-  margin-bottom: 42px;
-}
-
-//tag
-.tag {
-  background-color: $grey-s;
-  border-radius: $spacer-1 / 4;
-  color: $grey-l;
-}
-
-.tagtypo {
-  font-weight: bold;
-  font-size: $font-sub-p4;
-  text-transform: uppercase;
-}
-
-.tagpd {
-  padding: $spacer-1;
-}
-
-.tag-top-btm {
-  margin-top: $spacer-2;
-  margin-bottom: $spacer-2;
+  .index-tob-btm {
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
 }
