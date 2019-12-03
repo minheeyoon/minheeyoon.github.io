@@ -147,17 +147,17 @@ em {
   border-spacing: 50%;
   border-bottom: 2px solid transparent;
   border-radius: 1px;
-  transition: ease-in-out 0.15s;
+  transition: ease-in-out 0.2s;
 
   &:hover,
   &:active {
     text-decoration: none;
-    border-bottom-color: $black;
+    border-bottom-color: $black-point;
   }
 }
 
 .active {
-  border-bottom-color: $black;
+  border-bottom-color: $black-point;
 }
 
 // Image as a link
