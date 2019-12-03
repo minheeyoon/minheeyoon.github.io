@@ -108,9 +108,9 @@
   margin-bottom: $spacer-5;
 }
 
-// .content-info-top {
-//   margin-top: $spacer-2;
-// }
+.content-info-top {
+  margin-top: $spacer-2;
+}
 
 .date-box {
   margin-bottom: 0;
@@ -290,4 +290,9 @@
 
 .tagpd {
   padding: $spacer-1;
+}
+
+.tag-top-btm {
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
 }
