@@ -1,5 +1,5 @@
 <div class="contents-box prj-margin">
-  <a class="block" href="{{ post.url | prepend: site.baseurl }}">
+  <a class="block link-image" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
   </a>
   <div class="content-info-top">
@@ -9,7 +9,7 @@
 
     <h2 class="posttitle conarea content-listtit-top">
       <a
-        class="link"
+        class="link-primary"
         title="{{ post.url | prepend: site.baseurl }}"
         href="{{ post.url | prepend: site.baseurl }}"
         >{{ post.title }}</a

@@ -137,3 +137,35 @@ em {
     font-size: 1.5em;
   }
 }
+
+// --------------------------------------------------
+// --------------------------------------------------
+// hover
+// 1280px
+.link-primary {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: ease-in-out 0.15s;
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+    border-bottom-color: $point;
+  }
+}
+
+.active {
+  text-decoration: none;
+  border-bottom-color: $point;
+}
+
+// Image as a link
+.link-image {
+  img {
+    transition: all 0.2s ease-out;
+  }
+  img:hover {
+    opacity: 0.8;
+  }
+}
