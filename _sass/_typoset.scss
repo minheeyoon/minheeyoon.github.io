@@ -20,6 +20,25 @@ p {
   font-size: $font-sub-p3;
   margin-top: 0.8em;
 }
+
+body {
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b {
+  font-weight: 800;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
 // --------------------------------------------------
 // --------------------------------------------------
 //header&footner - font set

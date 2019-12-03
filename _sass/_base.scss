@@ -32,11 +32,21 @@ a {
   // font-family: $header-font-family;
 }
 
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 img {
   margin: 0 auto;
   display: block;
   max-width: 100%;
 }
+
 // --------------------------------------------------
 // --------------------------------------------------
 // index 시작
