@@ -156,7 +156,6 @@ em {
 // }
 
 .active {
-  text-decoration: none;
   border-bottom-color: $point;
 }
 
@@ -171,8 +170,6 @@ em {
 }
 
 .dot {
-  text-decoration: none;
-
   position: absolute;
   width: 0.4em;
   height: 0.4em;
