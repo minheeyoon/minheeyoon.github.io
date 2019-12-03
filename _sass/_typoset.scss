@@ -144,8 +144,9 @@ em {
 // 1280px
 .link-primary {
   text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  border-radius: 2px;
   transition: ease-in-out 0.15s;
 
   &:hover,
