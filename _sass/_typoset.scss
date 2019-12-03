@@ -152,12 +152,12 @@ em {
   &:hover,
   &:active {
     text-decoration: none;
-    border-bottom-color: $point;
+    border-bottom-color: $black;
   }
 }
 
 .active {
-  border-bottom-color: $point;
+  border-bottom-color: $black;
 }
 
 // Image as a link
