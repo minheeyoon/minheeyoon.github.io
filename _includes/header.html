@@ -9,9 +9,21 @@
   <div class="right align-middle top-12px">
     <ul class="list-reset">
       <li class="inline-block navfont-r">
-        <a class="menu-rignt-sm link-primary" href="/record">Record</a>
-        <a class="menu-rignt-sm link-primary" href="/project-side">Project</a>
-        <a class="link-primary" href="/profile">Profile</a>
+        <a
+          class="menu-rignt-sm link-primary {% if page.category == 'record' %}active{% endif %}"
+          href="/record"
+          >Record</a
+        >
+        <a
+          class="menu-rignt-sm link-primary {% if page.category == 'project-side' %}active{% endif %}"
+          href="/project-side"
+          >Project</a
+        >
+        <a
+          class="link-primary {% if page.category == 'profile' %}active{% endif %}"
+          href="/profile"
+          >Profile</a
+        >
       </li>
     </ul>
   </div>

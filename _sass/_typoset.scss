@@ -170,3 +170,8 @@ em {
     opacity: 0.8;
   }
 }
+
+.active {
+  text-decoration: none;
+  border-bottom-color: $brand;
+}
