@@ -266,14 +266,19 @@
     padding-left: $spacer-1;
     padding-right: $spacer-1;
   }
+
+  .index-tob-btm {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
 // --------------------------------------------------
 // --------------------------------------------------
 //640px 부터 레이아웃 변화
 @media (max-width: $desktop-md) {
   .index-tob-btm {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .sm-width-full {
