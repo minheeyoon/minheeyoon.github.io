@@ -161,7 +161,8 @@
 }
 
 .ar-1x1 {
-  padding-bottom: 100%;
+  // padding-bottom: 100%;
+  padding: 0;
 }
 
 .ar-object {
@@ -247,6 +248,19 @@
   height: 85vh;
   // margin-top: 140px;
   // margin-bottom: 140px;
+}
+
+.test-minhee {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.img-center {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
 
 // --------------------------------------------------
