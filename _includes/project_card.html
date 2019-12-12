@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<div class="contents-box conarea-side left prj-margin sm-width-full">
+  <a class="block link-image" href="{{ project.permalink }}">
+    <div class="aspect-ratio ar-4x3">
+      <img
+        srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
+                  /assets/img/{{ project.project_image }}-1000px.jpg 1000w,"
+        sizes="(max-width: 560px) 100vw, 50vw"
+        src="/assets/img/{{ project.project_image }}-540px.jpg"
+        alt="{{ project.title }}"
+        class="ar-object border-radius"
+      />
+    </div>
+  </a>
+
+  <div class="content-listtit-top">
+    <a class=" link-primary posttitle conarea" href="{{ project.permalink }}"
+      >{{ project.title }}</a
+    >
+  </div>
+</div>

@@ -1,19 +1,31 @@
-<header class="paddingX paddingY clearfix">
+<header class="nav-container">
   <!-- {% unless page.homepage == true %} -->
-  <div class="left align-middle flex-column">
-    <a class="align-middle menufont " href="/"> UI/UX designers </a>
-    <br />
-    <a class="align-middle menufont" href="/">
-      who love interaction
+  <div class="left align-middle navfont-l">
+    <a class="align-middle link-primary" href="/">
+      {{ site.title }}
     </a>
   </div>
   {% endunless %}
-  <div class="right align-middle marginY">
+  <div class="right align-middle top-12px">
     <ul class="list-reset">
-      <li class="inline-block">
-        <a class=" big mid marginX-sm " href="/wirte">Wirte</a>
-        <a class=" big mid marginX-sm " href="/side">Side</a>
-        <a class=" big mid " href="/profile">Profile</a>
+      <li class="inline-block navfont-r">
+        <a
+          class="menu-rignt-sm link-primary {% if page.category == 'record' %}active{% endif %}"
+          href="/record"
+          >Record</a
+        >
+
+        <a
+          class=" link-primary {% if page.category == 'project-side' %}active{% endif %}"
+          href="/project-side"
+          >Project</a
+        >
+
+        <!-- <a
+          class="link-primary {% if page.category == 'profile' %}active{% endif %}"
+          href="/profile"
+          >Profile</a
+        > -->
       </li>
     </ul>
   </div>

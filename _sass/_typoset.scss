@@ -1,5 +1,7 @@
 @import "variables";
 
+// --------------------------------------------------
+// --------------------------------------------------
 /* Typo set */
 
 h1,
@@ -9,43 +11,98 @@ h4,
 h5,
 h6 {
   font-family: $header-font-family;
-  // margin-top: 1em;
-  // margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
+  color: $color-title;
 }
 
 p {
-  font-family: $prose-font-size;
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  margin-top: 0.8em;
+  color: $color-title;
+  letter-spacing: -0.008em;
 }
 
-//headline
-.typo-head {
+body {
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b {
+  font-weight: 800;
+}
+
+i,
+em {
+  font-style: italic;
+}
+// --------------------------------------------------
+// --------------------------------------------------
+//리스트 페이지의 상단 카피라이트
+.copyminhee {
+  margin-bottom: 120px;
+  margin-top: 20px;
+}
+
+.copyminhee h1 {
+  font-family: $menu-font-family;
   font-size: $font-title;
+  color: $black-point;
 }
 
-.menufont {
+.copyminhee p {
   font-family: $header-font-family;
-  font-size: $font-sub-h1;
-  line-height: 1.2em;
+  color: $grey-l;
+  margin-top: -1.4em;
 }
 
-// post title
+// --------------------------------------------------
+// --------------------------------------------------
+//header&footner - font set
+.navfont-l {
+  font-family: $menu-font-family;
+  font-size: $font-sub-h2;
+  line-height: 1em;
+  color: $black;
+}
+
+.navfont-r {
+  font-family: $menu-font-family;
+  color: $black;
+}
+
+.footer-set {
+  font-family: $menu-font-family;
+  color: $black;
+}
+// --------------------------------------------------
+// --------------------------------------------------
+// Side List - Title - Subcopy - date - SET
 
 .posttitle {
-  text-align: left;
+  font-size: $font-sub-h3;
+  font-family: $header-font-family;
+  color: $black;
 }
 
 // post date
 .postdate {
-  text-align: left;
+  font-family: "CircularPro";
   font-size: $font-sub-p3;
   text-transform: uppercase;
+  color: $grey-l;
 }
 
-// post content
+// --------------------------------------------------
+// --------------------------------------------------
+// Side Contents
+
 .prose {
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .prose p {
@@ -54,30 +111,100 @@ p {
   width: 60%;
 }
 
+// --------------------------------------------------
+// --------------------------------------------------
+// 반응
 // 1280px
-@media (max-width: $desktop-lg) {
-  .menufont {
-    font-family: $header-font-family;
-    font-size: $font-sub-h2;
+@media (max-width: 720px) {
+  .navfont-l {
+    font-size: $font-sub-p1;
+    margin-top: 2px;
   }
 }
-
-//1024px
-@media (max-width: $desktop-df) {
-  .menufont {
-    font-family: $header-font-family;
-    font-size: $font-sub-h3;
-  }
-}
-
 // 640x
 @media (max-width: $desktop-md) {
   .menufont {
-    font-family: $header-font-family;
     font-size: $font-sub-h3;
   }
-  .btm-up {
-    font-size: $font-sub-p4;
+
+  .navfont-r {
+    font-size: $font-sub-p3;
     letter-spacing: 0px;
+  }
+
+  .footer-set {
+    font-size: $font-sub-p3;
+    letter-spacing: 0px;
+  }
+
+  .posttitle {
+    text-align: left;
+    font-size: $font-sub-p1;
+  }
+
+  p {
+    font-size: $font-sub-p3;
+    margin-top: 0.8em;
+  }
+
+  .postdate {
+    font-size: $font-sub-p4;
+  }
+
+  .prj-title h1 {
+    font-size: 1.5em;
+  }
+
+  .copyminhee {
+    margin-bottom: 82px;
+    margin-top: 20px;
+  }
+
+  .copyminhee h1 {
+    font-family: $menu-font-family;
+    font-size: $font-sub-h3;
+    color: $black-point;
+    letter-spacing: -0.009;
+  }
+
+  .copyminhee p {
+    font-family: $header-font-family;
+    font-size: $font-sub-p3;
+    color: $grey-l;
+    margin-top: -0.5em;
+    letter-spacing: -0.005;
+  }
+}
+
+// --------------------------------------------------
+// --------------------------------------------------
+//hover
+
+.link-primary {
+  // text-decoration: none;
+  // border-spacing: 50%;
+  // border-bottom: 2px solid transparent;
+  // border-radius: 1px;
+  transition: ease-in-out 0.2s;
+
+  &:hover,
+  &:active {
+    // text-decoration: none;
+    // border-bottom-color: $black-point;
+    opacity: 0.8;
+  }
+}
+
+.active {
+  color: $point;
+}
+
+// Image as a link
+.link-image {
+  img {
+    transition: all 0.2s ease-out;
+  }
+  img:hover {
+    opacity: 0.8;
   }
 }

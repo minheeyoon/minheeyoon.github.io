@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="em">
+<html lang="en">
   {% include head.html %}
   <body>
-    {% include header-sub.html %}
+    <div class="relative top-0 left-0 right-0">
+      {% include header.html %}
+    </div>
     <div>
       {{ content }}
     </div>
-    <div class="fixed bottom-0 left-0 right-0">
+    <div class="footer-relative bottom-0 left-0 right-0">
       {% include footer.html %}
     </div>
   </body>
