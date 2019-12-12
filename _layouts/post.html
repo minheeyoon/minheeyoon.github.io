@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="container-prj side-top-btm clearfix paddingxy">
+  <!--title-->
+  <div class="prj-side-title">
+    <h2 class="prj-margin">{{ page.title }}</h2>
+    <p class="prj-margin postdate">
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+        >{{ page.date | date_to_long_string }}</time
+      >
+    </p>
+  </div>
+  <!--paragraph(s)-->
+  {% for description in page.description %}
+  <div class="content-info-top conarea">
+    <p class="prj-margin">{{ description.paragraph }}</p>
+  </div>
+  {% endfor %}
+  <!--tags-->
+  <div class="tag-top-btm prj-margin">
+    <span class="tag tagpd prj-margin tagtypo">
+      {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
+      {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
+    </span>
+  </div>
+
+  <div class="prj-margin my-content-start write-info">
+    {{ content }}
+  </div>
+</div>
