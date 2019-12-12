@@ -84,7 +84,6 @@ em {
 // Side List - Title - Subcopy - date - SET
 
 .posttitle {
-  font-weight: bold;
   font-size: $font-sub-h3;
   font-family: $header-font-family;
   color: $black;
@@ -92,7 +91,6 @@ em {
 
 // post date
 .postdate {
-  font-weight: bold;
   font-size: $font-sub-p3;
   text-transform: uppercase;
   color: $grey-l;
