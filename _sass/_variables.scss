@@ -1,2 +1,61 @@
-//Container (contents size) -------------------------------------
-$container-width-df: 62.5em;
+// Spacing
+$spacer: 8px !default;
+
+// Spacing scale
+$spacer-1: $spacer !default; // 8px
+$spacer-2: ($spacer * 2) !default; // 16px
+$spacer-3: ($spacer * 3) !default; // 24px
+$spacer-4: ($spacer * 4) !default; // 32px
+$spacer-5: ($spacer * 8) !default; // 64px
+
+$spacer-6: ($spacer * 15) !default; // 120px
+$spacer-7: ($spacer * 45) !default; // 360px
+$spacer-8: ($spacer * 60) !default; // 480px
+
+// Desktop View
+// 16px 기준 : 1800px
+$desktop-xxlg: 112.5em;
+// 16px 기준 : 1600px
+$desktop-xlg: 100em;
+// 16px 기준 : 1500px
+$desktop-mlg: 95em;
+// 16px 기준: 1280px
+$desktop-lg: 80em;
+// 16px 기준: 1024px
+$desktop-df: 64em;
+// 16px 기준: 640px
+$desktop-md: 40em;
+
+// Mobile view
+$mobile: 24em;
+//16px 기준 : 384px
+
+// Container
+// 16px 기준: 1200px
+$container-width: 75em;
+// 16px 기준: 750px
+$container-width-md: 46.875em;
+// 16px 기준: 344px
+$container-width-sm: 21.5em;
+
+//font
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Noto+Sans|Noto+Sans+KR|Noto+Serif+KR&display=swap");
+
+$header-font-family: "DM Serif Display", "Noto Serif KR", serif;
+$body-font-family: "Noto Sans KR", "Noto San", sans-serif;
+
+//Typo
+$body-font-weight: normal;
+$body-font-size: 16px;
+$prose-font-size: 20px;
+
+$font-head: 6rem !default; // 96px
+$font-title: 5rem !default; // 80px
+
+$font-sub-h1: 4rem !default; // 64px
+$font-sub-h2: 3rem !default; // 48px
+$font-sub-h3: 2.25rem !default; // 36px
+$font-sub-p1: 1.5rem !default; // 24px
+$font-sub-p2: 1.25rem !default; // 20px
+$font-sub-p3: 1rem !default; // 16px
+$font-sub-p4: 0.75rem !default; // 12px

@@ -1,0 +1,23 @@
+<div class="paddingX paddingY marginX marginY">
+  <a class=" block" href="{{ post.url | prepend: site.baseurl }}">
+    {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
+  </a>
+  <div class="">
+    <p class="postdate right-date">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+
+    <h2 class="posttitle conarea">
+      <a
+        class="link "
+        title="{{ post.url | prepend: site.baseurl }}"
+        href="{{ post.url | prepend: site.baseurl }}"
+        >{{ post.title }}</a
+      >
+    </h2>
+
+    <p class="conarea">
+      {{ post.content | strip_html | truncatewords:24 }}
+    </p>
+  </div>
+</div>
