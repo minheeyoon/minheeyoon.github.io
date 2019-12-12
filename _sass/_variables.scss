@@ -51,9 +51,13 @@ $container-width-sm: 21.5em;
 // --------------------------------------------------
 //font
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR|Noto+Sans:700&display=swap");
+@font-face {
+  font-family: "CircularPro";
+  src: url("/assets/font/CircularPro-Bold.otf");
+}
 
 $menu-font-family: "DM Serif Text", serif;
-$header-font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+$header-font-family: "CircularPro", "Noto Sans", sans-serif;
 $body-font-family: "Noto Sans KR", "Noto Sans", sans-serif;
 
 //Typo
