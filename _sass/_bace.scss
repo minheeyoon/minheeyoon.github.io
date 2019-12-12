@@ -1,0 +1,29 @@
+// 스타일 전부 리셋  -------------------------------------------------
+
+* {
+  margin: 0px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.link-primary {
+  font-size: 30px;
+}
