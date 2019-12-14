@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
   font-family: $header-font-family;
-  margin-bottom: 0.25em;
+  margin-bottom: -0.25em;
   color: $color-title;
 }
 
@@ -25,7 +25,7 @@ p {
 
 body {
   font-family: $body-font-family;
-  font-weight: $body-font-weight;
+  // font-weight: $body-font-weight;
   font-size: $body-font-size;
   background-color: $white;
   -webkit-font-smoothing: antialiased;
@@ -33,7 +33,7 @@ body {
 }
 
 b {
-  font-weight: 800;
+  font-weight: normal;
 }
 
 i,
