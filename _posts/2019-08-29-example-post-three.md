@@ -1,7 +1,7 @@
 ---
 layout: post
 title: En Title TEST
-thum_image: project_test/blog-01-thum
+thum_image: test/blog-01-thum
 category: People
 
 description:
