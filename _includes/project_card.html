@@ -2,10 +2,11 @@
 
 <div class="con-area-50 left sm-width-full padding-rl-1">
   <a class="block link-image" href="{{ project.permalink }}">
-    <div class="aspect-ratio ar-4x3">
+    <div class="aspect-ratio ar-16x9">
       <img
         srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
-                  /assets/img/{{ project.project_image }}-1000px.jpg 1000w,"
+                  /assets/img/{{ project.project_image }}-1000px.jpg 1000w,
+                  /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
         sizes="(max-width: 560px) 100vw, 50vw"
         src="/assets/img/{{ project.project_image }}-540px.jpg"
         alt="{{ project.title }}"
@@ -16,7 +17,7 @@
 
   <div class="content-listtit-top">
     <a
-      class=" link-primary posttitle con-area-50"
+      class=" link-primary posttitle con-area-90"
       href="{{ project.permalink }}"
       >{{ project.title }}</a
     >
