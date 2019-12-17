@@ -18,7 +18,17 @@ $color-contents: $black !default;
 $color-accent: $point !default;
 $color-link: $point !default;
 
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR|Noto+Sans:700&display=swap");
+@font-face {
+  font-family: "CircularPro";
+  src: url("/assets/font/CircularPro-Medium.otf");
+}
+
+$menu-font-family: "DM Serif Text", serif;
+$header-font-family: "CircularPro", "Noto Sans KR", sans-serif;
+$body-font-family: "Noto Sans KR", "CircularPro", sans-serif;
+
 // --------------------------------------------------
 // --------------------------------------------------
 
-@import "base", "layout", "typoset", "variables";
+@import "base", "layout", "variables", "typoset";

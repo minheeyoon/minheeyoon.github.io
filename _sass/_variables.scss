@@ -50,15 +50,15 @@ $container-width-sm: 21.5em;
 // --------------------------------------------------
 // --------------------------------------------------
 //font
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR|Noto+Sans:700&display=swap");
-@font-face {
-  font-family: "CircularPro";
-  src: url("/assets/font/CircularPro-Medium.otf");
-}
+// @import url("https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR|Noto+Sans:700&display=swap");
+// @font-face {
+//   font-family: "CircularPro";
+//   src: url("/assets/font/CircularPro-Medium.otf");
+// }
 
-$menu-font-family: "DM Serif Text", serif;
-$header-font-family: "CircularPro", "Noto Sans KR", sans-serif;
-$body-font-family: "Noto Sans KR", "CircularPro", sans-serif;
+// $menu-font-family: "DM Serif Text", serif;
+// $header-font-family: "CircularPro", "Noto Sans KR", sans-serif;
+// $body-font-family: "Noto Sans KR", "CircularPro", sans-serif;
 
 //Typo
 $body-font-weight: normal;
