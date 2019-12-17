@@ -4,11 +4,9 @@
 
 .nav-container {
   max-width: $container-width-df;
-  margin: auto;
 }
 .container {
   max-width: $container-width-df;
-  margin: auto;
 }
 
 /* Padding */
@@ -34,6 +32,15 @@
 }
 
 /* Margin */
+
+.margin-tb-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.margin-lr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .margin-r-1 {
   margin-right: $spacer-1;
