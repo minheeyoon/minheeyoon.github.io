@@ -41,25 +41,40 @@ a {
   font-family: $basic-font-family;
 }
 
+// --------------------------------------------------
+// --------------------------------------------------
+// 스타일 기본
+
 body {
   font-family: $basic-font-family;
   font-weight: $body-font-weight;
   font-size: $body-font-size;
   background-color: $white;
+  line-height: 1.5;
+  color: $color-contents;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   font-family: $header-font-family;
-//   margin-bottom: 0.25em;
-//   color: $color-title;
-// }
+b {
+  font-weight: 600;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $basic-font-family;
+  margin-bottom: 0.25em;
+  color: $color-title;
+}
 
 // p {
 //   font-family: $body-font-family;
@@ -67,15 +82,6 @@ body {
 //   margin-top: 0.8em;
 //   color: $color-title;
 //   letter-spacing: -0.008em;
-// }
-
-// b {
-//   font-weight: 800;
-// }
-
-// i,
-// em {
-//   font-style: italic;
 // }
 
 // img {
