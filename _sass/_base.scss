@@ -41,6 +41,17 @@ a {
   color: inherit;
 }
 
+/* 스타일 기본  */
+
+body {
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  color: $black-point;
+  background-color: $white;
+  line-height: 1.8;
+}
+
 // img {
 //   margin: 0 auto;
 //   display: block;
