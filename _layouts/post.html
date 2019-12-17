@@ -4,9 +4,9 @@ layout: default
 
 <div class="container margin-lr-auto margin-tb-auto">
   <!--title-->
-  <div class="prj-side-title">
-    <h2 class="prj-margin">{{ page.title }}</h2>
-    <p class="prj-margin postdate">
+  <div class="">
+    <h2 class="">{{ page.title }}</h2>
+    <p class="">
       <time
         datetime="{{ page.date | date_to_xmlschema }}"
         itemprop="datePublished"
@@ -16,19 +16,19 @@ layout: default
   </div>
   <!--paragraph(s)-->
   {% for description in page.description %}
-  <div class="content-info-top conarea">
-    <p class="prj-margin">{{ description.paragraph }}</p>
+  <div class="">
+    <p class="">{{ description.paragraph }}</p>
   </div>
   {% endfor %}
   <!--tags-->
-  <div class="tag-top-btm prj-margin">
-    <span class="tag tagpd prj-margin tagtypo">
+  <div class="">
+    <span class="">
       {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
       {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
     </span>
   </div>
 
-  <div class="prj-margin my-content-start write-info">
+  <div class="">
     {{ content }}
   </div>
 </div>
