@@ -2,26 +2,26 @@
 layout: default
 ---
 
-<div class="container-prj side-top-btm clearfix paddingxy">
+<div class="container-record margin-lr-auto margin-tb-auto clearfix">
   <!--Top Cover image-->
   {% if page.thum_image %}
-  <div class="prj-margin">
+  <div class="margin-t-2 margin-b-1 padding-rl-1">
     {% include project_list_thum.html %}
   </div>
   {% endif %}
 
   <!--project description-->
-  <div class="prj-margin clearfix prj-title">
+  <div class="clearfix padding-rl-1">
     <!--title-->
-    <h1 class="">{{ page.title }}</h1>
+    <h1 class="con-area-90">{{ page.title }}</h1>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
-    <p class="conarea">{{ description.paragraph }}</p>
+    <p class="con-area-90">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <div class="tag-top-btm">
-      <span class="tag tagpd prj-margin tagtypo">
+    <div class="">
+      <span class="">
         {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
         {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
       </span>
@@ -30,9 +30,9 @@ layout: default
   <!--project images-->
   <div class="clearfix">
     {% for image in page.images %} {% if image.con-area-50 == true %}
-    <div class="con-area-50 sm-width-full left">
+    <div class="con-area-50 left">
       {% endif %}
-      <div class="prj-margin con-img-top-btm">
+      <div class="padding-rl-1">
         {% include project_image.html %} {% if image.caption %}
         <p class="">
           {{ image.caption }}
@@ -44,7 +44,7 @@ layout: default
     {% endif %} {% endfor %}
   </div>
 
-  <div class="prj-margin content-padding write-info">
+  <div class="margin-t-2 margin-b-1 padding-rl-1">
     {{ content }}
   </div>
 
