@@ -60,6 +60,14 @@ b {
   font-weight: 600;
 }
 
+p {
+  font-family: $basic-font-family;
+  font-size: $body-font-size;
+  margin-top: 0.8em;
+  color: $color-contents;
+  letter-spacing: -0.008em;
+}
+
 i,
 em {
   font-style: italic;
@@ -76,19 +84,10 @@ h6 {
   color: $color-title;
 }
 
-p {
-  font-family: $basic-font-family;
-  font-size: $body-font-size;
-  margin-top: 0.8em;
-  color: $color-contents;
-  letter-spacing: -0.008em;
+img {
+  display: block;
+  max-width: 100%;
 }
-
-// img {
-//   margin: 0 auto;
-//   display: block;
-//   max-width: 100%;
-// }
 
 // // --------------------------------------------------
 // // --------------------------------------------------

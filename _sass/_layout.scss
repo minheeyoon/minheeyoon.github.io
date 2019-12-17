@@ -1,6 +1,12 @@
 @import "variables";
 
-// --------------------------------------------------
+/* container */
+
+.nav-container {
+  max-width: $container-width-df;
+  margin: auto;
+}
+
 // --------------------------------------------------
 // // *Header&Footer 기본 set*
 // .relative {
