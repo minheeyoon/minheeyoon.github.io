@@ -23,7 +23,7 @@ images:
     con-area-50: true
   - image_path: testminhee/test-side-02
     image_alt: test02
-    conarea-side: true
+    con-area-50: true
 ---
 
 ##### 본문 TEST
