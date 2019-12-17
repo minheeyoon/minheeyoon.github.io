@@ -11,6 +11,16 @@
   margin: auto;
 }
 
+/* Padding */
+.padding-tb-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.padding-tb-1 {
+  padding-top: $spacer-1;
+  padding-bottom: $spacer-1;
+}
+
 // --------------------------------------------------
 // // *Header&Footer 기본 set*
 .left {
