@@ -9,14 +9,14 @@
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
 
-    <h2 class="posttitle conarea content-listtit-top">
+    <a class="posttitle conarea content-listtit-top">
       <a
         class="link-primary"
         title="{{ post.url | prepend: site.baseurl }}"
         href="{{ post.url | prepend: site.baseurl }}"
         >{{ post.title }}</a
       >
-    </h2>
+    </a>
 
     <p class="conarea">
       {{ post.content | strip_html | truncatewords:24 }}

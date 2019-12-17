@@ -30,6 +30,15 @@ figure {
   padding: 0;
 }
 
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 a {
   text-decoration: none;
   color: inherit;
