@@ -4,7 +4,7 @@ order: 1
 title: Testing 01
 excerpt: 이거는 왜쓰는것인가
 permalink: /testminhee/
-project_image: record/minhee-test
+project_image: projects/minhee-test
 thum_image: testminhee/top-image
 thum_alt: TEST
 category: work
