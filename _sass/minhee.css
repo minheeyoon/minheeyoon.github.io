@@ -157,12 +157,20 @@ img {
   margin-right: auto;
 }
 
+.margin-t-1 {
+  margin-top: 8px;
+}
+
 .margin-r-1 {
   margin-right: 8px;
 }
 
 .margin-b-1 {
   margin-bottom: 8px;
+}
+
+.margin-t-2 {
+  margin-top: 16px;
 }
 
 .margin-r-2 {

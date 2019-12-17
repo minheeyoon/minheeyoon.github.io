@@ -61,11 +61,17 @@
   margin-right: auto;
 }
 
+.margin-t-1 {
+  margin-top: $spacer-1;
+}
 .margin-r-1 {
   margin-right: $spacer-1;
 }
 .margin-b-1 {
   margin-bottom: $spacer-1;
+}
+.margin-t-2 {
+  margin-top: $spacer-2;
 }
 .margin-r-2 {
   margin-right: $spacer-2;
