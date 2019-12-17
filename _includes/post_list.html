@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
-<div class="contents-box prj-margin">
+<div class="">
   <a class="block link-image" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.thum_image %} {% include post_list_thum.html %} {% endif %}
   </a>
-  <div class="content-info-top">
-    <p class="postdate date-box right sm-width-full">
+  <div class="">
+    <p class="right sm-width-full">
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
 
-    <a class="posttitle conarea content-listtit-top">
+    <a class="posttitle con-area-90">
       <a
         class="link-primary"
         title="{{ post.url | prepend: site.baseurl }}"
@@ -18,7 +18,7 @@
       >
     </a>
 
-    <p class="conarea">
+    <p class="con-area-90">
       {{ post.content | strip_html | truncatewords:24 }}
     </p>
   </div>

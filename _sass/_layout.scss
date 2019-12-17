@@ -154,6 +154,12 @@
   height: 100%;
   // z-index: 100;
 }
+.con-area-90 {
+  width: (9 / 12 * 100%);
+}
+.con-area-50 {
+  width: (6 / 12 * 100%);
+}
 
 // .side-top-btm {
 //   margin-top: $spacer-4;
@@ -202,11 +208,6 @@
 // .content-y {
 //   margin-left: auto;
 //   margin-right: auto;
-// }
-
-// .porjectimage {
-//   width: 100%;
-//   height: 100%;
 // }
 
 // // --------------------------------------------------
