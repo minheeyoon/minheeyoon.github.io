@@ -28,9 +28,9 @@ layout: default
     </div>
   </div>
   <!--project images-->
-  <div class="clearfix">
+  <div class="clearfix left">
     {% for image in page.images %} {% if image.con-area-50 == true %}
-    <div class="con-area-50 left">
+    <div class="con-area-50">
       {% endif %}
       <div class="padding-rl-1">
         {% include project_image.html %} {% if image.caption %}
