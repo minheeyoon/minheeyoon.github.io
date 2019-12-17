@@ -2,8 +2,8 @@
   class="clearfix nav-container margin-tb-auto margin-lr-auto padding-tb-2"
 >
   <!-- {% unless page.homepage == true %} -->
-  <div class="left font-dmst f-p-1">
-    <a class="" href="/">
+  <div class="left">
+    <a class="font-dmst f-p-1 align-middle link-primary" href="/">
       {{ site.title }}
     </a>
   </div>
@@ -12,22 +12,15 @@
     <ul class="list-reset">
       <li class="inline-block">
         <a
-          class="margin-r-2 link-primary {% if page.category == 'record' %}active{% endif %}"
+          class="align-middle margin-r-2 link-primary {% if page.category == 'record' %}active{% endif %}"
           href="/record"
           >Record</a
         >
-
         <a
-          class=" link-primary {% if page.category == 'project-side' %}active{% endif %}"
+          class="align-middle link-primary {% if page.category == 'project-side' %}active{% endif %}"
           href="/project-side"
           >Project</a
         >
-
-        <!-- <a
-          class="link-primary {% if page.category == 'profile' %}active{% endif %}"
-          href="/profile"
-          >Profile</a
-        > -->
       </li>
     </ul>
   </div>
