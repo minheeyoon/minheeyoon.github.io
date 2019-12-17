@@ -11,13 +11,13 @@ layout: default
   {% endif %}
 
   <!--project description-->
-  <div class="">
+  <div class="clearfix padding-rl-1">
     <!--title-->
-    <h1 class="">{{ page.title }}</h1>
+    <h1 class="con-area-90">{{ page.title }}</h1>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
-    <p class="">{{ description.paragraph }}</p>
+    <p class="con-area-90">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
     <div class="">
@@ -30,7 +30,7 @@ layout: default
   <!--project images-->
   <div class="clearfix">
     {% for image in page.images %} {% if image.con-area-50 == true %}
-    <div class="con-area-50 left sm-width-full">
+    <div class="con-area-50 left">
       {% endif %}
       <div class="padding-rl-1">
         {% include project_image.html %} {% if image.caption %}
@@ -44,7 +44,7 @@ layout: default
     {% endif %} {% endfor %}
   </div>
 
-  <div class="">
+  <div class="margin-t-2 margin-b-1 padding-rl-1">
     {{ content }}
   </div>
 
