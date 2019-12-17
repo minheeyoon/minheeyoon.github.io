@@ -72,17 +72,17 @@ h4,
 h5,
 h6 {
   font-family: $basic-font-family;
-  margin-bottom: 0.25em;
+  margin-top: 0.8em;
   color: $color-title;
 }
 
-// p {
-//   font-family: $body-font-family;
-//   font-size: $body-font-size;
-//   margin-top: 0.8em;
-//   color: $color-title;
-//   letter-spacing: -0.008em;
-// }
+p {
+  font-family: $basic-font-family;
+  font-size: $body-font-size;
+  margin-top: 0.8em;
+  color: $color-contents;
+  letter-spacing: -0.008em;
+}
 
 // img {
 //   margin: 0 auto;
