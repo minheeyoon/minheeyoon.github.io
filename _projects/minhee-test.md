@@ -20,10 +20,10 @@ images:
     image_alt: 하이루
   - image_path: testminhee/test-side-01
     image_alt: test01
-    conarea-side: true
+    con-area-50: true
   - image_path: testminhee/test-side-02
     image_alt: test02
-    conarea-side: true
+    con-area-50: true
 ---
 
 ## 본문 TEST

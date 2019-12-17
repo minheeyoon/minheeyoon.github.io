@@ -29,10 +29,10 @@ layout: default
   </div>
   <!--project images-->
   <div class="clearfix">
-    {% for image in page.images %} {% if image.conarea-side == true %}
-    <div class="sm-width-full left">
+    {% for image in page.images %} {% if image.padding-rl-1 == true %}
+    <div class="con-area-50 sm-width-full left">
       {% endif %}
-      <div class="">
+      <div class="padding-rl-1">
         {% include project_image.html %} {% if image.caption %}
         <p class="">
           {{ image.caption }}
