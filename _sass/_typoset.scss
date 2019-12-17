@@ -1,12 +1,37 @@
 // --------------------------------------------------
+// Font 기본 SET
 
 .font-dmst {
   font-family: $menu-font-family;
   letter-spacing: $display-spacing-df;
 }
+.font-basic {
+  font-family: $basic-font-family;
+  letter-spacing: $display-spacing-df;
+}
 
-.f-scale-1 {
+.f-tit-1 {
+  font-size: $font-sub-h1;
+}
+.f-tit-2 {
+  font-size: $font-sub-h2;
+}
+
+.f-tit-3 {
+  font-size: $font-sub-h3;
+}
+
+.f-p-1 {
   font-size: $font-sub-p1;
+}
+.f-p-2 {
+  font-size: $font-sub-p2;
+}
+.f-p-3 {
+  font-size: $font-sub-p3;
+}
+.f-p-4 {
+  font-size: $font-sub-p4;
 }
 
 // // --------------------------------------------------
