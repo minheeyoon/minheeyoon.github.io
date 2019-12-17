@@ -41,6 +41,43 @@ a {
   font-family: $basic-font-family;
 }
 
+body {
+  font-family: $basic-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: $header-font-family;
+//   margin-bottom: 0.25em;
+//   color: $color-title;
+// }
+
+// p {
+//   font-family: $body-font-family;
+//   font-size: $body-font-size;
+//   margin-top: 0.8em;
+//   color: $color-title;
+//   letter-spacing: -0.008em;
+// }
+
+// b {
+//   font-weight: 800;
+// }
+
+// i,
+// em {
+//   font-style: italic;
+// }
+
 // img {
 //   margin: 0 auto;
 //   display: block;
