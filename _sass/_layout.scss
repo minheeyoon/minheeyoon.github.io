@@ -34,6 +34,19 @@
 .left-0 {
   left: 0;
 }
+.inline-block {
+  display: inline-block !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 // .relative {
 //   position: relative;
 //   padding: $spacer-3 $spacer-2 $spacer-4-5 $spacer-2;
@@ -108,15 +121,6 @@
 // // --------------------------------------------------
 // // --------------------------------------------------
 // //Side page  : List
-
-// .clearfix:before,
-// .clearfix:after {
-//   content: " ";
-//   display: table;
-// }
-// .clearfix:after {
-//   clear: both;
-// }
 
 // .container {
 //   max-width: $container-width-df;
