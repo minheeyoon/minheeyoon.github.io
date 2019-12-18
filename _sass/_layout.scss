@@ -184,6 +184,14 @@
   width: (6 / 12 * 100%);
 }
 
+// // --------------------------------------------------
+// // --------------------------------------------------
+//미디어쿼리
+@media (max-width: $desktop-md) {
+  .sm-width-full {
+    width: 100% !important;
+  }
+}
 // .side-top-btm {
 //   margin-top: $spacer-4;
 //   margin-bottom: $spacer-5;
