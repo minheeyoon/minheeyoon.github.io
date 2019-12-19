@@ -18,6 +18,14 @@
 .f-tit-3 {
   font-size: $font-sub-h3;
 }
+
+.f-p-1,
+.f-p-2,
+.f-p-3,
+.f-p-4 {
+  word-wrap: break-word;
+}
+
 .f-p-1 {
   font-size: $font-sub-p1;
 }
