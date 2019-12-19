@@ -6,7 +6,7 @@ layout: default
 
 <div class="container margin-lr-auto margin-tb-auto">
   <!--title-->
-  <div class="con-area-90">
+  <div class="con-area-75">
     <h2 class="">{{ page.title }}</h2>
     <p class="project-date">
       <time
@@ -18,7 +18,7 @@ layout: default
   </div>
   <!--paragraph(s)-->
   {% for description in page.description %}
-  <div class="con-area-90">
+  <div class="con-area-75">
     <p class="">{{ description.paragraph }}</p>
   </div>
   {% endfor %}
@@ -30,7 +30,7 @@ layout: default
     </span>
   </div>
 
-  <div class="margin-b-4 write-info con-area-90">
+  <div class="margin-b-4 write-info">
     {{ content }}
   </div>
 </div>
