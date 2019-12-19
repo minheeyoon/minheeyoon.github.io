@@ -130,6 +130,7 @@
 // --------------------------------------------------
 // --------------------------------------------------
 // // *Header&Footer 기본 set*
+
 .left {
   float: left;
 }
@@ -169,22 +170,10 @@
   vertical-align: middle;
 }
 
-// .conarea {
-//   width: (9 / 12 * 100%);
-// }
-// .conarea-side {
-//   width: (6 / 12 * 100%);
-// }
-
-// @media (max-width: 720px) {
-//   .top-12px {
-//     margin-top: 0px;
-//   }
-// }
-
 // // --------------------------------------------------
 // // --------------------------------------------------
 //이미지 썸네일
+
 .aspect-ratio {
   height: 0;
   position: relative;
@@ -261,6 +250,10 @@
   .padding-rl-1 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .footer-set {
+    font-size: $font-sub-p3;
   }
 }
 // .side-top-btm {
