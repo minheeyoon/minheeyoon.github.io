@@ -11,7 +11,7 @@
       {{ post.date | date: "%b %-d, %Y" }}
     </p>
 
-    <a class="posttitle con-area-90">
+    <a class="posttitle con-area-75">
       <a
         class="link-primary f-p-1"
         title="{{ post.url | prepend: site.baseurl }}"
@@ -20,7 +20,7 @@
       >
     </a>
 
-    <p class="con-area-90 margin-t-1">
+    <p class="con-area-75 margin-t-1 con-area-90">
       {{ post.content | strip_html | truncatewords:24 }}
     </p>
   </div>
