@@ -4,9 +4,7 @@ layout: default
 
 <!-- Record 상세  -->
 
-<div
-  class="container-record margin-lr-auto margin-tb-auto clearfix contents-anim"
->
+<div class="container-record margin-lr-auto margin-tb-auto clearfix">
   <!--Top Cover image-->
   {% if page.thum_image %}
   <div class="margin-t-2 margin-b-1 padding-rl-1">
@@ -24,8 +22,8 @@ layout: default
     <p class="con-area-90">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <div class="padding-tb-1 padding-rl-1">
-      <span class="tag-color tag-font">
+    <div class="">
+      <span class="tag-color tag-font padding-tb-1 padding-rl-1">
         {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
         {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
       </span>
