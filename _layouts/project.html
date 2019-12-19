@@ -22,7 +22,7 @@ layout: default
     <p class="con-area-90">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <div class="margin-t-1 margin-b-2">
+    <div class="tag margin-t-1 margin-b-2">
       <span class="tag-color tag-font padding-tb-1 padding-rl-1">
         {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
         {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
@@ -46,7 +46,7 @@ layout: default
     {% endif %} {% endfor %}
   </div>
 
-  <div class="margin-t-2 margin-b-4 padding-rl-1 ">
+  <div class="margin-t-2 margin-b-4 padding-rl-1">
     {{ content }}
   </div>
 

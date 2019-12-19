@@ -296,6 +296,13 @@
     }
   }
 
+  .tag {
+    .padding-rl-1 {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+  }
+
   .footer-set {
     font-size: $font-sub-p3;
 
