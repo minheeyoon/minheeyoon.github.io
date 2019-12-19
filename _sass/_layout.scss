@@ -247,6 +247,22 @@
 }
 //--------------------------------------------------
 // --------------------------------------------------
+//상세
+
+.tag-color {
+  background-color: $grey-s;
+  border-radius: $spacer-1 / 4;
+  color: $color-sub;
+}
+
+.tag-font {
+  font-weight: bold;
+  font-size: $font-sub-p4;
+  text-transform: uppercase;
+}
+
+//--------------------------------------------------
+// --------------------------------------------------
 //Css애니메이션
 
 .contents-anim {

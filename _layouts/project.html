@@ -15,15 +15,15 @@ layout: default
   <!--project description-->
   <div class="clearfix padding-rl-1 margin-b-2">
     <!--title-->
-    <h1 class="con-area-90">{{ page.title }}</h1>
+    <h2 class="con-area-90">{{ page.title }}</h2>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
     <p class="con-area-90">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
-    <div class="">
-      <span class="">
+    <div class="padding-tb-1 padding-rl-1">
+      <span class="tag-color tag-font">
         {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
         {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
       </span>
