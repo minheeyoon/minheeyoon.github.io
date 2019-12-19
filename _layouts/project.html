@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- Record 상세  -->
+
 <div class="container-record margin-lr-auto margin-tb-auto clearfix">
   <!--Top Cover image-->
   {% if page.thum_image %}
@@ -30,9 +32,9 @@ layout: default
   <!--project images-->
   <div class="clearfix">
     {% for image in page.images %} {% if image.con-area-50 == true %}
-    <div class="con-area-50 left sm-width-full">
+    <div class="con-area-50 left sm-width-full ">
       {% endif %}
-      <div class="padding-rl-1">
+      <div class="padding-rl-1 margin-t-2">
         {% include project_image.html %} {% if image.caption %}
         <p class="">
           {{ image.caption }}
