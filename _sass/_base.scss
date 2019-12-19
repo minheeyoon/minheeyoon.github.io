@@ -70,7 +70,8 @@ b {
 p {
   font-family: $basic-font-family;
   font-size: $body-font-size;
-  margin-top: 0.8em;
+  margin-top: 0em;
+  margin-bottom: 0.8em;
   color: $color-contents;
   letter-spacing: -0.008em;
 }
@@ -87,7 +88,7 @@ h4,
 h5,
 h6 {
   font-family: $basic-font-family;
-  margin-top: 0.8em;
+  margin-top: 0em;
   color: $color-title;
 }
 
