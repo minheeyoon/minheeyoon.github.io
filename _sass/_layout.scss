@@ -261,6 +261,11 @@
   text-transform: uppercase;
 }
 
+.tag-margin-rl {
+  padding-left: $spacer-1;
+  padding-right: $spacer-1;
+}
+
 //--------------------------------------------------
 // --------------------------------------------------
 //Css애니메이션
@@ -293,13 +298,6 @@
     .padding-rl-1 {
       padding-left: 0;
       padding-right: 0;
-    }
-  }
-
-  .tag {
-    .padding-rl-1 {
-      padding-left: $spacer-1;
-      padding-right: $spacer-1;
     }
   }
 
