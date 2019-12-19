@@ -234,7 +234,7 @@
 // --------------------------------------------------
 //Css애니메이션
 
-.test-anim {
+.contents-anim {
   animation-name: speed;
   animation-duration: 1s;
 }
@@ -242,7 +242,7 @@
 @keyframes speed {
   0% {
     opacity: 0.5;
-    transform: translateY(200px);
+    transform: translateY(100px);
   }
   to {
     opacity: 1;
