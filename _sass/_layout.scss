@@ -289,9 +289,11 @@
     width: 100% !important;
   }
 
-  .padding-rl-1 {
-    padding-left: 0;
-    padding-right: 0;
+  .container-record {
+    .padding-rl-1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .footer-set {
