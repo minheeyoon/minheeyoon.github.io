@@ -241,10 +241,12 @@
 
 @keyframes speed {
   0% {
-    transform: translate(-150px);
+    opacity: 0.5;
+    top: 300px;
   }
   to {
-    transform: translate(0px);
+    opacity: 1;
+    top: 0px;
   }
 }
 
