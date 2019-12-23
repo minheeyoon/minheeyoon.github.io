@@ -292,6 +292,11 @@
 //--------------------------------------------------
 // --------------------------------------------------
 //Index 
+.area-main-warpper {
+  position: relative;
+  overflow: hidden;
+}
+
 
 .main-warpper {
   max-width: 1920px;
