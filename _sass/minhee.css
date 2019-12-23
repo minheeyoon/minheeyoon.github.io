@@ -519,7 +519,7 @@ img {
 
 .font-basic {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
 }
 
 .f-tit-1 {
