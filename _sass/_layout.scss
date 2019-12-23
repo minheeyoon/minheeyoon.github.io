@@ -293,7 +293,6 @@
 // --------------------------------------------------
 //Index 
 .area-main-warpper {
-  position: relative;
   overflow: hidden;
 }
 
@@ -308,7 +307,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  height: 60vh;
 }
 
 
@@ -328,13 +327,31 @@
     }
   }
 
-  .footer-set {
+  // .footer-set {
+  //   font-size: $font-sub-p3;
+
+  //   .margin-r-2 {
+  //     margin-right: $spacer-1;
+  //   }
+  // }
+
+  .nav-container {
     font-size: $font-sub-p3;
 
     .margin-r-2 {
       margin-right: $spacer-1;
     }
   }
+
+  .main-img-set {
+    background-color: $white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height: 60vh;
+  }
+  
+
 }
 
 

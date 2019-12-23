@@ -457,7 +457,6 @@ img {
 }
 
 .area-main-warpper {
-  position: relative;
   overflow: hidden;
 }
 
@@ -471,7 +470,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  height: 60vh;
 }
 
 @media (max-width: 40em) {
@@ -482,11 +481,18 @@ img {
     padding-left: 0;
     padding-right: 0;
   }
-  .footer-set {
+  .nav-container {
     font-size: 1rem;
   }
-  .footer-set .margin-r-2 {
+  .nav-container .margin-r-2 {
     margin-right: 8px;
+  }
+  .main-img-set {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height: 60vh;
   }
 }
 
