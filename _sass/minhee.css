@@ -469,7 +469,8 @@ img {
 .main-img-set {
   background-color: #fff;
   background-position: center;
-  background-size: 90%;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 100vh;
 }
 
