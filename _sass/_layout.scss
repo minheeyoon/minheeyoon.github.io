@@ -390,7 +390,7 @@
   background-color:#86efef;
   width:150px;
   height:150px;
-  border-radius:75px;
+  border-radius:100%;
   text-align:center;
   margin:0 auto;
   font-size:12px;
@@ -406,7 +406,7 @@
 
 @media (max-width: $desktop-lg) {
   .main-img-set {
-    background-color: $white;
+    // background-color: $white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -449,7 +449,7 @@
   }
 
   .main-img-set {
-    background-color: $white;
+    // background-color: $white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 160%;

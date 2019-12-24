@@ -628,7 +628,7 @@ img {
   background-color: #86efef;
   width: 150px;
   height: 150px;
-  border-radius: 75px;
+  border-radius: 100%;
   text-align: center;
   margin: 0 auto;
   font-size: 12px;
@@ -639,7 +639,6 @@ img {
 
 @media (max-width: 80em) {
   .main-img-set {
-    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -671,7 +670,6 @@ img {
     margin-right: 8px;
   }
   .main-img-set {
-    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 160%;
