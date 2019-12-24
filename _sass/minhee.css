@@ -621,9 +621,9 @@ img {
   position: absolute;
   list-style: none;
   display: block;
-  width: 20px;
-  height: 20px;
-  background: #5507d4;
+  width: 90px;
+  height: 90px;
+  background: #2e4ae7;
   -webkit-animation: animate 25s linear infinite;
           animation: animate 25s linear infinite;
   bottom: -150px;
@@ -631,16 +631,16 @@ img {
 
 .circleB li:nth-child(1) {
   left: 25%;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   -webkit-animation-delay: 0;
           animation-delay: 0;
 }
 
 .circleB li:nth-child(2) {
   left: 10%;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-duration: 12s;

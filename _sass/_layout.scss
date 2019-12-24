@@ -399,24 +399,24 @@
   position: absolute;
   list-style: none;
   display: block;
-  width: 20px;
-  height: 20px;
-  background: rgb(85, 7, 212);
+  width: 90px;
+  height: 90px;
+  background: $point;
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
 
 .circleB li:nth-child(1) {
   left: 25%;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   animation-delay: 0;
 }
 
 .circleB li:nth-child(2) {
   left: 10%;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   animation-delay: 2s;
   animation-duration: 12s;
 }
