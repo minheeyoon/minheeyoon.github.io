@@ -329,8 +329,8 @@
 @keyframes speedd {
   0% {
     opacity: 0.5;
-    transform: translateY(-500px);
-    transform: translateX(-500px);
+    transform: translateY(50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
