@@ -608,14 +608,32 @@ img {
   font-size: 5em;
 }
 
-.circleA {
-  position: relative;
-  background-color: #2e4ae7;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  top: -600px;
-  z-index: -1;
+.circleB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circleB li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-animation: animate 25s linear infinite;
+          animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.bubbles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
 }
 
 @media (max-width: 80em) {

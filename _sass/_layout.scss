@@ -339,14 +339,20 @@
   }
 }
 
-
 //--------------------------------------------------
 // --------------------------------------------------
-//Index 
+//Index
 
-.flex { display: flex }
-.flex-column  { flex-direction: column }
-.vh-100 { height: 100vh; min-height: 500px;}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.vh-100 {
+  height: 100vh;
+  min-height: 500px;
+}
 
 .badge {
   position: relative;
@@ -359,44 +365,52 @@
   padding: $spacer-1 / 4;
 
   @media (min-width: $desktop-md) {
-   top: $spacer-2;
-   padding: $spacer-1 / 2;
+    top: $spacer-2;
+    padding: $spacer-1 / 2;
   }
 }
-
-// .area-main-warpper {
-//   overflow: hidden;
-// }
-
-
-// .main-warpper {
-//   max-width: 1920px;
-//   margin: auto;
-// }
-
-// .main-img-set {
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: 105%;
-//   height: 68vh;
-// }
 
 .textcenter {
   text-align: center;
   font-size: 5em;
 }
 
-.circleA {
-  position: relative;
-  background-color:$point;
-  width:200px;
-  height:200px;
-  border-radius:100%;
-  // margin:0 auto;
-  top:-600px;
-  z-index: -1;
-  }
+// .circleA {
+//   position: relative;
+//   background-color: $point;
+//   width: 200px;
+//   height: 200px;
+//   border-radius: 100%;
+//   // margin:0 auto;
+//   top: -600px;
+//   z-index: -1;
+// }
 
+.circleB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circleB li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.bubbles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0;
+}
 
 //--------------------------------------------------
 // --------------------------------------------------
@@ -415,8 +429,6 @@
     font-size: 4em;
   }
 }
-
-
 
 @media (max-width: $desktop-md) {
   .sm-width-full {
@@ -453,16 +465,13 @@
     background-size: 160%;
     height: 65vh;
   }
-  
+
   .textcenter {
     font-size: 2.5em;
   }
-
 }
 
-
 @media (max-width: 520px) {
-
   .textcenter {
     font-size: 2em;
   }
@@ -477,7 +486,4 @@
     border-radius: 100%;
     padding: $spacer-1 / 4;
   }
-
 }
-
-
