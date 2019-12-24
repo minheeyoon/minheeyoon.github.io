@@ -478,6 +478,10 @@ img {
   height: 68vh;
 }
 
+.textcenter {
+  text-align: center;
+}
+
 @media (max-width: 80em) {
   .main-img-set {
     background-color: #fff;
