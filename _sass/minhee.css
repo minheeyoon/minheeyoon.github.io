@@ -4,6 +4,11 @@
   src: url("/assets/font/CircularPro-Medium.otf");
 }
 
+@font-face {
+  font-family: "NewYorkLarge-Bold";
+  src: url("/assets/font/NewYorkLarge-Bold.otf");
+}
+
 * {
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
@@ -47,7 +52,7 @@ a {
 .list-reset {
   list-style: none;
   padding-left: 0;
-  font-family: "DM Serif Text", serif;
+  font-family: "NewYorkLarge-Bold", serif;
   font-size: 20px;
   letter-spacing: 0.5px;
 }
@@ -513,7 +518,7 @@ img {
 }
 
 .font-dmst {
-  font-family: "DM Serif Text", serif;
+  font-family: "NewYorkLarge-Bold", serif;
   letter-spacing: 0.5px;
 }
 

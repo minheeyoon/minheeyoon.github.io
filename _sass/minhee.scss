@@ -28,8 +28,12 @@ $color-link: $point !default;
   font-family: "CircularPro";
   src: url("/assets/font/CircularPro-Medium.otf");
 }
+@font-face {
+  font-family: "NewYorkLarge-Bold";
+  src: url("/assets/font/NewYorkLarge-Bold.otf");
+}
 
-$menu-font-family: "DM Serif Text", serif;
+$menu-font-family: "NewYorkLarge-Bold", serif;
 $basic-font-family: "CircularPro", "Noto Sans KR", sans-serif;
 
 //Typo
