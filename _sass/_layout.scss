@@ -295,7 +295,21 @@
 
 .flex { display: flex }
 .flex-column  { flex-direction: column }
+.vh-90 { height: 90vh; min-height: 500px;}
 
+.badge {
+  position: relative;
+  vertical-align: top;
+  padding: $spacer-1 / 4;
+  background-color: $point;
+  top: $spacer-1;
+  border-radius: 100%;
+
+  @media (min-width: $desktop-md) {
+   top: $spacer-2;
+   padding: $spacer-1 / 2;
+  }
+}
 
 .area-main-warpper {
   overflow: hidden;

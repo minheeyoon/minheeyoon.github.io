@@ -474,6 +474,27 @@ img {
           flex-direction: column;
 }
 
+.vh-90 {
+  height: 90vh;
+  min-height: 500px;
+}
+
+.badge {
+  position: relative;
+  vertical-align: top;
+  padding: 2px;
+  background-color: #2e4ae7;
+  top: 8px;
+  border-radius: 100%;
+}
+
+@media (min-width: 40em) {
+  .badge {
+    top: 16px;
+    padding: 4px;
+  }
+}
+
 .area-main-warpper {
   overflow: hidden;
 }
