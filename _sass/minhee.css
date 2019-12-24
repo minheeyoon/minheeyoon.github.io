@@ -622,7 +622,7 @@ img {
   display: block;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #5507d4;
   -webkit-animation: animate 25s linear infinite;
           animation: animate 25s linear infinite;
   bottom: -150px;
@@ -634,6 +634,36 @@ img {
   height: 80px;
   -webkit-animation-delay: 0;
           animation-delay: 0;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(0) rotate(0deg);
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-1000px) rotate(720deg);
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(0) rotate(0deg);
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-1000px) rotate(720deg);
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 80em) {
