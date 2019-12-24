@@ -482,10 +482,12 @@ img {
 .badge {
   position: relative;
   vertical-align: top;
-  padding: 2px;
+  width: 12px;
+  height: 12px;
   background-color: #2e4ae7;
   top: 8px;
   border-radius: 100%;
+  padding: 2px;
 }
 
 @media (min-width: 40em) {

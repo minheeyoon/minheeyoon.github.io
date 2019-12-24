@@ -300,10 +300,12 @@
 .badge {
   position: relative;
   vertical-align: top;
-  padding: $spacer-1 / 4;
+  width: 12px;
+  height: 12px;
   background-color: $point;
   top: $spacer-1;
   border-radius: 100%;
+  padding: $spacer-1 / 4;
 
   @media (min-width: $desktop-md) {
    top: $spacer-2;
