@@ -389,11 +389,11 @@
 .circleA {
   position: relative;
   background-color:$point;
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   border-radius:100%;
-  text-align:center;
-  margin:0 auto;
+  // margin:0 auto;
+  top:-600px;
   z-index: -1;
   }
 
