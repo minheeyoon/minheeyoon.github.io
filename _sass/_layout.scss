@@ -384,19 +384,18 @@
 .textcenter {
   text-align: center;
   font-size: 5em;
+  z-index: 100;
 }
 
 .circleA {
-  background-color:#86efef;
+  position: relative;
+  background-color:$point;
   width:150px;
   height:150px;
   border-radius:100%;
   text-align:center;
   margin:0 auto;
-  font-size:12px;
-  vertical-align:middle;
-  line-height:150px;
-  z-index: 101;
+  z-index: 50;
   }
 
 
