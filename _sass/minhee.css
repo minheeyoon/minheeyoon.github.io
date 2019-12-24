@@ -617,7 +617,7 @@ img {
   z-index: -2;
 }
 
-.circleC .circleB {
+.circleC {
   position: absolute;
   top: 0;
   left: 0;
@@ -627,7 +627,7 @@ img {
 }
 
 .circleC img {
-  top: 200px;
+  top: 500px;
   left: 300px;
 }
 
