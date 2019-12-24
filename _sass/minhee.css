@@ -603,22 +603,6 @@ img {
   }
 }
 
-.area-main-warpper {
-  overflow: hidden;
-}
-
-.main-warpper {
-  max-width: 1920px;
-  margin: auto;
-}
-
-.main-img-set {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 105%;
-  height: 68vh;
-}
-
 .textcenter {
   text-align: center;
   font-size: 5em;
