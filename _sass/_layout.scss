@@ -290,11 +290,11 @@
 }
 
 .contents-anim-b {
-  animation-name: speed;
+  animation-name: speedb;
   animation-duration: 1.2s;
 }
 
-@keyframes speed {
+@keyframes speedb {
   0% {
     opacity: 0.5;
     transform: translateY(100px);
@@ -306,11 +306,11 @@
 }
 
 .contents-anim-c {
-  animation-name: speed;
+  animation-name: speedc;
   animation-duration: 1.4s;
 }
 
-@keyframes speed {
+@keyframes speedc {
   0% {
     opacity: 0.5;
     transform: translateY(100px);
@@ -322,11 +322,11 @@
 }
 
 .contents-anim-d {
-  animation-name: speed;
+  animation-name: speedd;
   animation-duration: 1.1s;
 }
 
-@keyframes speed {
+@keyframes speedd {
   0% {
     opacity: 0.5;
     transform: translateY(100px);
