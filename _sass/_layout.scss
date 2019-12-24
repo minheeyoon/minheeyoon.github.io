@@ -315,6 +315,12 @@
   font-size: 5em;
 }
 
+.text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: blue($color: #000000);
+}
+
 //--------------------------------------------------
 // --------------------------------------------------
 //미디어쿼리
@@ -326,6 +332,10 @@
     background-repeat: no-repeat;
     background-size: 150%;
     height: 68vh;
+  }
+
+  .textcenter {
+    font-size: 4em;
   }
 }
 

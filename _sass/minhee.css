@@ -483,6 +483,12 @@ img {
   font-size: 5em;
 }
 
+.text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: 0;
+}
+
 @media (max-width: 80em) {
   .main-img-set {
     background-color: #fff;
@@ -490,6 +496,9 @@ img {
     background-repeat: no-repeat;
     background-size: 150%;
     height: 68vh;
+  }
+  .textcenter {
+    font-size: 4em;
   }
 }
 
