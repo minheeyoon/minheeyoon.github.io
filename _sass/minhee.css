@@ -626,11 +626,6 @@ img {
   z-index: -1;
 }
 
-.circleC img {
-  top: 500px;
-  left: 300px;
-}
-
 .circleB li {
   position: absolute;
   list-style: none;
