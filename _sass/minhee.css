@@ -580,7 +580,7 @@ img {
           flex-direction: column;
 }
 
-.vh-90 {
+.vh-100 {
   height: 100vh;
   min-height: 500px;
 }
