@@ -480,6 +480,7 @@ img {
 
 .textcenter {
   text-align: center;
+  font-size: 5em;
 }
 
 @media (max-width: 80em) {
@@ -518,6 +519,9 @@ img {
     background-repeat: no-repeat;
     background-size: 160%;
     height: 65vh;
+  }
+  .textcenter {
+    font-size: 2.5em;
   }
 }
 
