@@ -581,7 +581,7 @@ img {
 }
 
 .vh-90 {
-  height: 90vh;
+  height: 100vh;
   min-height: 500px;
 }
 
