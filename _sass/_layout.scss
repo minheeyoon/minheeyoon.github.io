@@ -387,9 +387,7 @@
   font-size: 5em;
 }
 
-.text-inner {
 
-}
 
 //--------------------------------------------------
 // --------------------------------------------------
@@ -453,5 +451,24 @@
 
 }
 
+
+@media (max-width: 520px) {
+
+  .textcenter {
+    font-size: 2em;
+  }
+
+  .badge {
+    position: relative;
+    vertical-align: top;
+    width: 8px;
+    height: 8px;
+    background-color: $point;
+    top: $spacer-1;
+    border-radius: 100%;
+    padding: $spacer-1 / 4;
+  }
+
+}
 
 
