@@ -384,7 +384,6 @@
 .textcenter {
   text-align: center;
   font-size: 5em;
-  z-index: 100;
 }
 
 .circleA {
@@ -395,7 +394,7 @@
   border-radius:100%;
   text-align:center;
   margin:0 auto;
-  z-index: 50;
+  z-index: -1;
   }
 
 
