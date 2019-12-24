@@ -61,7 +61,6 @@ body {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
   font-weight: normal;
   font-size: 18px;
-  background-color: #fff;
   line-height: 1.5;
   color: #06121f;
   -webkit-font-smoothing: antialiased;
@@ -635,6 +634,7 @@ img {
   font-size: 12px;
   vertical-align: middle;
   line-height: 150px;
+  z-index: 101;
 }
 
 @media (max-width: 80em) {
