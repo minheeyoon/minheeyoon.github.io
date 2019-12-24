@@ -537,8 +537,8 @@ img {
 @-webkit-keyframes speedd {
   0% {
     opacity: 0.5;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
     -webkit-transform: translateX(-100px);
             transform: translateX(-100px);
   }
@@ -554,8 +554,8 @@ img {
 @keyframes speedd {
   0% {
     opacity: 0.5;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
     -webkit-transform: translateX(-100px);
             transform: translateX(-100px);
   }
