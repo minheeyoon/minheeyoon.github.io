@@ -790,6 +790,10 @@ img {
   .textcenter {
     font-size: 2.5em;
   }
+  .vh-100 {
+    height: 90vh;
+    min-height: 400px;
+  }
 }
 
 @media (max-width: 520px) {

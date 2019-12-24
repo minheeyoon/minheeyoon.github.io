@@ -375,17 +375,6 @@
   font-size: 5em;
 }
 
-// .circleA {
-//   position: relative;
-//   background-color: $point;
-//   width: 200px;
-//   height: 200px;
-//   border-radius: 100%;
-//   // margin:0 auto;
-//   top: -600px;
-//   z-index: -1;
-// }
-
 .circleB {
   position: absolute;
   top: 0;
@@ -556,6 +545,11 @@
 
   .textcenter {
     font-size: 2.5em;
+  }
+
+  .vh-100 {
+    height: 90vh;
+    min-height: 400px;
   }
 }
 
