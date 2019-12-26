@@ -613,6 +613,10 @@ img {
   color: #2e4ae7;
 }
 
+.indexhover:hover .badge {
+  opacity: 0;
+}
+
 .textcenter {
   text-align: center;
   font-size: 5em;

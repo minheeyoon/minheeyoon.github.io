@@ -376,6 +376,10 @@
   &:hover {
     transition: 0.2s;
     color: $point;
+
+    .badge {
+      opacity: 0;
+    }
   }
 }
 
