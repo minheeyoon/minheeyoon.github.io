@@ -503,10 +503,10 @@
   }
 
   to {
-    -webkit-transform: translateY(800px) rotate(720deg);
-    -ms-transform: translateY(800px) rotate(720deg);
-    -o-transform: translateY(800px) rotate(720deg);
-    transform: translateY(800px) rotate(720deg);
+    -webkit-transform: translateY(-800px) rotate(720deg);
+    -ms-transform: translateY(-800px) rotate(720deg);
+    -o-transform: translateY(-800px) rotate(720deg);
+    transform: translateY(-800px) rotate(720deg);
     opacity: 0;
     border-radius: 100%;
   }
