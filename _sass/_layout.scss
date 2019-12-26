@@ -393,27 +393,27 @@
   z-index: -2;
 }
 
-.circleB li {
-  position: absolute;
-  list-style: none;
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: $point;
-  animation: animate 25s linear infinite;
-  bottom: -150px;
-}
+// .circleB li {
+//   position: absolute;
+//   list-style: none;
+//   display: block;
+//   width: 24px;
+//   height: 24px;
+//   background: $point;
+//   animation: animate 25s linear infinite;
+//   bottom: -150px;
+// }
 
-.circleB .tic {
-  position: absolute;
-  list-style: none;
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: $point;
-  animation: animate 15s linear infinite;
-  bottom: -150px;
-}
+// .circleB .tic {
+//   position: absolute;
+//   list-style: none;
+//   display: block;
+//   width: 24px;
+//   height: 24px;
+//   background: $point;
+//   animation: animate 15s linear infinite;
+//   bottom: -150px;
+// }
 
 .circleB li:nth-child(1) {
   left: 10%;
@@ -496,11 +496,7 @@
   }
 
   80% {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
-    -webkit-animation: none !important;
+    animation-fill-mode: both;
   }
 
   100% {
