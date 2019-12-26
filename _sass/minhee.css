@@ -603,6 +603,16 @@ img {
   }
 }
 
+.indexhover {
+  cursor: pointer;
+}
+
+.indexhover:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #2e4ae7;
+}
+
 .textcenter {
   text-align: center;
   font-size: 5em;
@@ -631,8 +641,8 @@ img {
 
 .circleB li:nth-child(1) {
   left: 30%;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   -webkit-animation-delay: 0;
           animation-delay: 0;
 }

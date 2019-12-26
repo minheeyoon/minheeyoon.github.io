@@ -370,6 +370,15 @@
   }
 }
 
+.indexhover {
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.2s;
+    color: $point;
+  }
+}
+
 .textcenter {
   text-align: center;
   font-size: 5em;
@@ -397,8 +406,8 @@
 
 .circleB li:nth-child(1) {
   left: 30%;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   animation-delay: 0;
 }
 
