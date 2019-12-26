@@ -631,8 +631,8 @@ img {
   position: absolute;
   list-style: none;
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 24px;
+  height: 24px;
   background: #2e4ae7;
   -webkit-animation: animate 25s linear infinite;
           animation: animate 25s linear infinite;
@@ -643,8 +643,8 @@ img {
   position: absolute;
   list-style: none;
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 24px;
+  height: 24px;
   background: #2e4ae7;
   -webkit-animation: animate 15s linear infinite;
           animation: animate 15s linear infinite;
@@ -741,7 +741,7 @@ img {
   100% {
     -webkit-transform: translateY(-1000px) rotate(720deg);
     transform: translateY(-1000px) rotate(720deg);
-    opacity: 1;
+    opacity: 0;
     border-radius: 100%;
   }
 }
@@ -756,7 +756,7 @@ img {
   100% {
     -webkit-transform: translateY(-1000px) rotate(720deg);
     transform: translateY(-1000px) rotate(720deg);
-    opacity: 1;
+    opacity: 0;
     border-radius: 100%;
   }
 }
