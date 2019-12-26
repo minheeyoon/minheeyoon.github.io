@@ -413,7 +413,7 @@
   height: 24px;
   background: $point;
   animation: animate 6s ease-out both;
-  bottom: 200px;
+  bottom: 500px;
 }
 
 .circleB li:nth-child(1) {
@@ -513,19 +513,19 @@
   // }
 
   from {
-    -webkit-transform: translateY(-500) rotate(0deg);
-    -ms-transform: translateY(-500) rotate(0deg);
-    -o-transform: translateY(-500) rotate(0deg);
-    transform: translateY(-500) rotate(0deg);
+    -webkit-transform: translateY(-300) rotate(0deg);
+    -ms-transform: translateY(-300) rotate(0deg);
+    -o-transform: translateY(-300) rotate(0deg);
+    transform: translateY(-300) rotate(0deg);
     opacity: 0;
     border-radius: 0;
   }
 
   to {
-    -webkit-transform: translateY(-800px) rotate(720deg);
-    -ms-transform: translateY(-800px) rotate(720deg);
-    -o-transform: translateY(-800px) rotate(720deg);
-    transform: translateY(-800px) rotate(720deg);
+    -webkit-transform: translateY(-500px) rotate(720deg);
+    -ms-transform: translateY(-500px) rotate(720deg);
+    -o-transform: translateY(-500px) rotate(720deg);
+    transform: translateY(-500px) rotate(720deg);
     opacity: 1;
     border-radius: 100%;
   }
