@@ -630,9 +630,9 @@ img {
 }
 
 .circleB li:nth-child(1) {
-  left: 42%;
-  width: 120px;
-  height: 120px;
+  left: 30%;
+  width: 200px;
+  height: 200px;
   -webkit-animation-delay: 0;
           animation-delay: 0;
 }
