@@ -495,10 +495,6 @@
     border-radius: 0;
   }
 
-  80% {
-    animation-fill-mode: both;
-  }
-
   100% {
     -webkit-transform: translateY(-1000px) rotate(720deg);
     -ms-transform: translateY(-1000px) rotate(720deg);
