@@ -613,28 +613,8 @@ img {
   color: #2e4ae7;
 }
 
-.indexhover:hover .contents-anim-d {
-  -webkit-animation-name: speedd;
-          animation-name: speedd;
-  -webkit-animation-duration: 1.1s;
-          animation-duration: 1.1s;
-}
-
-@keyframes speedd {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  to {
-    opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    -webkit-transform: translateX(50px);
-            transform: translateX(50px);
-  }
+.indexhover:hover .badge {
+  opacity: 0;
 }
 
 .textcenter {

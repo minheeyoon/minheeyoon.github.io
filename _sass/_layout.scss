@@ -376,24 +376,10 @@
   &:hover {
     transition: 0.2s;
     color: $point;
+  }
 
-    .contents-anim-d {
-      animation-name: speedd;
-      animation-duration: 1.1s;
-    }
-
-    @keyframes speedd {
-      0% {
-        opacity: 1;
-        transform: translateY(0px);
-        transform: translateX(0px);
-      }
-      to {
-        opacity: 0;
-        transform: translateY(50px);
-        transform: translateX(50px);
-      }
-    }
+  &:hover .badge {
+    opacity: 0;
   }
 }
 
