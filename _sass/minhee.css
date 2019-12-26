@@ -647,6 +647,13 @@ img {
           animation-delay: 0;
 }
 
+.circleB li:nth-child(1):hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 @-webkit-keyframes animate {
   from {
     -webkit-transform: translateY(0) rotate(0deg);

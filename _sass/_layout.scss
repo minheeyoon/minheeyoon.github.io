@@ -420,6 +420,11 @@
   width: 24px;
   height: 24px;
   animation-delay: 0;
+
+  &:hover {
+    transition: 0.2s;
+    transform: scale(1.5);
+  }
 }
 
 // .circleB li:nth-child(2) {
