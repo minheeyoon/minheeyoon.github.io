@@ -634,8 +634,8 @@ img {
   width: 24px;
   height: 24px;
   background: #0051bc;
-  -webkit-animation: animate 12s ease-in both;
-          animation: animate 12s ease-in both;
+  -webkit-animation: animate 6s ease-out both;
+          animation: animate 6s ease-out both;
   bottom: -150px;
 }
 
