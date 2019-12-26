@@ -639,6 +639,18 @@ img {
   bottom: -150px;
 }
 
+.circleB .tic {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: #2e4ae7;
+  -webkit-animation: animate 15s linear infinite;
+          animation: animate 15s linear infinite;
+  bottom: -150px;
+}
+
 .circleB li:nth-child(1) {
   left: 10%;
   width: 24px;
@@ -655,7 +667,7 @@ img {
           animation-delay: 0.5;
 }
 
-.circleB li:nth-child(3) {
+.circleB .tic:nth-child(1) {
   left: 30%;
   width: 24px;
   height: 24px;
@@ -726,14 +738,6 @@ img {
     opacity: 1;
     border-radius: 0;
   }
-  50% {
-    .tic {
-      -webkit-transform: translateY(500px) rotate(720deg);
-      transform: translateY(500px) rotate(720deg);
-      opacity: 1;
-      border-radius: 100%;
-    }
-  }
   100% {
     -webkit-transform: translateY(-1000px) rotate(720deg);
     transform: translateY(-1000px) rotate(720deg);
@@ -748,14 +752,6 @@ img {
     transform: translateY(0) rotate(0deg);
     opacity: 1;
     border-radius: 0;
-  }
-  50% {
-    .tic {
-      -webkit-transform: translateY(500px) rotate(720deg);
-      transform: translateY(500px) rotate(720deg);
-      opacity: 1;
-      border-radius: 100%;
-    }
   }
   100% {
     -webkit-transform: translateY(-1000px) rotate(720deg);

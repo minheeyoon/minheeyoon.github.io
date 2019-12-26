@@ -404,6 +404,17 @@
   bottom: -150px;
 }
 
+.circleB .tic {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: $point;
+  animation: animate 15s linear infinite;
+  bottom: -150px;
+}
+
 .circleB li:nth-child(1) {
   left: 10%;
   width: 24px;
@@ -418,7 +429,7 @@
   animation-delay: 0.5;
 }
 
-.circleB li:nth-child(3) {
+.circleB .tic:nth-child(1) {
   left: 30%;
   width: 24px;
   height: 24px;
@@ -482,17 +493,6 @@
     transform: translateY(0) rotate(0deg);
     opacity: 1;
     border-radius: 0;
-  }
-
-  50% {
-    .tic {
-      -webkit-transform: translateY(500px) rotate(720deg);
-      -ms-transform: translateY(500px) rotate(720deg);
-      -o-transform: translateY(500px) rotate(720deg);
-      transform: translateY(500px) rotate(720deg);
-      opacity: 1;
-      border-radius: 100%;
-    }
   }
 
   100% {
