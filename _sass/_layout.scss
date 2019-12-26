@@ -393,27 +393,16 @@
   z-index: -2;
 }
 
-// .circleB li {
-//   position: absolute;
-//   list-style: none;
-//   display: block;
-//   width: 24px;
-//   height: 24px;
-//   background: $point;
-//   animation: animate 25s linear infinite;
-//   bottom: -150px;
-// }
-
-// .circleB .tic {
-//   position: absolute;
-//   list-style: none;
-//   display: block;
-//   width: 24px;
-//   height: 24px;
-//   background: $point;
-//   animation: animate 15s linear infinite;
-//   bottom: -150px;
-// }
+.circleB li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: $point;
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
 
 .circleB li:nth-child(1) {
   left: 10%;
