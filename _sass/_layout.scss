@@ -393,6 +393,17 @@
   z-index: -2;
 }
 
+// .circleB li {
+//   position: absolute;
+//   list-style: none;
+//   display: block;
+//   width: 24px;
+//   height: 24px;
+//   background: $point;
+//   animation: animate 25s linear infinite;
+//   bottom: -150px;
+// }
+
 .circleB li {
   position: absolute;
   list-style: none;
@@ -400,7 +411,7 @@
   width: 24px;
   height: 24px;
   background: $point;
-  animation: animate 25s linear infinite;
+  animation: animate 25s linear;
   bottom: -150px;
 }
 
@@ -507,7 +518,7 @@
     -ms-transform: translateY(-800px) rotate(720deg);
     -o-transform: translateY(-800px) rotate(720deg);
     transform: translateY(-800px) rotate(720deg);
-    opacity: 0;
+    opacity: 1;
     border-radius: 100%;
   }
 }

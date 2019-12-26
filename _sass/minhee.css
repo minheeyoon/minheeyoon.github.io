@@ -634,8 +634,8 @@ img {
   width: 24px;
   height: 24px;
   background: #0051bc;
-  -webkit-animation: animate 25s linear infinite;
-          animation: animate 25s linear infinite;
+  -webkit-animation: animate 25s linear;
+          animation: animate 25s linear;
   bottom: -150px;
 }
 
@@ -657,7 +657,7 @@ img {
   to {
     -webkit-transform: translateY(-800px) rotate(720deg);
     transform: translateY(-800px) rotate(720deg);
-    opacity: 0;
+    opacity: 1;
     border-radius: 100%;
   }
 }
@@ -672,7 +672,7 @@ img {
   to {
     -webkit-transform: translateY(-800px) rotate(720deg);
     transform: translateY(-800px) rotate(720deg);
-    opacity: 0;
+    opacity: 1;
     border-radius: 100%;
   }
 }
