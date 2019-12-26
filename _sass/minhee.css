@@ -636,7 +636,7 @@ img {
   background: #0051bc;
   -webkit-animation: animate 6s ease-out both;
           animation: animate 6s ease-out both;
-  bottom: 200x;
+  bottom: 200px;
 }
 
 .circleB li:nth-child(1) {
