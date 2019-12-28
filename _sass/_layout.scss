@@ -384,8 +384,7 @@
   font-size: 5em;
 }
 
-.circleB {
-  position: absolute;
+.circle-area {
   top: 0;
   left: 0;
   width: 100%;
@@ -393,19 +392,8 @@
   z-index: -1;
 }
 
-// .circleB li {
-//   position: absolute;
-//   list-style: none;
-//   display: block;
-//   width: 24px;
-//   height: 24px;
-//   background: $point;
-//   animation: animate 25s linear infinite;
-//   bottom: -150px;
-// }
-
 // 민희야여기!!!
-.circleB li {
+.circleA li {
   position: absolute;
   list-style: none;
   display: block;
@@ -416,101 +404,15 @@
   bottom: 500px;
 }
 
-.circleB li:nth-child(1) {
+.circleA li:nth-child(1) {
   cursor: pointer;
   left: 10%;
   width: 24px;
   height: 24px;
   animation-delay: 0;
-
-  &:hover {
-    transition: 0.2s;
-    transform: scale(12);
-  }
 }
 
-// .circleB li:nth-child(2) {
-//   left: 20%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.5;
-// }
-
-// .circleB .tic:nth-child(1) {
-//   left: 30%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.2;
-// }
-
-// .circleB li:nth-child(4) {
-//   left: 30%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.15;
-// }
-
-// .circleB li:nth-child(5) {
-//   left: 40%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.4;
-// }
-
-// .circleB li:nth-child(6) {
-//   left: 50%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.12;
-// }
-
-// .circleB li:nth-child(7) {
-//   left: 60%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.24;
-// }
-
-// .circleB li:nth-child(8) {
-//   left: 70%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.32;
-// }
-
-// .circleB li:nth-child(9) {
-//   left: 80%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.42;
-// }
-
-// .circleB li:nth-child(10) {
-//   left: 90%;
-//   width: 24px;
-//   height: 24px;
-//   animation-delay: 0.82;
-// }
-
 @keyframes animate {
-  // 0% {
-  //   -webkit-transform: translateY(0) rotate(0deg);
-  //   -ms-transform: translateY(0) rotate(0deg);
-  //   -o-transform: translateY(0) rotate(0deg);
-  //   transform: translateY(0) rotate(0deg);
-  //   opacity: 1;
-  //   border-radius: 0;
-  // }
-
-  // 100% {
-  //   -webkit-transform: translateY(-1000px) rotate(720deg);
-  //   -ms-transform: translateY(-1000px) rotate(720deg);
-  //   -o-transform: translateY(-1000px) rotate(720deg);
-  //   transform: translateY(-1000px) rotate(720deg);
-  //   opacity: 0;
-  //   border-radius: 100%;
-  // }
-
   from {
     -webkit-transform: translateY(-300) rotate(0deg);
     -ms-transform: translateY(-300) rotate(0deg);
