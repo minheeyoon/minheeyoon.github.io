@@ -715,8 +715,8 @@ img {
   -webkit-transform: scale(5);
           transform: scale(5);
   border-radius: 100%;
-  -webkit-transition: 1.8s cubic-bezier(0.35, 0.21, 0, 1.03);
-  transition: 1.8s cubic-bezier(0.35, 0.21, 0, 1.03);
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
 }
 
 @media (max-width: 80em) {
