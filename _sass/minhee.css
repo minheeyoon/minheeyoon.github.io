@@ -737,6 +737,8 @@ img {
           transform-origin: top right;
   list-style: none;
   position: absolute;
+  top: 10%;
+  left: 20%;
   width: 24px;
   height: 24px;
   border-radius: 40%;
