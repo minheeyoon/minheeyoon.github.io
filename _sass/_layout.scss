@@ -401,6 +401,11 @@
   font-size: 5em;
 }
 
+.textright {
+  float: right;
+  font-size: 5em;
+}
+
 // background animation 시작점
 
 .circle-area-a {
@@ -466,6 +471,10 @@
   .textcenter {
     font-size: 4em;
   }
+
+  .textright {
+    font-size: 4em;
+  }
 }
 
 @media (max-width: $desktop-md) {
@@ -508,6 +517,10 @@
     font-size: 2.5em;
   }
 
+  .textright {
+    font-size: 2.5em;
+  }
+
   .vh-100 {
     height: 90vh;
     min-height: 400px;
@@ -516,6 +529,10 @@
 
 @media (max-width: 520px) {
   .textcenter {
+    font-size: 2em;
+  }
+
+  .textright {
     font-size: 2em;
   }
 
