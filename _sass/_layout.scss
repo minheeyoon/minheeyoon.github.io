@@ -416,10 +416,10 @@
 
   width: 24px;
   height: 24px;
-  border-radius: 0.5;
-  rotate: 12px;
-  background: $point;
+  border-radius: 20%;
 
+  background: $point;
+  transform: rotate(5deg);
   animation-delay: 0;
   z-index: -1;
 }
