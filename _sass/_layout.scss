@@ -448,7 +448,7 @@
 }
 
 .indexhover-b:hover ~ .circle-area-a li {
-  transform: scale(8) translateX(50px) translateY(120px);
+  transform: scale(8) translateX(10px) translateY(-50px);
   border-radius: 100%;
   transition: 1s cubic-bezier(0.35, 0.21, 0, 1.03);
 }
