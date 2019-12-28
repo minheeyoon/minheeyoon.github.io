@@ -651,8 +651,8 @@ img {
 .circleB li:nth-child(1):hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: scale(2, 0.5);
-          transform: scale(2, 0.5);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 @-webkit-keyframes animate {
@@ -663,8 +663,8 @@ img {
     border-radius: 0;
   }
   to {
-    -webkit-transform: translateY(-500px) rotate(720deg);
-    transform: translateY(-500px) rotate(720deg);
+    -webkit-transform: translateY(-400px) rotate(720deg);
+    transform: translateY(-400px) rotate(720deg);
     opacity: 1;
     border-radius: 100%;
   }
@@ -678,8 +678,8 @@ img {
     border-radius: 0;
   }
   to {
-    -webkit-transform: translateY(-500px) rotate(720deg);
-    transform: translateY(-500px) rotate(720deg);
+    -webkit-transform: translateY(-400px) rotate(720deg);
+    transform: translateY(-400px) rotate(720deg);
     opacity: 1;
     border-radius: 100%;
   }

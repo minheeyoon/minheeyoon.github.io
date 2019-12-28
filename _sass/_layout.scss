@@ -425,7 +425,7 @@
 
   &:hover {
     transition: 0.2s;
-    transform: scale(2, 0.5);
+    transform: scale(2);
   }
 }
 
@@ -521,10 +521,10 @@
   }
 
   to {
-    -webkit-transform: translateY(-500px) rotate(720deg);
-    -ms-transform: translateY(-500px) rotate(720deg);
-    -o-transform: translateY(-500px) rotate(720deg);
-    transform: translateY(-500px) rotate(720deg);
+    -webkit-transform: translateY(-400px) rotate(720deg);
+    -ms-transform: translateY(-400px) rotate(720deg);
+    -o-transform: translateY(-400px) rotate(720deg);
+    transform: translateY(-400px) rotate(720deg);
     opacity: 1;
     border-radius: 100%;
   }
