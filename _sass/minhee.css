@@ -577,17 +577,17 @@ img {
 @keyframes speedd {
   0% {
     opacity: 0.5;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
     -webkit-transform: translateX(-50px);
             transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
   }
 }
 
