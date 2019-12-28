@@ -348,12 +348,12 @@
   0% {
     opacity: 0.2;
     transform: translateY(-60px) translateX(100px) rotate(120deg);
-    border-radius: 0%;
+    border-radius: 20%;
   }
   to {
     opacity: 1;
     transform: translateY(0) translateX(0) rotate(0deg);
-    border-radius: 100%;
+    border-radius: 80%;
   }
 }
 
