@@ -714,7 +714,6 @@ img {
 .indexhover-b:hover ~ .circle-area-a li {
   -webkit-transform: scale(5);
           transform: scale(5);
-  border-radius: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
