@@ -339,6 +339,24 @@
   }
 }
 
+.contents-anim-circle {
+  animation-name: speedd;
+  animation-duration: 1.2s;
+}
+
+@keyframes speedd {
+  0% {
+    opacity: 0.5;
+    transform: translateY(-50px);
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+}
+
 //--------------------------------------------------
 // --------------------------------------------------
 //Index
@@ -419,30 +437,10 @@
   border-radius: 20%;
 
   background: $point;
-  transform: rotate(5deg);
+  transform: rotate(12deg);
   animation-delay: 0;
   z-index: -1;
 }
-
-// @keyframes animate {
-//   from {
-//     -webkit-transform: translateY(-300) rotate(0deg);
-//     -ms-transform: translateY(-300) rotate(0deg);
-//     -o-transform: translateY(-300) rotate(0deg);
-//     transform: translateY(-300) rotate(0deg);
-//     opacity: 0;
-//     border-radius: 0;
-//   }
-
-//   to {
-//     -webkit-transform: translateY(-400px) rotate(720deg);
-//     -ms-transform: translateY(-400px) rotate(720deg);
-//     -o-transform: translateY(-400px) rotate(720deg);
-//     transform: translateY(-400px) rotate(720deg);
-//     opacity: 1;
-//     border-radius: 100%;
-//   }
-// }
 
 //--------------------------------------------------
 // --------------------------------------------------

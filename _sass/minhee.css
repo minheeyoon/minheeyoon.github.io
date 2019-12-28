@@ -567,6 +567,30 @@ img {
   }
 }
 
+.contents-anim-circle {
+  -webkit-animation-name: speedd;
+          animation-name: speedd;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+}
+
+@keyframes speedd {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -662,8 +686,8 @@ img {
   height: 24px;
   border-radius: 20%;
   background: #0051bc;
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
   -webkit-animation-delay: 0;
           animation-delay: 0;
   z-index: -1;
