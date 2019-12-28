@@ -832,7 +832,7 @@ img {
   .footer-set {
     font-size: 1rem;
   }
-  .containe .margin-l-2 {
+  .container .margin-l-2 {
     margin-left: 8px;
   }
   .header-set {
@@ -850,7 +850,7 @@ img {
   .textright {
     font-size: 2.5em;
   }
-  .containe .margin-l-2 {
+  .container .margin-l-2 {
     margin-left: 8px;
   }
   .vh-100 {
@@ -866,7 +866,7 @@ img {
   .textright {
     font-size: 2em;
   }
-  .containe .margin-l-2 {
+  .container .margin-l-2 {
     margin-left: 8px;
   }
   .badge {
