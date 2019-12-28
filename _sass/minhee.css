@@ -712,10 +712,11 @@ img {
 }
 
 .indexhover-b:hover ~ .circle-area-a li {
-  -webkit-transform: scale(5);
-          transform: scale(5);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transform: scale(5) translateX(20%) translateY(90%) rotateZ(-120deg);
+          transform: scale(5) translateX(20%) translateY(90%) rotateZ(-120deg);
+  border-radius: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 @media (max-width: 80em) {
