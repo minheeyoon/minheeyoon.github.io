@@ -696,8 +696,8 @@ img {
 }
 
 .circle-a li {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
   list-style: none;
   position: absolute;
   width: 24px;
