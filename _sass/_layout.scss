@@ -340,11 +340,11 @@
 }
 
 .contents-anim-circle {
-  animation-name: speedd;
+  animation-name: circlea;
   animation-duration: 1.2s;
 }
 
-@keyframes speedd {
+@keyframes circlea {
   0% {
     opacity: 0.5;
     transform: translateY(50px);

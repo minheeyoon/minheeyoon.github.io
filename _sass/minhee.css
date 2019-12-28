@@ -568,13 +568,30 @@ img {
 }
 
 .contents-anim-circle {
-  -webkit-animation-name: speedd;
-          animation-name: speedd;
+  -webkit-animation-name: circlea;
+          animation-name: circlea;
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
 }
 
-@keyframes speedd {
+@-webkit-keyframes circlea {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+}
+
+@keyframes circlea {
   0% {
     opacity: 0.5;
     -webkit-transform: translateY(50px);
