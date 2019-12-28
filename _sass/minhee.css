@@ -651,8 +651,8 @@ img {
 .circleB li:nth-child(1):hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  width: 80px;
-  height: 80px;
+  -webkit-transform: scale(2, 0.5);
+          transform: scale(2, 0.5);
 }
 
 @-webkit-keyframes animate {
