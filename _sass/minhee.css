@@ -706,7 +706,7 @@ img {
   z-index: -1;
 }
 
-.indexhover-a :hover ~ .circle-a li {
+.indexhover-a:hover ~ .circle-area-a li {
   -webkit-transform: scale(5);
           transform: scale(5);
   border-radius: 100%;
