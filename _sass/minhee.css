@@ -577,8 +577,8 @@ img {
 @-webkit-keyframes circlea {
   0% {
     opacity: 0.2;
-    -webkit-transform: translateY(-80px) translateX(150px);
-            transform: translateY(-80px) translateX(150px);
+    -webkit-transform: translateY(-60px) translateX(100px);
+            transform: translateY(-60px) translateX(100px);
   }
   to {
     opacity: 1;
@@ -590,8 +590,8 @@ img {
 @keyframes circlea {
   0% {
     opacity: 0.2;
-    -webkit-transform: translateY(-80px) translateX(150px);
-            transform: translateY(-80px) translateX(150px);
+    -webkit-transform: translateY(-60px) translateX(100px);
+            transform: translateY(-60px) translateX(100px);
   }
   to {
     opacity: 1;
@@ -695,8 +695,6 @@ img {
   height: 24px;
   border-radius: 20%;
   background: #0051bc;
-  -webkit-transform: rotate(12deg);
-          transform: rotate(12deg);
   -webkit-animation-delay: 0;
           animation-delay: 0;
   z-index: -1;
