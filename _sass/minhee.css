@@ -579,13 +579,11 @@ img {
     opacity: 0.2;
     -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg);
             transform: translateY(-60px) translateX(100px) rotate(120deg);
-    border-radius: 20%;
   }
   to {
     opacity: 1;
     -webkit-transform: translateY(0) translateX(0) rotate(0deg);
             transform: translateY(0) translateX(0) rotate(0deg);
-    border-radius: 80%;
   }
 }
 
@@ -594,13 +592,11 @@ img {
     opacity: 0.2;
     -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg);
             transform: translateY(-60px) translateX(100px) rotate(120deg);
-    border-radius: 20%;
   }
   to {
     opacity: 1;
     -webkit-transform: translateY(0) translateX(0) rotate(0deg);
             transform: translateY(0) translateX(0) rotate(0deg);
-    border-radius: 80%;
   }
 }
 
@@ -697,7 +693,7 @@ img {
   position: absolute;
   width: 24px;
   height: 24px;
-  border-radius: 100%;
+  border-radius: 40%;
   -webkit-transform: rotate(120deg);
           transform: rotate(120deg);
   background: #0051bc;
