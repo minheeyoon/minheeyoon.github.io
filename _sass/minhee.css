@@ -717,6 +717,13 @@ img {
   transition: 1s cubic-bezier(0.35, 0.21, 0, 1.03);
 }
 
+@keyframes float {
+  100% {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+}
+
 @media (max-width: 80em) {
   .main-img-set {
     background-position: center;
