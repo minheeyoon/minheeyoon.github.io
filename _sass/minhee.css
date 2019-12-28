@@ -638,11 +638,11 @@ img {
   }
 }
 
-.indexhover {
+.indexhover-a {
   cursor: pointer;
 }
 
-.indexhover:hover {
+.indexhover-a:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #0051bc;
@@ -691,6 +691,8 @@ img {
 }
 
 .circle-a li {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
   list-style: none;
   position: absolute;
   width: 24px;
@@ -702,6 +704,15 @@ img {
   -webkit-animation-delay: 0;
           animation-delay: 0;
   z-index: -1;
+}
+
+.indexhover-a :hover ~ .circle-a li {
+  -webkit-transform: scale(5);
+          transform: scale(5);
+  border-radius: 100%;
+  -webkit-transition: cubic-bezier(0.35, 0.21, 0, 1.03);
+  transition: cubic-bezier(0.35, 0.21, 0, 1.03);
+  border-radius: 100%;
 }
 
 @media (max-width: 80em) {

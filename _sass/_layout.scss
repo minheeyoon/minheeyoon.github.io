@@ -387,7 +387,7 @@
   }
 }
 
-.indexhover {
+.indexhover-a {
   cursor: pointer;
 
   &:hover {
@@ -428,6 +428,8 @@
 }
 
 .circle-a li {
+  transform-origin: center center;
+
   list-style: none;
   position: absolute;
 
@@ -439,6 +441,13 @@
   background: $point;
   animation-delay: 0;
   z-index: -1;
+}
+
+.indexhover-a :hover ~ .circle-a li {
+  transform: scale(5);
+  border-radius: 100%;
+  transition: cubic-bezier(0.35, 0.21, 0, 1.03);
+  border-radius: 100%;
 }
 
 //--------------------------------------------------
