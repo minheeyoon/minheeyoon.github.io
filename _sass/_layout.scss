@@ -418,14 +418,14 @@
   animation: float 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
 }
 
-@keyframes float {
-  0% {
-    transform: translateZ(20px);
-  }
-  100% {
-    transform: translateY(-25px) translateX(-13px) translateZ(50px);
-  }
-}
+// @keyframes float {
+//   0% {
+//     transform: translateZ(20px);
+//   }
+//   100% {
+//     transform: translateY(-25px) translateX(-13px) translateZ(50px);
+//   }
+// }
 
 .circle-a {
   position: absolute;
@@ -448,7 +448,7 @@
 }
 
 .indexhover-b:hover ~ .circle-area-a li {
-  transform: scale(8) translateX(20%) translateY(50%) rotateZ(-120deg);
+  transform: scale(8) translateX(20%) translateY(-50%) rotateZ(-120deg);
   border-radius: 100%;
   transition: 1s cubic-bezier(0.35, 0.21, 0, 1.03);
 }
