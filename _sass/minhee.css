@@ -577,26 +577,26 @@ img {
 @-webkit-keyframes circlea {
   0% {
     opacity: 0.2;
-    -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg);
-            transform: translateY(-60px) translateX(100px) rotate(120deg);
+    -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg) scale(0px);
+            transform: translateY(-60px) translateX(100px) rotate(120deg) scale(0px);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg);
-            transform: translateY(0) translateX(0) rotate(0deg);
+    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(0);
+            transform: translateY(0) translateX(0) rotate(0deg) scale(0);
   }
 }
 
 @keyframes circlea {
   0% {
     opacity: 0.2;
-    -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg);
-            transform: translateY(-60px) translateX(100px) rotate(120deg);
+    -webkit-transform: translateY(-60px) translateX(100px) rotate(120deg) scale(0px);
+            transform: translateY(-60px) translateX(100px) rotate(120deg) scale(0px);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg);
-            transform: translateY(0) translateX(0) rotate(0deg);
+    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(0);
+            transform: translateY(0) translateX(0) rotate(0deg) scale(0);
   }
 }
 
