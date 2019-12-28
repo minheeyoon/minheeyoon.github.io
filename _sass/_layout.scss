@@ -386,7 +386,7 @@
 
 // background animation 시작점
 
-.circle-area {
+.circle-area-a {
   top: 0;
   left: 0;
   width: 100%;
@@ -394,6 +394,15 @@
   z-index: -1;
 
   animation: float 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+}
+
+@keyframes float {
+  0% {
+    transform: translateZ(20px);
+  }
+  100% {
+    transform: translateY(-21px) translateX(-13px) translateZ(50px);
+  }
 }
 
 .circle-a li {
