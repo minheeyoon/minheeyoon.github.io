@@ -341,7 +341,8 @@
 
 .contents-anim-circle {
   animation-name: circlea;
-  animation-duration: 1.8s ease-out;
+  animation-duration: 1.8s;
+  transition-timing-function: ease-out;
 }
 
 @keyframes circlea {

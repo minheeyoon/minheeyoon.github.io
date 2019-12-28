@@ -570,8 +570,10 @@ img {
 .contents-anim-circle {
   -webkit-animation-name: circlea;
           animation-name: circlea;
-  -webkit-animation-duration: 1.8s ease-out;
-          animation-duration: 1.8s ease-out;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
 }
 
 @-webkit-keyframes circlea {
