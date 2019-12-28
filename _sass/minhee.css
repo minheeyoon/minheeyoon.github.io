@@ -570,13 +570,13 @@ img {
 .contents-anim-circle {
   -webkit-animation-name: circlea;
           animation-name: circlea;
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
+  -webkit-animation-duration: 1.8s ease-out;
+          animation-duration: 1.8s ease-out;
 }
 
 @-webkit-keyframes circlea {
   0% {
-    opacity: 0.2;
+    opacity: 0;
     -webkit-transform: translateY(-90px) translateX(150px) rotate(120deg);
             transform: translateY(-90px) translateX(150px) rotate(120deg);
   }
@@ -589,7 +589,7 @@ img {
 
 @keyframes circlea {
   0% {
-    opacity: 0.2;
+    opacity: 0;
     -webkit-transform: translateY(-90px) translateX(150px) rotate(120deg);
             transform: translateY(-90px) translateX(150px) rotate(120deg);
   }

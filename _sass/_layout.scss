@@ -341,12 +341,12 @@
 
 .contents-anim-circle {
   animation-name: circlea;
-  animation-duration: 1.4s;
+  animation-duration: 1.8s ease-out;
 }
 
 @keyframes circlea {
   0% {
-    opacity: 0.2;
+    opacity: 0;
     transform: translateY(-90px) translateX(150px) rotate(120deg);
   }
   to {
