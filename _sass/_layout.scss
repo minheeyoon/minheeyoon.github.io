@@ -438,8 +438,8 @@
   position: absolute;
   margin: 0 auto;
 
-  top: 120px;
-  left: 120px;
+  top: 200px;
+  left: 320px;
 }
 
 .circle-a li {
@@ -458,7 +458,7 @@
 
 .indexhover-a:hover ~ .circle-area-a li {
   transition: 1000ms;
-  transform: scale(1) rotateZ(120deg);
+  transform: scale(1.5) rotateZ(120deg);
   border-radius: 100%;
 }
 
