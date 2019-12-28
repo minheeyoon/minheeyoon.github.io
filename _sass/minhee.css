@@ -694,6 +694,8 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 20%;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
   background: #0051bc;
   -webkit-animation-delay: 0;
           animation-delay: 0;
