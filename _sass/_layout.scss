@@ -411,11 +411,15 @@
 }
 
 .circle-a li {
-  left: 10%;
+  list-style: none;
+  position: absolute;
+
   width: 24px;
   height: 24px;
   border-radius: 0.5;
   rotate: 12px;
+  background: $point;
+
   animation-delay: 0;
   z-index: -1;
 }
