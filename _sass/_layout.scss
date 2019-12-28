@@ -457,12 +457,12 @@
 // 애니메이션 노가다 B
 
 .contents-anim-circle-a {
-  animation-name: circlea;
+  animation-name: circleb;
   animation-duration: 1.5s;
   transition-timing-function: ease-out;
 }
 
-@keyframes circlea {
+@keyframes circleb {
   0% {
     opacity: 0;
     transform: translateY(190px) translateX(120px) rotate(-60deg);
