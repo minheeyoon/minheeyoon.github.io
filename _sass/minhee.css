@@ -823,6 +823,10 @@ img {
   font-size: 0.75rem;
 }
 
+.f-size-5em {
+  font-size: 5em;
+}
+
 .project-date {
   font-size: 1rem;
   text-transform: uppercase;
