@@ -576,9 +576,9 @@ img {
 
 @-webkit-keyframes circlea {
   0% {
-    opacity: 0.5;
-    -webkit-transform: translateY(-80px) translateX(-150px);
-            transform: translateY(-80px) translateX(-150px);
+    opacity: 0.2;
+    -webkit-transform: translateY(-80px) translateX(150px);
+            transform: translateY(-80px) translateX(150px);
   }
   to {
     opacity: 1;
@@ -589,9 +589,9 @@ img {
 
 @keyframes circlea {
   0% {
-    opacity: 0.5;
-    -webkit-transform: translateY(-80px) translateX(-150px);
-            transform: translateY(-80px) translateX(-150px);
+    opacity: 0.2;
+    -webkit-transform: translateY(-80px) translateX(150px);
+            transform: translateY(-80px) translateX(150px);
   }
   to {
     opacity: 1;
