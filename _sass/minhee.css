@@ -582,8 +582,8 @@ img {
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(0);
-            transform: translateY(0) translateX(0) rotate(0deg) scale(0);
+    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(24px);
+            transform: translateY(0) translateX(0) rotate(0deg) scale(24px);
   }
 }
 
@@ -595,8 +595,8 @@ img {
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(0);
-            transform: translateY(0) translateX(0) rotate(0deg) scale(0);
+    -webkit-transform: translateY(0) translateX(0) rotate(0deg) scale(24px);
+            transform: translateY(0) translateX(0) rotate(0deg) scale(24px);
   }
 }
 
