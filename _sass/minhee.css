@@ -750,9 +750,6 @@ img {
   .header-set {
     font-size: 1rem;
   }
-  .header-set .margin-r-2 {
-    margin-right: 8px;
-  }
   .main-img-set {
     background-position: center;
     background-repeat: no-repeat;
@@ -764,6 +761,9 @@ img {
   }
   .textright {
     font-size: 2.5em;
+  }
+  .textright .margin-l-2 {
+    margin-left: 8px;
   }
   .vh-100 {
     height: 90vh;
@@ -777,6 +777,9 @@ img {
   }
   .textright {
     font-size: 2em;
+  }
+  .textright .margin-l-2 {
+    margin-left: 8px;
   }
   .badge {
     position: relative;
