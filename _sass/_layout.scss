@@ -429,10 +429,10 @@
 }
 
 .circle-area-b {
-  top: 120px;
-  left: 120px;
-  width: 50%;
-  height: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 
   animation: floatB 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
@@ -440,10 +440,10 @@
 
 @keyframes floatB {
   0% {
-    transform: translateZ(20px);
+    transform: translateZ(200px);
   }
   100% {
-    transform: translateY(30px) translateX(13px) translateZ(60px);
+    transform: translateY(300px) translateX(130px) translateZ(200px);
   }
 }
 
