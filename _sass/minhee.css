@@ -582,8 +582,8 @@ img {
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
+    -webkit-transform: translateY(0) translateX(0) rotate(120deg);
+            transform: translateY(0) translateX(0) rotate(120deg);
   }
 }
 
@@ -595,8 +595,8 @@ img {
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
+    -webkit-transform: translateY(0) translateX(0) rotate(120deg);
+            transform: translateY(0) translateX(0) rotate(120deg);
   }
 }
 
