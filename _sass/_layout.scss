@@ -429,10 +429,10 @@
 }
 
 .circle-area-b {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 120px;
+  left: 120px;
+  width: 50%;
+  height: 50%;
   z-index: -1;
 
   animation: floatB 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
@@ -458,13 +458,11 @@
 }
 
 .circle-a li {
-  transform-origin: top right;
+  transform-origin: top left;
 
   list-style: none;
   position: absolute;
 
-  top: 10%;
-  left: 20%;
   width: 24px;
   height: 24px;
   border-radius: 40%;
@@ -483,7 +481,7 @@
   width: 24px;
   height: 24px;
   border-radius: 40%;
-  transform: rotate(-60deg);
+  transform: rotate(-20deg);
 
   background: $point;
   z-index: -1;
