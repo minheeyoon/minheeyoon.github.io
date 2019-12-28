@@ -696,8 +696,8 @@ img {
 }
 
 .circle-a li {
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
   list-style: none;
   position: absolute;
   width: 24px;
@@ -712,8 +712,8 @@ img {
 }
 
 .indexhover-b:hover ~ .circle-area-a li {
-  -webkit-transform: scale(5) translateX(20%) translateY(90%) rotateZ(-120deg);
-          transform: scale(5) translateX(20%) translateY(90%) rotateZ(-120deg);
+  -webkit-transform: scale(12) translateX(20%) translateY(90%) rotateZ(-120deg);
+          transform: scale(12) translateX(20%) translateY(90%) rotateZ(-120deg);
   border-radius: 100%;
   -webkit-transition: 1s;
   transition: 1s;
