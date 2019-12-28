@@ -618,16 +618,16 @@ img {
   font-size: 5em;
 }
 
-.circleB {
-  position: absolute;
+.circle-area {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background: #0051bc;
   z-index: -1;
 }
 
-.circleB li {
+.circleA li {
   position: absolute;
   list-style: none;
   display: block;
@@ -639,20 +639,13 @@ img {
   bottom: 500px;
 }
 
-.circleB li:nth-child(1) {
+.circleA li:nth-child(1) {
   cursor: pointer;
   left: 10%;
   width: 24px;
   height: 24px;
   -webkit-animation-delay: 0;
           animation-delay: 0;
-}
-
-.circleB li:nth-child(1):hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  -webkit-transform: scale(12);
-          transform: scale(12);
 }
 
 @-webkit-keyframes animate {
