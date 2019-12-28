@@ -474,6 +474,10 @@
 
   .textright {
     font-size: 4em;
+
+    .margin-l-2 {
+      margin-left: $spacer-1;
+    }
   }
 }
 

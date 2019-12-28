@@ -731,6 +731,9 @@ img {
   .textright {
     font-size: 4em;
   }
+  .textright .margin-l-2 {
+    margin-left: 8px;
+  }
 }
 
 @media (max-width: 40em) {
