@@ -495,9 +495,11 @@
 
   .footer-set {
     font-size: $font-sub-p3;
+  }
 
-    .margin-r-2 {
-      margin-right: $spacer-1;
+  .containe {
+    .margin-l-2 {
+      margin-left: $spacer-1;
     }
   }
 
@@ -519,7 +521,9 @@
 
   .textright {
     font-size: 2.5em;
+  }
 
+  .containe {
     .margin-l-2 {
       margin-left: $spacer-1;
     }
@@ -538,7 +542,9 @@
 
   .textright {
     font-size: 2em;
+  }
 
+  .containe {
     .margin-l-2 {
       margin-left: $spacer-1;
     }
