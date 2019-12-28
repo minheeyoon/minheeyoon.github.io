@@ -443,10 +443,10 @@
   z-index: -1;
 }
 
-.indexhover-a:hover ~ .circle-area-a li {
+.indexhover-b:hover ~ .circle-area-a li {
   transform: scale(5);
   border-radius: 100%;
-  transition: cubic-bezier(0.35, 0.21, 0, 1.03);
+  transition: 1.8s cubic-bezier(0.35, 0.21, 0, 1.03);
   border-radius: 100%;
 }
 
