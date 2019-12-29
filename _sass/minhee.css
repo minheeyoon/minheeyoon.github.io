@@ -856,7 +856,6 @@ img {
     padding-right: 0;
   }
   .header-set,
-  .f-p-1,
   .footer-set {
     font-size: 1rem;
   }
@@ -971,5 +970,11 @@ img {
   font-size: 1rem;
   text-transform: uppercase;
   color: #515151;
+}
+
+@media (max-width: 40em) {
+  .f-p-1 {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=minhee.css.map */

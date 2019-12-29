@@ -47,3 +47,9 @@
   text-transform: uppercase;
   color: $color-sub;
 }
+
+@media (max-width: $desktop-md) {
+  .f-p-1 {
+    font-size: $font-sub-p3;
+  }
+}
