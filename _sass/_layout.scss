@@ -697,3 +697,24 @@
     padding: $spacer-1 / 4;
   }
 }
+
+@media (max-width: $mobile) {
+  .textcenter {
+    font-size: 1.8em;
+  }
+
+  .textright {
+    font-size: 1.8em;
+  }
+
+  .container {
+    .margin-l-2 {
+      margin-left: $spacer-1;
+    }
+  }
+
+  .badge {
+    width: 6px;
+    height: 6px;
+  }
+}
