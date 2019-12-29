@@ -402,7 +402,7 @@
   0% {
     opacity: 0;
 
-    transform: translateY(150%) translateX(350px) rotate(120deg);
+    transform: translateY(100px) translateX(100px) rotate(120deg);
   }
   100% {
     opacity: 1;
@@ -473,7 +473,7 @@
 @keyframes circleb {
   0% {
     opacity: 0;
-    transform: translateY(80%) translateX(-150px) rotate(12deg);
+    transform: translateY(-50px) translateX(-150px) rotate(12deg);
   }
   100% {
     opacity: 1;
@@ -528,7 +528,7 @@
 @keyframes circlec {
   0% {
     opacity: 0;
-    transform: translateY(80%) translateX(-150px) rotate(12deg);
+    transform: translateY(100px) translateX(-100px) rotate(12deg);
   }
   100% {
     opacity: 1;
