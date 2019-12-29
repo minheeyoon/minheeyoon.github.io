@@ -532,7 +532,6 @@
 
 @media (max-width: $desktop-lg) {
   .main-img-set {
-    // background-color: $white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -563,7 +562,8 @@
       padding-right: 0;
     }
   }
-
+  .header-set,
+  .f-p-1,
   .footer-set {
     font-size: $font-sub-p3;
   }
@@ -574,12 +574,7 @@
     }
   }
 
-  .header-set {
-    font-size: $font-sub-p3;
-  }
-
   .main-img-set {
-    // background-color: $white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 160%;

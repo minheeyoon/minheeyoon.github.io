@@ -623,20 +623,20 @@ img {
   font-size: 5em;
 }
 
-.contents-anim-circle-a {
-  -webkit-animation-name: circlea;
-          animation-name: circlea;
-  -webkit-animation-duration: 1.8s;
-          animation-duration: 1.8s;
+.contents-anim-circle-c {
+  -webkit-animation-name: circlec;
+          animation-name: circlec;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
 }
 
-@-webkit-keyframes circlea {
+@-webkit-keyframes circlec {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-90px) translateX(150px) rotate(120deg);
-            transform: translateY(-90px) translateX(150px) rotate(120deg);
+    -webkit-transform: translateY(110px) translateX(100px) rotate(-120deg);
+            transform: translateY(110px) translateX(100px) rotate(-120deg);
   }
   100% {
     opacity: 1;
@@ -645,11 +645,11 @@ img {
   }
 }
 
-@keyframes circlea {
+@keyframes circlec {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-90px) translateX(150px) rotate(120deg);
-            transform: translateY(-90px) translateX(150px) rotate(120deg);
+    -webkit-transform: translateY(110px) translateX(100px) rotate(-120deg);
+            transform: translateY(110px) translateX(100px) rotate(-120deg);
   }
   100% {
     opacity: 1;
@@ -658,149 +658,175 @@ img {
   }
 }
 
-.circle-area-a {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.circle-area-c {
+  top: 26%;
+  left: 30%;
+  width: 5%;
+  height: 10%;
   z-index: -1;
-  -webkit-animation: floatA 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
-          animation: floatA 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+  -webkit-animation: floatC 6s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+          animation: floatC 6s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+  position: absolute;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-@-webkit-keyframes floatA {
+@-webkit-keyframes floatC {
   0% {
     -webkit-transform: translateZ(20px);
             transform: translateZ(20px);
   }
   100% {
-    -webkit-transform: translateY(-25px) translateX(-13px) translateZ(50px);
-            transform: translateY(-25px) translateX(-13px) translateZ(50px);
+    -webkit-transform: translateY(-50px) translateX(50px) translateZ(50px);
+            transform: translateY(-50px) translateX(50px) translateZ(50px);
   }
 }
 
-@keyframes floatA {
+@keyframes floatC {
   0% {
     -webkit-transform: translateZ(20px);
             transform: translateZ(20px);
   }
   100% {
-    -webkit-transform: translateY(-25px) translateX(-13px) translateZ(50px);
-            transform: translateY(-25px) translateX(-13px) translateZ(50px);
+    -webkit-transform: translateY(-50px) translateX(50px) translateZ(50px);
+            transform: translateY(-50px) translateX(50px) translateZ(50px);
   }
 }
 
-.circle-a {
+.circle-c {
   position: absolute;
   margin: 0 auto;
 }
 
-.circle-a li {
+.circle-c li {
   -webkit-transform-origin: top left;
           transform-origin: top left;
   list-style: none;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border-radius: 40%;
-  -webkit-transform: rotate(120deg);
-          transform: rotate(120deg);
+  width: 16px;
+  height: 16px;
+  border-radius: 30%;
   background: #0051bc;
-  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  -webkit-transform: translateX(21%) rotateZ(-13deg) skewX(0deg);
+          transform: translateX(21%) rotateZ(-13deg) skewX(0deg);
+  pointer-events: none;
 }
 
-.indexhover-b:hover ~ .circle-area-a li {
-  -webkit-transform: scale(8) translateX(10px) translateY(-50px);
-          transform: scale(8) translateX(10px) translateY(-50px);
+.indexhover-a:hover ~ .circle-area-c li {
+  -webkit-transition: 2.2s;
+  transition: 2.2s;
+  -webkit-transform: scale(1.5) rotateZ(120deg);
+          transform: scale(1.5) rotateZ(120deg);
   border-radius: 100%;
-  -webkit-transition: 1s cubic-bezier(0.35, 0.21, 0, 1.03);
-  transition: 1s cubic-bezier(0.35, 0.21, 0, 1.03);
 }
 
-.contents-anim-circle-a {
-  -webkit-animation-name: circleb;
-          animation-name: circleb;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+.contents-anim-circle-h {
+  -webkit-animation-name: circleh;
+          animation-name: circleh;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
 }
 
-@-webkit-keyframes circleb {
+@-webkit-keyframes circleh {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(300px) translateX(300px) rotate(-60deg);
-            transform: translateY(300px) translateX(300px) rotate(-60deg);
+    -webkit-transform: translateY(-10px) translateX(-50px) rotate(-120deg);
+            transform: translateY(-10px) translateX(-50px) rotate(-120deg);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg);
-            transform: translateY(0) translateX(0) rotate(0deg);
+    -webkit-transform: translateY(0) translateX(20) rotate(-24deg);
+            transform: translateY(0) translateX(20) rotate(-24deg);
   }
 }
 
-@keyframes circleb {
+@keyframes circleh {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(300px) translateX(300px) rotate(-60deg);
-            transform: translateY(300px) translateX(300px) rotate(-60deg);
+    -webkit-transform: translateY(-10px) translateX(-50px) rotate(-120deg);
+            transform: translateY(-10px) translateX(-50px) rotate(-120deg);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0) translateX(0) rotate(0deg);
-            transform: translateY(0) translateX(0) rotate(0deg);
+    -webkit-transform: translateY(0) translateX(20) rotate(-24deg);
+            transform: translateY(0) translateX(20) rotate(-24deg);
   }
 }
 
-.circle-area-b {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.circle-area-h {
+  bottom: 24%;
+  right: 30%;
+  width: 5%;
+  height: 10%;
   z-index: -1;
-  -webkit-animation: floatB 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
-          animation: floatB 4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+  -webkit-animation: floatH 6s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+          animation: floatH 6s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
+  position: absolute;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-@-webkit-keyframes floatB {
+@-webkit-keyframes floatH {
   0% {
-    -webkit-transform: translateZ(200px);
-            transform: translateZ(200px);
+    -webkit-transform: translateZ(20px);
+            transform: translateZ(20px);
   }
   100% {
-    -webkit-transform: translateY(300px) translateX(320px) translateZ(200px);
-            transform: translateY(300px) translateX(320px) translateZ(200px);
+    -webkit-transform: translateY(50px) translateX(-40px) translateZ(-50px);
+            transform: translateY(50px) translateX(-40px) translateZ(-50px);
   }
 }
 
-@keyframes floatB {
+@keyframes floatH {
   0% {
-    -webkit-transform: translateZ(200px);
-            transform: translateZ(200px);
+    -webkit-transform: translateZ(20px);
+            transform: translateZ(20px);
   }
   100% {
-    -webkit-transform: translateY(300px) translateX(320px) translateZ(200px);
-            transform: translateY(300px) translateX(320px) translateZ(200px);
+    -webkit-transform: translateY(50px) translateX(-40px) translateZ(-50px);
+            transform: translateY(50px) translateX(-40px) translateZ(-50px);
   }
 }
 
-.circle-b {
+.circle-h {
   position: absolute;
   margin: 0 auto;
 }
 
-.circle-b li {
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+.circle-h li {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
   list-style: none;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border-radius: 40%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  width: 18px;
+  height: 18px;
+  border-radius: 30%;
   background: #0051bc;
-  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  -webkit-transform: translateX(21%) rotateZ(60deg) skewX(0deg);
+          transform: translateX(21%) rotateZ(60deg) skewX(0deg);
+  pointer-events: none;
+}
+
+.indexhover-a:hover ~ .circle-area-h li {
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(1) rotateZ(-120deg);
+          transform: scale(1) rotateZ(-120deg);
+  border-radius: 100%;
 }
 
 @media (max-width: 80em) {
@@ -829,14 +855,13 @@ img {
     padding-left: 0;
     padding-right: 0;
   }
+  .header-set,
+  .f-p-1,
   .footer-set {
     font-size: 1rem;
   }
   .container .margin-l-2 {
     margin-left: 8px;
-  }
-  .header-set {
-    font-size: 1rem;
   }
   .main-img-set {
     background-position: center;
@@ -854,7 +879,7 @@ img {
     margin-left: 8px;
   }
   .vh-100 {
-    height: 90vh;
+    height: 95vh;
     min-height: 400px;
   }
 }
@@ -878,6 +903,22 @@ img {
     top: 8px;
     border-radius: 100%;
     padding: 2px;
+  }
+}
+
+@media (max-width: 24em) {
+  .textcenter {
+    font-size: 1.8em;
+  }
+  .textright {
+    font-size: 1.8em;
+  }
+  .container .margin-l-2 {
+    margin-left: 8px;
+  }
+  .badge {
+    width: 6px;
+    height: 6px;
   }
 }
 
