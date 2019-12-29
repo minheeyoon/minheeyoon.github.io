@@ -602,8 +602,7 @@
 @keyframes circled {
   0% {
     opacity: 0;
-
-    transform: translateY(110px) translateX(100px) rotate(-120deg);
+    transform: translateY(80px) translateX(-100px) rotate(-120deg);
   }
   100% {
     opacity: 1;
