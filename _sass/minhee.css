@@ -966,6 +966,10 @@ img {
   font-size: 0.75rem;
 }
 
+.post-st-title {
+  font-weight: 600;
+}
+
 .project-date {
   font-size: 1rem;
   text-transform: uppercase;
@@ -979,10 +983,10 @@ img {
   .f-tit-2 {
     font-size: 2.5rem;
   }
-  .post-con-title h1 {
+  .post-st-title h1 {
     font-size: 1.5rem;
   }
-  .post-con-title h2 {
+  .post-st-title h2 {
     font-size: 1.25rem;
   }
 }

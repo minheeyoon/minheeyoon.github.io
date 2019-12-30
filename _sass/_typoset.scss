@@ -39,6 +39,10 @@
   font-size: $font-sub-p4;
 }
 
+.post-st-title {
+  font-weight: 600;
+}
+
 // // --------------------------------------------------
 // //리스트 페이지의 상단 카피라이트
 
@@ -57,11 +61,11 @@
     font-size: 2.5rem;
   }
 
-  .post-con-title h1 {
+  .post-st-title h1 {
     font-size: $font-sub-p1;
   }
 
-  .post-con-title h2 {
+  .post-st-title h2 {
     font-size: $font-sub-p2;
   }
 }
