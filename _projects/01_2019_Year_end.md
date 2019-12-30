@@ -9,9 +9,9 @@ thum_alt: Good night 2019 top image
 category: work
 tags:
   - tag: side
-  - tag: 2019년 연말정산
+  - tag: 2019년 돌아보기
 description:
-  - paragraph: 2019년
+  - paragraph:
 images:
   - image_path: testminhee/test-side-01
     image_alt: test01
@@ -21,6 +21,6 @@ images:
     con-area-50: true
 ---
 
-## 2019년은 어떤 한 해 였나?
+##
 
 이렇게 저렇게
