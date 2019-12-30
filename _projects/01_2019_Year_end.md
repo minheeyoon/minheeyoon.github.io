@@ -43,7 +43,7 @@ adobe XD로 UI kit을 만들었다.
 
 [DDD.study](https://www.facebook.com/dddstudy/) 디자인 운영팀으로 벌써 2기수나 활동하고 있다.
 
-<img src = "https://i.imgur.com/a4k8b23.jpg" >
+<img src = "https://i.imgur.com/a4k8b23.jpg" >_캡션이 달아질까?_
 
 ## 05.프로토타입, 인터랙션 레벨 업!
 
