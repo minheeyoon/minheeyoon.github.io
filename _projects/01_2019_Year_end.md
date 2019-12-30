@@ -8,11 +8,10 @@ thum_image: 01-Goodnight2019/top-image
 thum_alt: Good night 2019 top image
 category: work
 tags:
-  - tag: 연말정산
-  - tag: test
-  - tag: image
+  - tag: side
+  - tag: 2019년 연말정산
 description:
-  - paragraph: 2019년을 정리하자
+  - paragraph: 2019년
 images:
   - image_path: testminhee/test-side-01
     image_alt: test01

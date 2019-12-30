@@ -966,6 +966,11 @@ img {
   font-size: 0.75rem;
 }
 
+.post-title h1,
+h2 {
+  font-weight: 600;
+}
+
 .project-date {
   font-size: 1rem;
   text-transform: uppercase;
