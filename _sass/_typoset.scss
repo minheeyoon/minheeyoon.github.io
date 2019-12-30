@@ -42,6 +42,7 @@
 .post-st-title h1,
 h2 {
   font-weight: 600;
+  margin-bottom: $spacer-2;
 }
 
 // // --------------------------------------------------
@@ -64,9 +65,11 @@ h2 {
 
   .post-st-title h1 {
     font-size: $font-sub-p1;
+    margin-bottom: $spacer-2;
   }
 
   .post-st-title h2 {
     font-size: $font-sub-p2;
+    margin-bottom: $spacer-1;
   }
 }
