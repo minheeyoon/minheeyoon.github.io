@@ -49,6 +49,11 @@ h2 {
 .post-st-title img + em {
   display: block;
   text-align: center;
+  font-size: $font-sub-p3;
+
+  color: $color-sub;
+  margin-top: 4px;
+  margin-bottom: $spacer-5;
 }
 
 // // --------------------------------------------------

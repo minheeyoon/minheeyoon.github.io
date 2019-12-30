@@ -976,6 +976,10 @@ h2 {
 .post-st-title img + em {
   display: block;
   text-align: center;
+  font-size: 1rem;
+  color: #515151;
+  margin-top: 4px;
+  margin-bottom: 64px;
 }
 
 .project-date {
