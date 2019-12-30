@@ -23,10 +23,10 @@ description:
 
 ## 01.Design Sprint Study
 
-![구글 디자인 스프린트 스터디](assets/img/project/01-Goodnight2019/01-ds-study.jpg)
+![구글 디자인 스프린트 스터디](/assets/img/project/01-Goodnight2019/01-ds-study.jpg)
 
 ## 02.test
 
 <!-- <img src="https://i.imgur.com/AqZBDHg.gif" width="400px" alt="sample image"> -->
 
-[Imgur](https://i.imgur.com/ilfYrdv.jpg)
+![01-ds-study](https://user-images.githubusercontent.com/43980992/71603263-60ad8380-2b9f-11ea-8376-8b0887bbd1e7.jpg)
