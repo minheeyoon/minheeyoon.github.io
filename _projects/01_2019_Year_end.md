@@ -4,8 +4,8 @@ order: 1
 title: Good night 2019
 permalink: /goodnight2019/
 project_image: projects/191231
-thum_image: projects/191231
-thum_alt: TEST
+thum_image: 01-Goodnight2019/top-image
+thum_alt: Good night 2019 top image
 category: work
 tags:
   - tag: 연말정산
