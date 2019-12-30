@@ -966,7 +966,8 @@ img {
   font-size: 0.75rem;
 }
 
-.post-st-title {
+.post-st-title h1,
+h2 {
   font-weight: 600;
 }
 
