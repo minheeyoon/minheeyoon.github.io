@@ -14,8 +14,6 @@ tags:
 description:
   - paragraph: 2019년을 정리하자
 images:
-  - image_path: testminhee/test-minhee-image
-    image_alt: test00
   - image_path: testminhee/test-side-01
     image_alt: test01
     con-area-50: true
