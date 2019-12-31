@@ -60,7 +60,7 @@ a {
 body {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: #06121f;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ b {
 
 p {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 0em;
   margin-bottom: 0.5em;
   color: #06121f;
@@ -977,6 +977,7 @@ h2 {
 .post-st-title p {
   color: #333333;
   line-height: 1.8em;
+  font-size: 1.25rem;
 }
 
 .post-st-title img + em {
@@ -1008,6 +1009,10 @@ h2 {
   .post-st-title h2 {
     font-size: 1.25rem;
     margin-bottom: 8px;
+  }
+  .post-st-title p {
+    line-height: 1.6em;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=minhee.css.map */

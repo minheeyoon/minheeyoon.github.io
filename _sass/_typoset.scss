@@ -50,6 +50,7 @@ h2 {
 .post-st-title p {
   color: $black-con-title;
   line-height: 1.8em;
+  font-size: $font-sub-p2;
 }
 
 .post-st-title img + em {
@@ -88,5 +89,10 @@ h2 {
   .post-st-title h2 {
     font-size: $font-sub-p2;
     margin-bottom: $spacer-1;
+  }
+
+  .post-st-title p {
+    line-height: 1.6em;
+    font-size: $font-sub-p3;
   }
 }
