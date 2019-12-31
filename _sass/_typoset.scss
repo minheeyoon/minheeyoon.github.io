@@ -43,7 +43,7 @@
 h2 {
   font-weight: 600;
   margin-bottom: $spacer-1;
-  margin-top: $spacer-4;
+  margin-top: $spacer-5-5;
   color: $black-con-title;
 }
 
@@ -84,11 +84,13 @@ h2 {
   .post-st-title h1 {
     font-size: $font-sub-p1;
     margin-bottom: $spacer-2;
+    margin-top: $spacer-5;
   }
 
   .post-st-title h2 {
     font-size: $font-sub-p2;
     margin-bottom: $spacer-1;
+    margin-top: $spacer-5;
   }
 
   .post-st-title p {
