@@ -7,14 +7,6 @@ layout: default
 <div
   class="container-record margin-lr-auto margin-tb-auto clearfix contents-anim"
 >
-  <!--Top Cover image-->
-
-  {% if page.thum_image %}
-  <div class="margin-t-2 margin-b-1 padding-rl-1">
-    {% include project_list_thum.html %}
-  </div>
-  {% endif %}
-
   <div class="container-test margin-lr-auto margin-tb-auto ">
     <!--project description-->
 
@@ -26,6 +18,14 @@ layout: default
       {% for description in page.description %}
       <p class="con-area-90 post-info">{{ description.paragraph }}</p>
       {% endfor %}
+
+      <!--Top Cover image-->
+
+      {% if page.thum_image %}
+      <div class="margin-t-2 margin-b-1 padding-rl-1">
+        {% include project_list_thum.html %}
+      </div>
+      {% endif %}
       <!--tags-->
       <div class="tag margin-t-2 margin-b-2">
         <span class="tag-color tag-font padding-tb-1 tag-margin-rl">
