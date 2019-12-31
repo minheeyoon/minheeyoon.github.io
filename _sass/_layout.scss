@@ -18,6 +18,10 @@
   padding-right: $spacer-2;
 }
 
+.container-test {
+  max-width: 48em;
+}
+
 /* Padding */
 
 .padding-tb-0 {
@@ -624,10 +628,6 @@
     top: $spacer-1;
     border-radius: 100%;
     padding: $spacer-1 / 4;
-  }
-
-  .con-area-75 {
-    width: 90%;
   }
 }
 

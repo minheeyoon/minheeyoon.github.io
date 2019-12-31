@@ -159,6 +159,10 @@ img {
   padding-right: 16px;
 }
 
+.container-test {
+  max-width: 48em;
+}
+
 /* Padding */
 .padding-tb-0 {
   padding-top: 0;
@@ -902,9 +906,6 @@ img {
     top: 8px;
     border-radius: 100%;
     padding: 2px;
-  }
-  .con-area-75 {
-    width: 90%;
   }
 }
 

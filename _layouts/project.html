@@ -14,42 +14,45 @@ layout: default
   </div>
   {% endif %}
 
-  <!--project description-->
-  <div class="clearfix padding-rl-1 margin-b-2">
-    <!--title-->
-    <h1 class="con-area-90 post-info">{{ page.title }}</h1>
+  <div class="container-test">
+    <!--project description-->
 
-    <!--paragraph(s)-->
-    {% for description in page.description %}
-    <p class="con-area-75 post-info">{{ description.paragraph }}</p>
-    {% endfor %}
-    <!--tags-->
-    <div class="tag margin-t-2 margin-b-2">
-      <span class="tag-color tag-font padding-tb-1 tag-margin-rl">
-        {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag }}
-        {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
-      </span>
-    </div>
-  </div>
-  <!--project images-->
-  <div class="clearfix">
-    {% for image in page.images %} {% if image.con-area-50 == true %}
-    <div class="con-area-50 left sm-width-full ">
-      {% endif %}
-      <div class="padding-rl-1 margin-t-1 tag-margin-rl">
-        {% include project_image.html %} {% if image.caption %}
-        <p class="">
-          {{ image.caption }}
-        </p>
-        {% endif %}
+    <div class="clearfix padding-rl-1 margin-b-2">
+      <!--title-->
+      <h1 class="con-area-90 post-info">{{ page.title }}</h1>
+
+      <!--paragraph(s)-->
+      {% for description in page.description %}
+      <p class="con-area-90 post-info">{{ description.paragraph }}</p>
+      {% endfor %}
+      <!--tags-->
+      <div class="tag margin-t-2 margin-b-2">
+        <span class="tag-color tag-font padding-tb-1 tag-margin-rl">
+          {% for tags in page.tags %} {% if forloop.last == true %} {{ tags.tag
+          }} {% else %} {{ tags.tag }} — {% endif %} {% endfor %}
+        </span>
       </div>
-      {% if image.con-area-50 == true %}
     </div>
-    {% endif %} {% endfor %}
-  </div>
+    <!--project images-->
+    <div class="clearfix">
+      {% for image in page.images %} {% if image.con-area-50 == true %}
+      <div class="con-area-50 left sm-width-full ">
+        {% endif %}
+        <div class="padding-rl-1 margin-t-1 tag-margin-rl">
+          {% include project_image.html %} {% if image.caption %}
+          <p class="">
+            {{ image.caption }}
+          </p>
+          {% endif %}
+        </div>
+        {% if image.con-area-50 == true %}
+      </div>
+      {% endif %} {% endfor %}
+    </div>
 
-  <div class="margin-t-2 margin-b-4 padding-rl-1 write-info post-st-title">
-    {{ content }}
+    <div class="margin-t-2 margin-b-4 padding-rl-1 write-info post-st-title">
+      {{ content }}
+    </div>
   </div>
 
   <!-- <div class="">
