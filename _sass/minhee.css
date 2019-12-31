@@ -60,7 +60,7 @@ a {
 body {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #06121f;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ b {
 
 p {
   font-family: "CircularPro", "Noto Sans KR", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0em;
   margin-bottom: 0.5em;
   color: #06121f;
@@ -881,6 +881,10 @@ img {
   .container .margin-l-2 {
     margin-left: 8px;
   }
+  .container-test {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .vh-100 {
     height: 95vh;
     min-height: 400px;
@@ -922,6 +926,9 @@ img {
   .badge {
     width: 6px;
     height: 6px;
+  }
+  .margin-t-4-5 {
+    margin-top: 32px;
   }
 }
 
@@ -981,7 +988,7 @@ h2 {
 .post-st-title p {
   color: #333333;
   line-height: 1.8em;
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
 .post-st-title img + em {
@@ -1007,17 +1014,16 @@ h2 {
     font-size: 2.5rem;
   }
   .post-st-title h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 16px;
-    margin-top: 64px;
+    margin-top: 32px;
   }
   .post-st-title h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: 8px;
-    margin-top: 64px;
+    margin-top: 32px;
   }
   .post-st-title p {
-    line-height: 1.6em;
     font-size: 1rem;
   }
   .post-info h1 {

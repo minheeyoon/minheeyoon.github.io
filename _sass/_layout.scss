@@ -566,6 +566,7 @@
       padding-right: 0;
     }
   }
+
   .header-set,
   .footer-set {
     font-size: $font-sub-p3;
@@ -596,6 +597,11 @@
     .margin-l-2 {
       margin-left: $spacer-1;
     }
+  }
+
+  .container-test {
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
   }
 
   .vh-100 {
@@ -649,5 +655,9 @@
   .badge {
     width: 6px;
     height: 6px;
+  }
+
+  .margin-t-4-5 {
+    margin-top: $spacer-4;
   }
 }
