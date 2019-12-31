@@ -17,11 +17,11 @@ layout: default
   <!--project description-->
   <div class="clearfix padding-rl-1 margin-b-2">
     <!--title-->
-    <h1 class="con-area-90">{{ page.title }}</h1>
+    <h1 class="con-area-90 post-info">{{ page.title }}</h1>
 
     <!--paragraph(s)-->
     {% for description in page.description %}
-    <p class="con-area-75">{{ description.paragraph }}</p>
+    <p class="con-area-75 post-info">{{ description.paragraph }}</p>
     {% endfor %}
     <!--tags-->
     <div class="tag margin-t-2 margin-b-2">
