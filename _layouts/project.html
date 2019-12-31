@@ -7,17 +7,10 @@ layout: default
 <div
   class="container-record margin-lr-auto margin-tb-auto clearfix contents-anim"
 >
-  <!--Top Cover image-->
-  {% if page.thum_image %}
-  <div class="margin-t-2 margin-b-1 padding-rl-1">
-    {% include project_list_thum.html %}
-  </div>
-  {% endif %}
-
   <div class="container-test margin-lr-auto margin-tb-auto ">
     <!--project description-->
 
-    <div class="clearfix padding-rl-1 margin-b-2">
+    <div class="clearfix padding-rl-1 margin-b-2 margin-t-4-5">
       <!--title-->
       <h1 class="con-area-90 post-info">{{ page.title }}</h1>
 
@@ -33,6 +26,15 @@ layout: default
         </span>
       </div>
     </div>
+
+    <!--Top Cover image-->
+
+    {% if page.thum_image %}
+    <div class="margin-t-2 margin-b-1 padding-rl-1">
+      {% include project_list_thum.html %}
+    </div>
+    {% endif %}
+
     <!--project images-->
     <div class="clearfix">
       {% for image in page.images %} {% if image.con-area-50 == true %}
