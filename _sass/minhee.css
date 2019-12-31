@@ -971,6 +971,11 @@ h2 {
   font-weight: 600;
   margin-bottom: 8px;
   margin-top: 32px;
+  color: #333333;
+}
+
+.post-st-title p {
+  color: #333333;
 }
 
 .post-st-title img + em {
